@@ -1,0 +1,31 @@
+# apache
+conf/archives/
+
+# Sublime project
+*.tmplanguage.cache
+*.tmpPreferences.cache
+*.stTheme.cache
+*.sublime-project
+*.sublime-workspace
+
+# Swap & temp files
+._*
+*~
+.DS_Store
+*.lock
+*.tmp
+*.bak
+*.swp
+.*.kate-swp
+.swp.*
+.metadata
+.directory
+.project
+local.properties
+.settings/
+.loadpath
+*.kdev4
+.kdev4/
+.vagrant/
+/test
+/tests
