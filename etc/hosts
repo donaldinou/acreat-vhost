@@ -47,13 +47,9 @@
 127.0.0.1 hermitalu.fr www.hermitalu.fr
 127.0.0.1 novalim.fr www.novalim.fr
 
-# 730 commerce
-54.195.240.60 laboucherierennaise.com www.laboucherierennaise.com
-
-# extranet
-54.195.240.60 extranet.groupe-launay.com
-
 # 726
+127.0.0.1 agencelemeur.com www.agencelemeur.com
+127.0.0.1 atrio-gp.fr www.atrio-gp.fr atrio-gp.com www.atrio-gp.com astria-gestion.com www.astria-gestion.com astria-gestion.fr www.astria-gestion.fr
 127.0.0.1 binois-menuiserie.fr www.binois-menuiserie.fr
 127.0.0.1 hotel-annedebretagne.com www.hotel-annedebretagne.com
 127.0.0.1 hotel-chateaubriand-st-malo.com www.hotel-chateaubriand-st-malo.com
@@ -76,6 +72,12 @@
 # 715 commerce
 127.0.0.1 bateauxonline.fr www.bateauxonline.fr
 
+# 730 commerce
+54.195.240.60 laboucherierennaise.com www.laboucherierennaise.com
+
+# extranet
+54.195.240.60 extranet.groupe-launay.com
+
 # misc
 85.69.117.189 maison-nc
 
@@ -83,5 +85,3 @@
 52.51.100.30 gluster.01
 52.208.115.108 gluster.02
 52.51.52.114 gluster.03
-#54.76.8.140    gluster.04
-#54.171.89.39   gluster.05

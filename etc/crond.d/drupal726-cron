@@ -1,0 +1,227 @@
+## -> no retry, timeout more than 1 hour, still output errors and content
+WGET="wget -nv -t 1 -T 9400 -O -"
+
+##
+# What time not to choose:
+# - 00:00 -> 00:30 (backup)
+# - 01:00 -> 01:30 (maintenance, possible reboot)
+# Time is GMT/UTC hence no DST change. (also means there's a +1/+2 to take into account)
+##
+
+######################################################################################
+#
+# Abita
+#
+0 */3 * * * root $WGET http://www.abita-immobilier.com/cron.php?cron_key=WM4BFxPwqb1yUxjIa0jCLyd7qtGVwLDJd43oKTotTUo > /dev/null 2>&1
+20 3 * * * root $WGET http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/1 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/2 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/3 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/4 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/5 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/6
+######################################################################################
+
+######################################################################################
+#
+# Agence Lemeur
+#
+40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/ac3/vente/run
+0 */3 * * * root $WGET http://www.agencelemeur.com/cron.php?cron_key=h3f_XBXfbCLjm58-of0ptYccSlwPK82xRCrt59ziZNw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# atrio-gp.fr
+#
+0 */3 * * * root $WGET http://www.atrio-gp.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# bar-leroyal.fr
+#
+
+######################################################################################
+#
+# bellecour-assurance.fr
+#
+
+######################################################################################
+#
+# binois
+#
+0 */3 * * * root $WGET http://www.binois-menuiserie.fr/cron.php?cron_key=QpG7tUf6NZfOe1t4mWmdPJCtXGl_zPiTGStV3E2xNT0 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# Cabinet Martin
+#
+0 */3 * * * root $WGET http://cabinet-martin.fr/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
+0 3 * * * root $WGET http://www.cabinet-martin.fr/admin/immobilier/imports/ac3/location/run
+######################################################################################
+
+######################################################################################
+#
+# Cap malo
+#
+0 */3 * * * root $WGET http://www.cap-malo.com/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# Cap Transactions
+#
+20 5 * * * root $WGET http://www.cap-transactions.com/admin/immobilier/imports/entreprise/run ; root $WGET http://www.cap-transactions.com/admin/immobilier/imports/fdc/run ; root $WGET http://www.cap-transactions.com/admin/immobilier/imports/pdp/run ; root $WGET http://www.cap-transactions.com/admin/immobilier/notification/process
+######################################################################################
+
+######################################################################################
+#
+# Delphine Teillaud
+#
+20 6 * * * root $WGET http://www.delphine-teillaud.com/admin/immobilier/imports/connectimmo/run
+######################################################################################
+
+######################################################################################
+#
+# expressivetherapycenter.com
+#
+
+######################################################################################
+#
+# hotel-anne
+#
+0 */3 * * * root $WGET http://www.hotel-annedebretagne.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# hotel-chateaubriand
+#
+0 */3 * * * root $WGET http://www.hotel-chateaubriand-st-malo.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# hotel-cite
+#
+0 */3 * * * root $WGET http://www.hotel-cite-st-malo-bretagne.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# hotel des lices
+#
+0 */3 * * * root $WGET http://www.hotel-des-lices.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# Idkrea
+#
+0 */3 * * * root $WGET http://www.idkrea.com/cron.php?cron_key=KsG4S9KjoB1uF0M-biRU2sl2hSYHVW0bIbjkVp6km5o > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# Korali hotel
+#
+0 */3 * * * root $WGET http://www.koralihotel.fr/cron.php?cron_key=9ruDDg_cx0VqVnEXLE10YvkhAEMm8soAEUovFMl6umw > /dev/null 2>&1
+0 2 * * * php -f /var/www/html/drupal726/sites/koralihotel.fr/scripts/get_temperatures.php > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# le5-restaurant
+#
+0 */3 * * * root $WGET http://www.le5-restaurant.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# lefeuvre-immobilier.com
+#
+30 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/entreprise/run
+35 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf/run
+40 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf-lot/run
+45 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/location/run
+50 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/vente/run
+######################################################################################
+
+######################################################################################
+#
+# lgbtvoyages.com
+#
+
+######################################################################################
+#
+# lignhabitat.fr
+#
+
+######################################################################################
+#
+# maisondugeneral.com
+#
+
+######################################################################################
+#
+# maisonhamster.com
+#
+
+######################################################################################
+#
+# mc2avocat.fr
+#
+0 */3 * * * root $WGET http://www.mc2avocat.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# mgeffray-immobilier.fr
+#
+
+######################################################################################
+#
+# natterip.com
+#
+
+######################################################################################
+#
+# noyal-poids-lourds.com
+#
+0 */3 * * * root $WGET http://www.noyal-poids-lourds.com/cron.php?cron_key=gSqrqztojKwYCu_FxcEqbVMW_qNbRKvjS4Qk-08Yrm8 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# pelatre-tp.com
+#
+
+######################################################################################
+#
+# prigent-associes.fr
+#
+
+######################################################################################
+#
+# salonespritmaison.com
+#
+
+######################################################################################
+#
+# sarlherve.fr
+#
+
+######################################################################################
+#
+# SBM IMMO
+#
+0 6 * * * root $WGET http://www.sbm-immo.com/admin/immobilier/imports/vente/run $WGET http://www.sbm-immo.com/admin/immobilier/imports/location/run
+######################################################################################
+
+######################################################################################
+#
+# Thierry Immo
+#
+5 5 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/ac3/vente/run ; root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra-entreprise/run ; root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra/run ; root $WGET http://www.thierry-immobilier.fr/immobilier/notification/process ; root $WGET http://www.thierry-immobilier.fr/agence/immobilier/imports/immobilier-nodes-count-update ; root $WGET http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
+######################################################################################
+
+######################################################################################
+#
+# tombelaine-coquillages.com
+#

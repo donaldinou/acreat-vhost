@@ -1,0 +1,72 @@
+## -> no retry, timeout more than 1 hour, still output errors and content
+WGET="wget -nv -t 1 -T 9400 -O -"
+
+##
+# What time not to choose:
+# - 00:00 -> 00:30 (backup)
+# - 01:00 -> 01:30 (maintenance, possible reboot)
+# Time is GMT/UTC hence no DST change. (also means there's a +1/+2 to take into account)
+##
+
+######################################################################################
+#
+# 4immo
+#
+0 4 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ac3/run
+5 4 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ics/run
+######################################################################################
+
+######################################################################################
+#
+# Agence Seine Immo
+#
+45 3 * * * root $WGET http://www.agenceseineimmo.fr/admin/immobilier/imports/cosmo/run http://www.agenceseineimmo.fr/immobilier/notification/process
+######################################################################################
+
+######################################################################################
+#
+# CENTRALE IMMOBILIERE
+#
+30 3 * * * root $WGET http://www.centraleimmo.fr/admin/immobilier/imports/ics/run
+######################################################################################
+
+######################################################################################
+#
+# Evolis
+#
+0 */3 * * * root $WGET http://www.evolis-avocats.fr/cron.php?cron_key=DeYEarZ5tZokq2Qy3tJzunm7b4jn-jzzFKaY1F_ErZI > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# Gerinter
+#
+15 4 * * * root $WGET http://www.gerinter.fr/gerinter/annonces/update-nb
+#16 4 * * * root $WGET http://www.gerinter.fr/gerinter/export/ouest-france/xml
+16 4 * * * root $WGET http://www.gerinter.fr/admin/config/gerinter/ouestfrance/actions/run
+18 4 * * * root $WGET http://www.gerinter.fr/gerinter/notification/process
+######################################################################################
+
+######################################################################################
+#
+# GIBOIRE
+#
+45 1 * * * root $WGET http://www.giboire-entreprise.com/admin/immobilier/imports/visualqie/run http://www.giboire-entreprise.com/admin/immobilier/imports/visualqie-nantes/run
+45 1 * * * root $WGET http://www.giboire-commerce.com/admin/immobilier/imports/visualqie/run
+0 */3 * * * root $WGET http://www.giboire-commerce.com/cron.php?cron_key=-RKhSGEMls_GBUHuYNpm7rHalTolu-n6KQsBg4eipMc > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.giboire-entreprise.com/cron.php?cron_key=-RKhSGEMls_GBUHuYNpm7rHalTolu-n6KQsBg4eipMc > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.giboire-groupe.com/cron.php?cron_key=-RKhSGEMls_GBUHuYNpm7rHalTolu-n6KQsBg4eipMc > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# pelatre-tp.com
+#
+
+######################################################################################
+#
+# RENNES VOLLEY
+#
+36 1 * * * root $WGET http://www.rennesvolley35.fr/rennesvolley_m/classement/update
+39 1 * * * root $WGET http://www.rennesvolley35.fr/rennesvolley_m/calendrier/update
+######################################################################################
