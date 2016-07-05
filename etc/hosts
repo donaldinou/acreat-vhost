@@ -1,0 +1,87 @@
+# 730
+127.0.0.1 localhost localhost.localdomain
+127.0.0.1 maisondugeneral.com www.maisondugeneral.com
+127.0.0.1 abita-immobilier.com www.abita-immobilier.com
+127.0.0.1 immobilier.orange.com
+127.0.0.1 fauvelimmobilier.com www.fauvelimmobilier.com
+127.0.0.1 wellcom.bzh www.wellcom.bzh
+127.0.0.1 lg2i.fr www.lg2i.fr
+127.0.0.1 lexonot-notaires.fr www.lexonot-notaires.fr
+127.0.0.1 gaalon-guerlesquin.fr www.gaalon-guerlesquin.fr
+127.0.0.1 bras-immobilier.fr www.bras-immobilier.fr
+127.0.0.1 legendre-immobilier.com www.legendre-immobilier.com
+127.0.0.1 groupe-legendre.com www.groupe-legendre.com
+127.0.0.1 hotel-mulhouse.com www.hotel-mulhouse.com
+127.0.0.1 schatzipark.fr www.schatzipark.fr
+127.0.0.1 am-rochereuil.fr www.am-rochereuil.fr
+127.0.0.1 francois-notaire-stmalo.fr www.francois-notaire-stmalo.fr
+127.0.0.1 chouzenoux-architecture.fr www.chouzenoux-architecture.fr
+127.0.0.1 lg2i.fr www.lg2i.fr lg2i.net www.lg2i.net
+127.0.0.1 rupin-plomberie.fr www.rupin-plomberie.fr
+127.0.0.1 boucheriebriand.fr www.boucheriebriand.fr
+127.0.0.1 quatreb.fr www.quatreb.fr
+127.0.0.1 giboire.com www.giboire.com alet-immobilier.com www.alet-immobilier.com
+127.0.0.1 giboire-promotion.com www.giboire-promotion.com
+127.0.0.1 leg-electricite.fr www.leg-electricite.fr
+127.0.0.1 fafin-electricite.fr www.fafin-electricite.fr
+127.0.0.1 alexandre-boutique.fr www.alexandre-boutique.fr
+127.0.0.1 louail-notaire.com www.louail-notaire.com
+127.0.0.1 isisavocats.fr www.isisavocats.fr
+127.0.0.1 soccer-rennais.com www.soccer-rennais.com
+127.0.0.1 cert-online.biz www.cert-online.biz
+127.0.0.1 acreat.com www.acreat.com
+127.0.0.1 dlj-syndic.fr www.dlj-syndic.fr
+127.0.0.1 notaires-rennes-st-germain.fr www.notaires-rennes-st-germain.fr scp-scouarnec-gours-notaires-rennes.fr www.scp-scouarnec-gours-notaires-rennes.fr
+127.0.0.1 notaires-rennes-alma.fr www.notaires-rennes-alma.fr
+127.0.0.1 empireconstructions.fr www.empireconstructions.fr
+127.0.0.1 bochard.fr www.bochard.fr
+127.0.0.1 generaleimmobiliere73.com www.generaleimmobiliere73.com
+127.0.0.1 hebdo-armor.com www.hebdo-armor.com
+127.0.0.1 biensanantes.com www.biensanantes.com
+127.0.0.1 executiveretreat.fr www.executiveretreat.fr itsinyou.fr www.itsinyou.fr
+127.0.0.1 limmoneuf.immo www.limmoneuf.immo
+127.0.0.1 regional-interim.fr www.regional-interim.fr
+127.0.0.1 maisonscreation.com www.maisonscreation.com
+127.0.0.1 restaurant-lehoo.fr www.restaurant-lehoo.fr
+127.0.0.1 vente9.com www.vente9.com
+127.0.0.1 hermitalu.fr www.hermitalu.fr
+127.0.0.1 novalim.fr www.novalim.fr
+
+# 730 commerce
+54.195.240.60 laboucherierennaise.com www.laboucherierennaise.com
+
+# extranet
+54.195.240.60 extranet.groupe-launay.com
+
+# 726
+127.0.0.1 binois-menuiserie.fr www.binois-menuiserie.fr
+127.0.0.1 hotel-annedebretagne.com www.hotel-annedebretagne.com
+127.0.0.1 hotel-chateaubriand-st-malo.com www.hotel-chateaubriand-st-malo.com
+127.0.0.1 hotel-cite-st-malo-bretagne.com www.hotel-cite-st-malo-bretagne.com
+127.0.0.1 le5-restaurant.com www.le5-restaurant.com
+127.0.0.1 hotel-des-lices.com www.hotel-des-lices.com
+127.0.0.1 idkrea.com www.idkrea.com
+127.0.0.1 sarlherve.com www.sarlherve.com
+127.0.0.1 koralihotel.fr www.koralihotel.fr
+127.0.0.1 mc2avocat.fr www.mc2avocat.fr
+127.0.0.1 thierry-immobilier.fr www.thierry-immobilier.fr
+
+# 710
+127.0.0.1 agenceseineimmo.fr www.agenceseineimmo.fr
+127.0.0.1 giboire-commerce.com www.giboire-commerce.com commerce.giboire.com
+127.0.0.1 giboire-entreprise.com www.giboire-entreprise.com entreprise.giboire.com
+127.0.0.1 giboire-groupe.com www.giboire-groupe.com groupe.giboire.com
+127.0.0.1 gerinter.fr www.gerinter.fr
+
+# 715 commerce
+127.0.0.1 bateauxonline.fr www.bateauxonline.fr
+
+# misc
+85.69.117.189 maison-nc
+
+# gluster
+52.51.100.30 gluster.01
+52.208.115.108 gluster.02
+52.51.52.114 gluster.03
+#54.76.8.140    gluster.04
+#54.171.89.39   gluster.05
