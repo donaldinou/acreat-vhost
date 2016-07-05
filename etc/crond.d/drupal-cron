@@ -1,7 +1,6 @@
 ## -> no retry, timeout more than 1 hour, still output errors and content
 WGET="wget -nv -t 1 -T 9400 -O -"
 
-
 ##
 # What time not to choose:
 # - 00:00 -> 00:30 (backup)
@@ -9,27 +8,12 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # Time is GMT/UTC hence no DST change. (also means there's a +1/+2 to take into account)
 ##
 
-# Derecated use to rsync shared folder
-#0 8 * * * /home/acreat/scripts/rsync-drupal726sitesvol.sh
-#0 */2 * * * /home/acreat/scripts/rsync-drupal710sitesvol.sh
-#0 5 * * * /home/acreat/scripts/rsync-drupalcommercesitesvol.sh
-
 ######################################################################################
 #
 # RENNES VOLLEY
 #
-
 36 1 * * * $WGET "http://www.rennesvolley35.fr/rennesvolley_m/classement/update"
 39 1 * * * $WGET "http://www.rennesvolley35.fr/rennesvolley_m/calendrier/update"
-
-######################################################################################
-
-######################################################################################
-#
-# BATEAUX (Deprecated)
-#
-#0 4 * * 3 $WGET http://www.bateauxonline.fr/admin/bateauxonline/update-abonnes
-#0 2 * * 3,6 $WGET http://www.bateauxonline.fr/bateauxonline/newsletter/send
 
 ######################################################################################
 
@@ -68,9 +52,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # CENTRALE IMMOBILIERE
 #
-
 30 3 * * * $WGET http://www.centraleimmo.fr/admin/immobilier/imports/ics/run
-
 ######################################################################################
 
 ######################################################################################
