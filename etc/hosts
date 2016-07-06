@@ -1,7 +1,7 @@
-# 730
+# local
 127.0.0.1 localhost localhost.localdomain
-127.0.0.1 maisondugeneral.com www.maisondugeneral.com
-127.0.0.1 abita-immobilier.com www.abita-immobilier.com
+
+# 730
 127.0.0.1 immobilier.orange.com
 127.0.0.1 fauvelimmobilier.com www.fauvelimmobilier.com
 127.0.0.1 wellcom.bzh www.wellcom.bzh
@@ -48,6 +48,7 @@
 127.0.0.1 novalim.fr www.novalim.fr
 
 # 726
+127.0.0.1 abita-immobilier.com www.abita-immobilier.com
 127.0.0.1 agencelemeur.com www.agencelemeur.com
 127.0.0.1 atrio-gp.fr www.atrio-gp.fr atrio-gp.com www.atrio-gp.com astria-gestion.com www.astria-gestion.com astria-gestion.fr www.astria-gestion.fr
 127.0.0.1 binois-menuiserie.fr www.binois-menuiserie.fr
@@ -59,6 +60,7 @@
 127.0.0.1 idkrea.com www.idkrea.com
 127.0.0.1 sarlherve.com www.sarlherve.com
 127.0.0.1 koralihotel.fr www.koralihotel.fr
+127.0.0.1 maisondugeneral.com www.maisondugeneral.com
 127.0.0.1 mc2avocat.fr www.mc2avocat.fr
 127.0.0.1 thierry-immobilier.fr www.thierry-immobilier.fr
 
