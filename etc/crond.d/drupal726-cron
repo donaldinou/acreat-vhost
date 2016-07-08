@@ -76,7 +76,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # Cap Transactions
 #
-20 5 * * * root $WGET http://www.cap-transactions.com/admin/immobilier/imports/entreprise/run ; root $WGET http://www.cap-transactions.com/admin/immobilier/imports/fdc/run ; root $WGET http://www.cap-transactions.com/admin/immobilier/imports/pdp/run ; root $WGET http://www.cap-transactions.com/admin/immobilier/notification/process
+20 5 * * * root $WGET http://www.cap-transactions.com/admin/immobilier/imports/entreprise/run http://www.cap-transactions.com/admin/immobilier/imports/fdc/run http://www.cap-transactions.com/admin/immobilier/imports/pdp/run http://www.cap-transactions.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -131,7 +131,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # Korali hotel
 #
 0 */3 * * * root $WGET http://www.koralihotel.fr/cron.php?cron_key=9ruDDg_cx0VqVnEXLE10YvkhAEMm8soAEUovFMl6umw > /dev/null 2>&1
-0 2 * * * php -f /var/www/html/drupal726/sites/koralihotel.fr/scripts/get_temperatures.php > /dev/null 2>&1
+0 2 * * * root php -f /var/www/html/drupal726/sites/koralihotel.fr/scripts/get_temperatures.php > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -215,14 +215,14 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # SBM IMMO
 #
-0 6 * * * root $WGET http://www.sbm-immo.com/admin/immobilier/imports/vente/run $WGET http://www.sbm-immo.com/admin/immobilier/imports/location/run
+0 6 * * * root $WGET http://www.sbm-immo.com/admin/immobilier/imports/vente/run http://www.sbm-immo.com/admin/immobilier/imports/location/run
 ######################################################################################
 
 ######################################################################################
 #
 # Thierry Immo
 #
-5 5 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/ac3/vente/run ; root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra-entreprise/run ; root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra/run ; root $WGET http://www.thierry-immobilier.fr/immobilier/notification/process ; root $WGET http://www.thierry-immobilier.fr/agence/immobilier/imports/immobilier-nodes-count-update ; root $WGET http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
+5 5 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/ac3/vente/run http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra-entreprise/run http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.thierry-immobilier.fr/immobilier/notification/process http://www.thierry-immobilier.fr/agence/immobilier/imports/immobilier-nodes-count-update http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
 ######################################################################################
 
 ######################################################################################
