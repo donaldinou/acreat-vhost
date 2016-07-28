@@ -66,11 +66,24 @@
 127.0.0.1 thierry-immobilier.fr www.thierry-immobilier.fr
 
 # 710
+127.0.0.1 4immo.fr www.4immo.fr
+127.0.0.1 agenceduvieuxport.com www.agenceduvieuxport.com
 127.0.0.1 agenceseineimmo.fr www.agenceseineimmo.fr
+127.0.0.1 centraleimmo.fr www.centraleimmo.fr
+127.0.0.1 evolis-avocats.fr www.evolis-avocats.fr
+127.0.0.1 destrudata.com www.destrudata.com
 127.0.0.1 giboire-commerce.com www.giboire-commerce.com commerce.giboire.com
 127.0.0.1 giboire-entreprise.com www.giboire-entreprise.com entreprise.giboire.com
 127.0.0.1 giboire-groupe.com www.giboire-groupe.com groupe.giboire.com
 127.0.0.1 gerinter.fr www.gerinter.fr
+127.0.0.1 globalnatura.eu www.globalnatura.eu
+127.0.0.1 kampexport.com www.kampexport.com
+127.0.0.1 lecomtesyndic.fr www.lecomtesyndic.fr
+127.0.0.1 leroylogistique.com www.leroylogistique.com
+127.0.0.1 lycee-descartes.eu www.lycee-descartes.eu
+127.0.0.1 pommereul-demenagements.fr www.pommereul-demenagements.fr
+127.0.0.1 rennesvolley35.fr www.rennesvolley35.fr
+127.0.0.1 uflevage.fr www.uflevage.fr
 
 # 715 commerce
 127.0.0.1 bateauxonline.fr www.bateauxonline.fr
@@ -85,9 +98,9 @@
 85.69.117.189 maison-nc
 
 # gluster
-52.51.100.30 gluster.01
-52.208.115.108 gluster.02
-52.51.52.114 gluster.03
-#172.30.2.17 gluster.01
-#172.30.2.18 gluster.02
-#172.30.2.108 gluster.03
+#52.51.100.30 gluster.01
+#52.208.115.108 gluster.02
+#52.51.52.114 gluster.03
+172.30.2.17 gluster.01
+172.30.2.18 gluster.02
+172.30.2.108 gluster.03
