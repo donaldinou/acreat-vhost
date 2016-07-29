@@ -133,6 +133,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# frimousse-ledrugstore.fr
+#
+0 */3 * * * root $WGET http://www.frimousse-ledrugstore.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # francois-notaire-stmalo.fr
 #
 0 */3 * * * root $WGET http://www.francois-notaire-stmalo.fr/cron.php?cron_key=vFspSJWNl9xv8nBxjj7xC-9pn5yuk5A6MztU3AwI0Fo > /dev/null 2>&1
@@ -266,6 +273,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 0 */3 * * * root $WGET http://www.maisonscreation.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
 0 2 * * * root $WGET http://www.maisonscreation.com/immobilier/notification/process
+######################################################################################
+
+######################################################################################
+#
+# mdo.com.fr
+#
+0 */3 * * * root $WGET http://www.mdo.com.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
