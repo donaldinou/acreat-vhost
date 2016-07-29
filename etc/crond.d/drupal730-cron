@@ -175,9 +175,9 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
-# groupe-pandora.fr
+# groupe-pandora.com
 #
-0 */3 * * * root $WGET http://www.groupe-pandora.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.groupe-pandora.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
