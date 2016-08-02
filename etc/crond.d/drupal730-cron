@@ -182,6 +182,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# Groupe Launay
+#
+0 */3 * * * $WGET http://terrains.groupe-launay.com/cron.php?cron_key=9a8u8Qq5PGUG1kw6hcA-cI0sniJ6-EQTfz14c3xwTAM > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # groupe-pandora.com
 #
 0 */3 * * * root $WGET http://www.groupe-pandora.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
