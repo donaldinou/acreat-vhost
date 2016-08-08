@@ -262,7 +262,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # limmoneuf.immo
 #
-0 */3 * * * root $WGET http://www.limmoneuf.immo/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.limmoneuf.immo/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
 0 5 * * * root $WGET http://www.limmoneuf.immo/admin/immobilier/imports/rodacom/run
 ######################################################################################
 
@@ -338,7 +338,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # regional-interim.fr
 #
-0 */3 * * * root $WGET http://www.regional-interim.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.regional-interim.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 40 3 * * * root $WGET http://www.regional-interim.fr/admin/regional-interim/imports-offres http://www.regional-interim.fr/admin/regional-interim/envoi-alertes
 ######################################################################################
 

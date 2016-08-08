@@ -171,6 +171,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # maisonhamster.com
 #
+0 */3 * * * root $WGET http://www.maisonshamster.com/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
 
 ######################################################################################
 #
