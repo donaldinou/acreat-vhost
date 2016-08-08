@@ -315,6 +315,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# officenotarial-hellivan-ploubalay.fr
+#
+0 */3 * * * root $WGET http://www.officenotarial-hellivan-ploubalay.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Pj Toulemont
 #
 0 */3 * * * root $WGET http://www.pjtoulemont.fr/cron.php?cron_key=RmZbl9FJvlV1VEgbgysqtkSgU-xlXxemW_6NxvwpDz4 > /dev/null 2>&1
