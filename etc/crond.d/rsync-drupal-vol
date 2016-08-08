@@ -18,16 +18,16 @@
 #
 # rsync from gluster
 #
-0 */2 * * * root rsync -avc --delete --exclude '.glusterfs' /var/www/html/drupal/gluster710/ /var/www/html/drupal/drupal710/sites/
-0 */2 * * * root rsync -avc --delete --exclude '.glusterfs' /var/www/html/drupal/gluster726/ /var/www/html/drupal/drupal726/sites/
-0 */2 * * * root rsync -avc --delete --exclude '.glusterfs' /var/www/html/drupal/gluster730/ /var/www/html/drupal/drupal730/sites/
+#0 */2 * * * root rsync -avc --delete --exclude '.glusterfs' /var/www/html/drupal/gluster710/ /var/www/html/drupal/drupal710/sites/
+#0 */2 * * * root rsync -avc --delete --exclude '.glusterfs' /var/www/html/drupal/gluster726/ /var/www/html/drupal/drupal726/sites/
+#0 */2 * * * root rsync -avc --delete --exclude '.glusterfs' /var/www/html/drupal/gluster730/ /var/www/html/drupal/drupal730/sites/
 ######################################################################################
 
 ######################################################################################
 #
 # rsync from efs
 #
-#0 2 * * * root rsync -avc --delete /var/www/html/drupal/drupal710/sites/ /var/www/html/backup/drupal710/sites
-#0 2 * * * root rsync -avc --delete /var/www/html/drupal/drupal726/sites/ /var/www/html/backup/drupal726/sites
-#0 2 * * * root rsync -avc --delete /var/www/html/drupal/drupal730/sites/ /var/www/html/backup/drupal730/sites
+0 2 * * * root rsync -avc --delete --exclude '.size' /var/www/html/drupal/drupal710/sites/ /var/www/html/backup/drupal710/sites/
+0 2 * * * root rsync -avc --delete --exclude '.size' /var/www/html/drupal/drupal726/sites/ /var/www/html/backup/drupal726/sites/
+0 2 * * * root rsync -avc --delete --exclude '.size' /var/www/html/drupal/drupal730/sites/ /var/www/html/backup/drupal730/sites/
 ######################################################################################
