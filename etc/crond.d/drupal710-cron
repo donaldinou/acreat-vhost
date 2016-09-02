@@ -50,9 +50,10 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # Gerinter
 #
+0 */3 * * * root $WGET http://www.gerinter.fr/cron.php?cron_key=DEfnB2Ak3E84Y9VMlb619am25FsHVHJMzMqdMbYRpIs > /dev/null 2>&1
 15 4 * * * root $WGET http://www.gerinter.fr/gerinter/annonces/update-nb
 #16 4 * * * root $WGET http://www.gerinter.fr/gerinter/export/ouest-france/xml
-16 4 * * * root $WGET http://www.gerinter.fr/admin/config/gerinter/ouestfrance/actions/run
+*/30 * * * * root $WGET http://www.gerinter.fr/admin/config/gerinter/ouestfrance/actions/run
 18 4 * * * root $WGET http://www.gerinter.fr/gerinter/notification/process
 ######################################################################################
 
