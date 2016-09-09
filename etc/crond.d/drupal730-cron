@@ -298,6 +298,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# notaires-rennes-duguesclin.fr
+#
+0 */3 * * * root $WGET http://www.notaires-rennes-duguesclin.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # notaires-rennes-st-germain.fr
 #
 0 */3 * * * root $WGET http://www.notaires-rennes-st-germain.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
