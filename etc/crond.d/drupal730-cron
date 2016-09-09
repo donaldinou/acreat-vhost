@@ -95,6 +95,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# destruction-disques-durs.com
+#
+0 */3 * * * root $WGET http://www.destruction-disques-durs.com/cron.php?cron_key=Q61jpHAL4a_0IWH-t80s8_6BbfgeaPfhcrZeLTmr6FY > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # dlj-syndic.fr
 #
 0 */3 * * * root $WGET http://www.dlj-syndic.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
