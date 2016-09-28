@@ -83,7 +83,8 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # bras
 #
-10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/pericles/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
+#10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/pericles/run
+10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/ac3/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
 0 */3 * * * root $WGET http://www.bras-immobilier.fr/cron.php?cron_key=0VTqUz2t_TlbKMH1i2QsDDg7wkUmHSHz-w-ar8XKOwA > /dev/null 2>&1
 ######################################################################################
 
@@ -340,6 +341,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # officenotarial-hellivan-ploubalay.fr
 #
 0 */3 * * * root $WGET http://www.officenotarial-hellivan-ploubalay.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+40 3 * * * root $WGET http://www.officenotarial-hellivan-ploubalay.fr/admin/immobilier/imports/ncis/run
 ######################################################################################
 
 ######################################################################################
