@@ -212,6 +212,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# homardandchips.com
+#
+0 */3 * * * root $WGET http://www.homardandchips.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # hebdo-armor.com
 #
 0 */3 * * * root $WGET http://www.hebdo-armor.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
@@ -324,7 +331,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # notaires-rennes-st-germain.fr
 #
 0 */3 * * * root $WGET http://www.notaires-rennes-st-germain.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
-40 3 * * * root $WGET http://www.notaires-rennes-st-germain.fr/admin/immobilier/imports/ac3/run http://www.notaires-rennes-st-germain.fr/admin/immobilier/notification/process
+40 3 * * * root $WGET http://www.notaires-rennes-st-germain.fr/admin/immobilier/imports/immonot/run
 ######################################################################################
 
 ######################################################################################
