@@ -371,6 +371,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 0 */3 * * * root $WGET http://www.regional-interim.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 40 3 * * * root $WGET http://www.regional-interim.fr/admin/regional-interim/imports-offres http://www.regional-interim.fr/admin/regional-interim/envoi-alertes
+0 11 * * * root $WGET http://www.regional-interim.fr/admin/regional-interim/imports-offres http://www.regional-interim.fr/admin/regional-interim/envoi-alertes
 ######################################################################################
 
 ######################################################################################
