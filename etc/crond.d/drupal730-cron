@@ -37,7 +37,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # agence-des-druides.fr
 #
 0 */3 * * * root $WGET http://www.agence-des-druides.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
-0 4 * * * root $WGET http://www.agence-des-druides.fr.acreat.net/admin/immobilier/imports/ac3/run http://www.agence-des-druides.fr.acreat.net/admin/immobilier/imports/kiwi/run http://www.agence-des-druides.fr.acreat.net/admin/immobilier/notification/process
+0 4 * * * root $WGET http://www.agence-des-druides.fr/admin/immobilier/imports/ac3/run http://www.agence-des-druides.fr/admin/immobilier/imports/kiwi/run http://www.agence-des-druides.fr/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -324,7 +324,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # notaires-rennes-duguesclin.fr
 #
 0 */3 * * * root $WGET http://www.notaires-rennes-duguesclin.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
-30 3 * * * root $WGET http://www.notaires-rennes-duguesclin.fr.acreat.net/admin/immobilier/imports/transim/run
+30 3 * * * root $WGET http://www.notaires-rennes-duguesclin.fr/admin/immobilier/imports/transim/run
 ######################################################################################
 
 ######################################################################################
