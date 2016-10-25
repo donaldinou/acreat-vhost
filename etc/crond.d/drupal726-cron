@@ -22,7 +22,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # Abita
 #
 0 */3 * * * root $WGET http://www.abita-immobilier.com/cron.php?cron_key=WM4BFxPwqb1yUxjIa0jCLyd7qtGVwLDJd43oKTotTUo > /dev/null 2>&1
-20 3 * * * root $WGET http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/1 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/2 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/3 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/4 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/5 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/6
+20 3 * * * root $WGET http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/1 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/2 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/3 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/4 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/5 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/6 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/177
 ######################################################################################
 
 ######################################################################################

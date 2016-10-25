@@ -354,6 +354,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# Patisserie Le Daniel
+#
+0 */3 * * * root $WGET http://www.patisserieledaniel.fr/cron.php?cron_key=tYpN2Wddau6-_angJlQ_uyAXrsxvJzqHj-L8URwGuEQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Pj Toulemont
 #
 0 */3 * * * root $WGET http://www.pjtoulemont.fr/cron.php?cron_key=RmZbl9FJvlV1VEgbgysqtkSgU-xlXxemW_6NxvwpDz4 > /dev/null 2>&1
