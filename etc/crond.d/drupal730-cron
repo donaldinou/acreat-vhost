@@ -1,3 +1,6 @@
+# General var
+MAILTO=root
+
 ## -> no retry, timeout more than 1 hour, still output errors and content
 WGET="wget -nv -t 1 -T 9400 -O -"
 
@@ -340,6 +343,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 0 */3 * * * root $WGET http://www.notaires-rennes-st-germain.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 40 3 * * * root $WGET http://www.notaires-rennes-st-germain.fr/admin/immobilier/imports/immonot/run
+######################################################################################
+
+######################################################################################
+#
+# nouet-batiment.fr
+#
+0 */3 * * * root $WGET http://www.nouet-batiment.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
