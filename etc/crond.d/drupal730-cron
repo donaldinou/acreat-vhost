@@ -347,9 +347,9 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
-# nouet-batiment.fr
+# nouet-batiment.com
 #
-0 */3 * * * root $WGET http://www.nouet-batiment.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.nouet-batiment.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
