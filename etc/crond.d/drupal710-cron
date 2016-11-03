@@ -39,7 +39,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # CENTRALE IMMOBILIERE
 #
-30 3 * * * root $WGET http://www.centraleimmo.fr/admin/immobilier/imports/ics/run
+#30 3 * * * root $WGET http://www.centraleimmo.fr/admin/immobilier/imports/ics/run
 ######################################################################################
 
 ######################################################################################

@@ -93,6 +93,14 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# centraleimmo.fr
+#
+0 */3 * * * root http://www.centraleimmo.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk
+30 3 * * * root $WGET http://www.centraleimmo.fr/admin/immobilier/imports/ics/run
+######################################################################################
+
+######################################################################################
+#
 # cert-online.biz
 #
 0 */3 * * * root $WGET http://www.cert-online.biz/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
