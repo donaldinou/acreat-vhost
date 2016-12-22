@@ -2,7 +2,8 @@
 127.0.0.1 localhost localhost.localdomain
 
 # 8
-127.0.0.1 planete-running.fr
+127.0.0.1 planete-running.fr www.planete-running.fr
+127.0.0.1 gibert-consulting.com www.gibert-consulting.com
 
 # 730
 127.0.0.1 immobilier.orange.com
