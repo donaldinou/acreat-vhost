@@ -219,6 +219,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # Groupe Launay
 #
 0 */3 * * * $WGET http://terrains.groupe-launay.com/cron.php?cron_key=9a8u8Qq5PGUG1kw6hcA-cI0sniJ6-EQTfz14c3xwTAM > /dev/null 2>&1
+0 */3 * * * $WGET http://terrains.groupe-launay.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
