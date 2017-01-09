@@ -30,4 +30,5 @@
 0 2 * * * root rsync -avc --delete --exclude '.size' /var/www/html/drupal/drupal710/sites/ /var/www/html/backup/drupal710/sites/
 0 2 * * * root rsync -avc --delete --exclude '.size' /var/www/html/drupal/drupal726/sites/ /var/www/html/backup/drupal726/sites/
 0 2 * * * root rsync -avc --delete --exclude '.size' /var/www/html/drupal/drupal730/sites/ /var/www/html/backup/drupal730/sites/
+0 2 * * * root rsync -avc --delete --exclude '.size' /var/www/html/drupal/drupal8/ /var/www/html/backup/drupal8/
 ######################################################################################

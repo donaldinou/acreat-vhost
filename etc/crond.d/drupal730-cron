@@ -140,7 +140,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # empireconstructions.fr
 #
 0 */3 * * * root $WGET http://www.empireconstructions.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
-0 4 * * * root $WGET http://www.empireconstructions.fr/admin/immobilier/imports/ac3/run
+0 4 * * * root $WGET http://www.empireconstructions.fr/admin/immobilier/imports/entities/run
 ######################################################################################
 
 ######################################################################################
