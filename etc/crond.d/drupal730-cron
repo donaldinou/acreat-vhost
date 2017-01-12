@@ -232,6 +232,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# hifi35.com
+#
+0 */3 * * * root $WGET http://www.hifi35.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # homardandchips.com
 #
 0 */3 * * * root $WGET http://www.homardandchips.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
