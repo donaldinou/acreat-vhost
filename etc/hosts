@@ -2,7 +2,7 @@
 127.0.0.1 localhost localhost.localdomain
 
 # 8
-127.0.0.1 planete-running.fr www.planete-running.fr
+127.0.0.1 planeterunning.fr planeterunning.gt planete-running.fr www.planete-running.fr planete-running-rennes.fr www.planete-running-rennes.fr
 127.0.0.1 gibert-consulting.com www.gibert-consulting.com
 127.0.0.1 la-trinquette.fr www.la-trinquette.fr
 
