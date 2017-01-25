@@ -467,6 +467,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# station-music.com
+#
+0 */3 * * * root $WGET http://www.station-music.com/cron.php?cron_key=YIX-bCsKjdNMUvruDB2oE5vzQPSmczJiL807ESIZs7k > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # strateys.com
 #
 0 */3 * * * root $WGET http://www.strateys.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
