@@ -423,6 +423,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# Potin tp
+#
+0 */3 * * * root $WGET http://www.partenaires-cesson-handball.com/cron.php?cron_key=sf_wejNXG_jDWLb45CRg2dANDJm-ZVINYgr9UC6C74k > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # quatreb.fr
 #
 0 */3 * * * root $WGET http://www.quatreb.fr/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
