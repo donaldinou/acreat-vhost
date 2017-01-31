@@ -218,9 +218,9 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # Groupe Launay
 #
-0 */3 * * * $WGET http://terrains.groupe-launay.com/cron.php?cron_key=9a8u8Qq5PGUG1kw6hcA-cI0sniJ6-EQTfz14c3xwTAM > /dev/null 2>&1
-0 */3 * * * $WGET http://promotion.groupe-launay.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
-0 2 * * * $WGET http://promotion.groupe-launay.com/admin/espace-promotion/options-maj http://promotion.groupe-launay.com/alertes-process
+0 */3 * * * root $WGET http://terrains.groupe-launay.com/cron.php?cron_key=9a8u8Qq5PGUG1kw6hcA-cI0sniJ6-EQTfz14c3xwTAM > /dev/null 2>&1
+0 */3 * * * root $WGET http://promotion.groupe-launay.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+0 2 * * * root $WGET http://promotion.groupe-launay.com/admin/espace-promotion/options-maj http://promotion.groupe-launay.com/alertes-process
 ######################################################################################
 
 ######################################################################################
@@ -348,6 +348,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# mmt35.fr
+#
+0 */3 * * * root $WGET http://www.mmt35.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # notaires-rennes-alma.fr
 #
 0 */3 * * * root $WGET http://www.notaires-rennes-alma.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
@@ -423,7 +430,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
-# Potin tp
+# Partenaires cesson
 #
 0 */3 * * * root $WGET http://www.partenaires-cesson-handball.com/cron.php?cron_key=sf_wejNXG_jDWLb45CRg2dANDJm-ZVINYgr9UC6C74k > /dev/null 2>&1
 ######################################################################################
