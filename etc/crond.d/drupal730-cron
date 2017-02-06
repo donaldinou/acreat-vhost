@@ -59,6 +59,14 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# axiopro.fr
+#
+0 */3 * * * root $WGET http://www.axiopro.fr/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
+30 3 * * * root $WGET http://www.axiopro.fr/admin/immobilier/imports/custom/run
+######################################################################################
+
+######################################################################################
+#
 # biensanantes.com
 #
 0 */3 * * * root $WGET http://www.biensanantes.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
