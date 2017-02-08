@@ -32,7 +32,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # abhinvestissements.fr
 #
-0 */3 * * * root $WGET http://www.abhinvestissements.fr/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.abhinvestissements.fr/cron.php?cron_key=-I1W_ZYSZc2mzn1KTgahkfgnlSwWIWySWSuND2EeEvQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
