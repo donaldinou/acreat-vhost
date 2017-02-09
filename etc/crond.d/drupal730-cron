@@ -431,6 +431,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# pigeon-materiaux.com
+#
+0 */3 * * * root $WGET http://www.pigeon-materiaux.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Pj Toulemont
 #
 0 */3 * * * root $WGET http://www.pjtoulemont.fr/cron.php?cron_key=RmZbl9FJvlV1VEgbgysqtkSgU-xlXxemW_6NxvwpDz4 > /dev/null 2>&1
