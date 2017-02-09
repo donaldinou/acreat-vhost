@@ -521,3 +521,10 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 0 */3 * * * root $WGET http://www.vente9.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# westevenement.com
+#
+0 */3 * * * root $WGET http://www.westevenement.com/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+######################################################################################
