@@ -97,3 +97,5 @@ certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.uflevage.fr
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.vente9.com
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.westevenement.com
+
+${DIR}/certbot_resolve_ln.sh
