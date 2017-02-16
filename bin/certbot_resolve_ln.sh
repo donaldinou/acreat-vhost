@@ -14,9 +14,10 @@ cd ${sites}
 for file in ${sites}/* ; do
     filename=$(basename $file)
     if [[ $filename == www* ]]
-        if [ !-h "www.${filename}" ]
+    then
+        if [ ! -e ${filename:4} ]
         then
-            ln ${filename} "www.${filename}"
+            ln -s ${filename} ${filename:4}
         fi
     fi
 done
