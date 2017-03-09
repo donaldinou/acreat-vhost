@@ -106,6 +106,15 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# bouvet-cartier.com
+#
+0 */3 * * * root $WGET http://www.bouvet-cartier.com/cron.php?cron_key=SptZYsl2qc_FLAj8KzTTnNNNDDR5st-2pIb8T8ed_QM > /dev/null 2>&1
+10 3 * * * root $WGET http://www.bouvet-cartier.com/admin/immobilier/imports/crypto/run http://www.bouvet-cartier.com/admin/immobilier/imports/rodacom/run http://www.bouvet-cartier.com/admin/immobilier/notification/process
+#20 3 * * * root $WGET http://www.bouvet-cartier.com/admin/immobilier/dossiers-de-location/purge
+######################################################################################
+
+######################################################################################
+#
 # bras
 #
 #10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/pericles/run

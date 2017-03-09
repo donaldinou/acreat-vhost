@@ -1,6 +1,11 @@
 # local
 127.0.0.1 localhost localhost.localdomain
 
+# internal
+172.30.2.153 gitlab.acreat.com packagist.acreat.com bower.acreat.com
+172.30.2.153 mattermost.acreat.com slack.acreat.com
+172.30.2.153 redmine.acreat.com projet.acreat.co
+
 # 8
 127.0.0.1 planeterunning.fr planeterunning.gt planete-running.fr www.planete-running.fr planete-running-rennes.fr www.planete-running-rennes.fr
 127.0.0.1 gibert-consulting.com www.gibert-consulting.com
@@ -76,6 +81,7 @@
 127.0.0.1 abhinvestissements.fr www.abhinvestissements.fr
 127.0.0.1 westevenement.com www.westevenement.com
 127.0.0.1 pigeon-materiaux.com www.pigeon-materiaux.com
+127.0.0.1 bouvet-cartier.com www.bouvet-cartier.com
 
 # 726
 127.0.0.1 abita-immobilier.com www.abita-immobilier.com
