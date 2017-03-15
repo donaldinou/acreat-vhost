@@ -379,6 +379,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# newr.fr
+#
+0 */3 * * * root $WGET http://www.newr.fr/cron.php?cron_key=V3VxThIszDaoAwRNJXbXEP6nZXVzxv0QnY3U42f1-4I > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # notaires-rennes-alma.fr
 #
 0 */3 * * * root $WGET http://www.notaires-rennes-alma.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
