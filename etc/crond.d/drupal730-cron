@@ -145,6 +145,14 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 ######################################################################################
 
 ######################################################################################
+# 
+# Delphine Teillaud
+#
+0 */3 * * * root $WGET http://www.delphine-teillaud.com/cron.php?cron_key=tEGTIU5BLd3IKGh7OzIrKQui-ezrpM3JG1t7LECiSlM > /dev/null 2>&1
+20 6 * * * root $WGET http://www.delphine-teillaud.com/admin/immobilier/imports/connectimmo/run
+######################################################################################
+
+######################################################################################
 #
 # destruction-disques-durs.com
 #
