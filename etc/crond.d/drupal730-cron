@@ -146,6 +146,14 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 # 
+# Daniel Mouton
+#
+0 */3 * * * root $WGET http://www.daniel-mouton.com/cron.php?cron_key=f82KjqntVEOGs87iCUdmngpwMFGZ9A9VkaCS-G0dNfo > /dev/null 2>&1
+10 6 * * * root $WGET http://www.daniel-mouton.com/admin/annonce/imports/custom/run
+######################################################################################
+
+######################################################################################
+# 
 # Delphine Teillaud
 #
 0 */3 * * * root $WGET http://www.delphine-teillaud.com/cron.php?cron_key=tEGTIU5BLd3IKGh7OzIrKQui-ezrpM3JG1t7LECiSlM > /dev/null 2>&1
@@ -424,7 +432,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
-# NOVALIM
+# Novalim
 # requirement: Notification process need to be sent around noon
 0 */3 * * * root $WGET http://novalim.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0
 20 3 * * * root $WGET http://www.novalim.fr/admin/immobilier/imports/connectimmo/run
