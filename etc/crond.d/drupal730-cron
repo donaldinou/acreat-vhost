@@ -498,6 +498,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# Pozzo
+#
+0 */3 * * * root $WGET http://extranet-pozzo.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Partenaires cesson
 #
 0 */3 * * * root $WGET http://www.partenaires-cesson-handball.com/cron.php?cron_key=sf_wejNXG_jDWLb45CRg2dANDJm-ZVINYgr9UC6C74k > /dev/null 2>&1
