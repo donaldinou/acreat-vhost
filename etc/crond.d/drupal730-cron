@@ -185,6 +185,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# emeraudecourtage.fr
+#
+0 */3 * * * root $WGET http://www.emeraudecourtage.fr/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # executiveretreat itsinyou.fr
 #
 0 */3 * * * root $WGET http://www.executiveretreat.fr/cron.php?cron_key=hzWpRX-I-Cp2WqDHBNXAxCm2QKt9-0zydDO-a_395S4 > /dev/null 2>&1
