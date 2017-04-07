@@ -66,6 +66,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# app.notaires-rennes-duguesclin.fr
+#
+0 */3 * * * root $WGET http://app.notaires-rennes-duguesclin.fr.acreat.net/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # axiopro.fr
 #
 0 */3 * * * root $WGET http://www.axiopro.fr/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
