@@ -61,7 +61,7 @@
 127.0.0.1 terrains.groupe-launay.com extranet.groupe-launay.com
 127.0.0.1 promotion.groupe-launay.com extranet-promotion.groupe-launay.com
 127.0.0.1 officenotarial-hellivan-ploubalay.fr www.officenotarial-hellivan-ploubalay.fr
-127.0.0.1 strateys.com www.strateys.com
+127.0.0.1 strateys.com.acreat.net www.strateys.com.acreat.net
 127.0.0.1 notaires-rennes-duguesclin.fr www.notaires-rennes-duguesclin.fr
 127.0.0.1 destruction-disques-durs.com www.destruction-disques-durs.com
 127.0.0.1 agence-des-druides.fr www.agence-des-druides.fr
@@ -87,13 +87,15 @@
 127.0.0.1 daniel-mouton.com www.daniel-mouton.com
 127.0.0.1 pommereul-demenagements www.pommereul-demenagements.fr
 127.0.0.1 gerinter.fr www.gerinter.fr
-127.0.0.1 extranet-pozzo.fr www.extranet-pozzo.fr
+127.0.0.1 extranet-pozzo.fr.acreat.net www.extranet-pozzo.fr.acreat.net
 127.0.0.1 emeraudecourtage.fr www.emeraudecourtage.fr
 127.0.0.1 menlog.fr www.menlog.fr
 127.0.0.1 campingjullouvillelespins.fr.acreat.net www.campingjullouvillelespins.fr.acreat.net
 127.0.0.1 app.notaires-rennes-duguesclin.fr.acreat.net www.app.notaires-rennes-duguesclin.fr.acreat.net
 127.0.0.1 beim.fr.acreat.net www.beim.fr.acreat.net
 127.0.0.1 laboucherierennaise.com.acreat.net www.laboucherierennaise.com.acreat.net
+127.0.0.1 extranet-promotion.sacib.com.acreat.net www.extranet-promition.sacib.com.acreat.net
+127.0.0.1 extranet-promotion.secib-immobilier.com.acreat.net www.extranet-promition.secib-immobilier.com.acreat.net
 
 # 726
 127.0.0.1 abita-immobilier.com www.abita-immobilier.com

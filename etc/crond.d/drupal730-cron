@@ -591,6 +591,20 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# extranet-promotion.sacib.com
+#
+0 */3 * * * root $WGET http://extranet-promition.sacib.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# extranet-promotion.secib-immobilier.com
+#
+0 */3 * * * root $WGET http://extranet-promotion.secib-immobilier.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # soccer-rennais.com
 #
 0 */3 * * * root $WGET http://www.soccer-rennais.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
