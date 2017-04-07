@@ -138,6 +138,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# laboucherierennaise.com
+#
+0 */3 * * * root http://www.laboucherierennaise.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk
+######################################################################################
+
+######################################################################################
+#
 # campingjullouvillelespins.fr
 #
 0 */3 * * * root http://www.campingjullouvillelespins.fr.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk
