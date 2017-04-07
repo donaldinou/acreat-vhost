@@ -124,6 +124,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# campingjullouvillelespins.fr
+#
+0 */3 * * * root http://www.campingjullouvillelespins.fr.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk
+######################################################################################
+
+######################################################################################
+#
 # centraleimmo.fr
 #
 0 */3 * * * root http://www.centraleimmo.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk
