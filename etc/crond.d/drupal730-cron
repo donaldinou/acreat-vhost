@@ -633,6 +633,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# trademark.com
+#
+0 */3 * * * root $WGET http://www.trademark.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # vente9.com
 #
 0 */3 * * * root $WGET http://www.vente9.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
