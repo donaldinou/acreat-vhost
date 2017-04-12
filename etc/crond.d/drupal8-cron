@@ -24,19 +24,33 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # gibert-consulting
 #
-0 */3 * * * root $WGET http://www.gibert-consulting.com/cron.php?cron_key=Et16EudhZDsmndybXA6SjapbYhqSZo4Z6pGl-RMGrEwJ4DPAA3OOCoetdw9I9WOHE_73apobZw > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.gibert-consulting.com/cron/Et16EudhZDsmndybXA6SjapbYhqSZo4Z6pGl-RMGrEwJ4DPAA3OOCoetdw9I9WOHE_73apobZw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # planete-running
 #
-0 */3 * * * root $WGET http://www.planete-running-rennes.fr/cron.php?cron_key=C8Yok996OTZPhfvQw_SFE6NUGl67Q23CCrfygECWWKemJb78FQ30abZUbOeCKUirl58kPOJ9zg > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.planete-running-rennes.fr/cron/C8Yok996OTZPhfvQw_SFE6NUGl67Q23CCrfygECWWKemJb78FQ30abZUbOeCKUirl58kPOJ9zg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # la-trinquette
 #
-0 */3 * * * root $WGET http://www.la-trinquette.fr/cron.php?cron_key=altHD_TxYGiZgU75tRfEqOhMKxchukqyUXnpBZlf_2w > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.latrinquette.fr/cron/Ha47R-W-LTnwWWWODOhNhloyxVd1C7Y9ksCvpfIoftkqqGwfBeNFlKiuKINwasUH-GJG7rxOdA > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# lesmoulesbarataud.fr
+#
+0 */3 * * * root $WGET http://www.lesmoulesbarataud.fr/cron/Ha47R-W-LTnwWWWODOhNhloyxVd1C7Y9ksCvpfIoftkqqGwfBeNFlKiuKINwasUH-GJG7rxOdA > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# brasserie-rennes.fr
+#
+0 */3 * * * root $WGET http://www.brasserie-rennes.fr/cron/Ha47R-W-LTnwWWWODOhNhloyxVd1C7Y9ksCvpfIoftkqqGwfBeNFlKiuKINwasUH-GJG7rxOdA > /dev/null 2>&1
 ######################################################################################
