@@ -45,12 +45,12 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # lesmoulesbarataud.fr
 #
-0 */3 * * * root $WGET http://www.lesmoulesbarataud.fr/cron/Ha47R-W-LTnwWWWODOhNhloyxVd1C7Y9ksCvpfIoftkqqGwfBeNFlKiuKINwasUH-GJG7rxOdA > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.lesmoulesbarataud.fr/cron/5Qro_TEMJ0LE9MiA0IJYIrghuPQpcR8R84IXY0ytqsJD7PzKA6uBqOwEkYKfpsoj_UNnUPkVbw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # brasserie-rennes.fr
 #
-0 */3 * * * root $WGET http://www.brasserie-rennes.fr/cron/Ha47R-W-LTnwWWWODOhNhloyxVd1C7Y9ksCvpfIoftkqqGwfBeNFlKiuKINwasUH-GJG7rxOdA > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.brasserie-rennes.fr/cron/njT0c4snIVp9Lcq3OJ8AiTfHlOXjQMvXYTIMXFco1T1WQe8AAmMRraJrb5yVIW01iqUUH5KjgA > /dev/null 2>&1
 ######################################################################################
