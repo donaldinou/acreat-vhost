@@ -54,3 +54,10 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 0 */3 * * * root $WGET http://www.brasserie-rennes.fr/cron/njT0c4snIVp9Lcq3OJ8AiTfHlOXjQMvXYTIMXFco1T1WQe8AAmMRraJrb5yVIW01iqUUH5KjgA > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# club-cambronne.com
+#
+0 */3 * * * root $WGET http://www.club-cambronne.com/cron/njT0c4snIVp9Lcq3OJ8AiTfHlOXjQMvXYTIMXFco1T1WQe8AAmMRraJrb5yVIW01iqUUH5KjgA > /dev/null 2>&1
+######################################################################################
