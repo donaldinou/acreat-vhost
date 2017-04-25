@@ -632,7 +632,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # solimco.fr
 #
-0 */3 * * * root $WGET http://www.solimco.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.solimco.fr/cron.php?cron_key=SvLgiZuyPJ62kjr8QnbwZ7e1diHveczelyxaZEqSVys > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
