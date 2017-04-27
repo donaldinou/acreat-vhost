@@ -61,3 +61,17 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 0 */3 * * * root $WGET http://www.club-cambronne.com/cron/A0MayVMzBHAFRYZeEmmkGaFKKdnso0SxRWLfGdSjmmvlRZZbbat3oaxCcOqw-fp_hkgsTDT4Ag > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# gb-eclairage.com
+#
+0 */3 * * * root $WGET http://www.gb-eclairage.com/cron/A0MayVMzBHAFRYZeEmmkGaFKKdnso0SxRWLfGdSjmmvlRZZbbat3oaxCcOqw-fp_hkgsTDT4Ag > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# poeles-breizh.fr
+#
+0 */3 * * * root $WGET http://www.poeles-breizh.fr/cron/A0MayVMzBHAFRYZeEmmkGaFKKdnso0SxRWLfGdSjmmvlRZZbbat3oaxCcOqw-fp_hkgsTDT4Ag > /dev/null 2>&1
+######################################################################################
