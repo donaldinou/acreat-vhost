@@ -90,7 +90,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # beim.fr
 #
-0 */3 * * * root $WGET http://www.beim.fr.acreat.net/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.beim.fr/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
