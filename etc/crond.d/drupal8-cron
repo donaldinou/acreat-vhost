@@ -66,12 +66,12 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # gb-eclairage.com
 #
-0 */3 * * * root $WGET http://www.gb-eclairage.com/cron/A0MayVMzBHAFRYZeEmmkGaFKKdnso0SxRWLfGdSjmmvlRZZbbat3oaxCcOqw-fp_hkgsTDT4Ag > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.gb-eclairage.com/cron/37z7nlYb-Git77qYYLItziRUQ7oxIGB65ucUuuj79_VOrZCoi37yXuAQSam2E752dUOhTpNgIA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # poeles-breizh.fr
 #
-0 */3 * * * root $WGET http://www.poeles-breizh.fr/cron/A0MayVMzBHAFRYZeEmmkGaFKKdnso0SxRWLfGdSjmmvlRZZbbat3oaxCcOqw-fp_hkgsTDT4Ag > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.poeles-breizh.fr/cron/UU0e3gMQNWySRWQNzVoiH4mbwcFN--TzLi337sLxpDX-CzqhPaWrwEK7NfwimgFIZu3UEZWzbQ > /dev/null 2>&1
 ######################################################################################
