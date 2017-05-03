@@ -88,6 +88,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# barnoud-immobilier.fr
+#
+0 */3 * * * root $WGET http://www.barnoud-immobilier.fr.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # beim.fr
 #
 0 */3 * * * root $WGET http://www.beim.fr/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
@@ -177,6 +184,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # chouznoux.fr
 #
 0 */3 * * * root $WGET http://www.chouzenoux-architecture.fr/cron.php?cron_key=lp2ujeSWqq53nAVnvAazd5fW5wFX9XYMmSnkdiAkgrE > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# chronopropre.net
+#
+0 */3 * * * root $WGET http://www.chronopropre.net.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -381,9 +395,23 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# imprimerie-mevennaise.fr
+#
+0 */3 * * * root $WGET http://www.imprimerie-mevennaise.fr.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # isisavocats.fr
 #
 0 */3 * * * root $WGET http://www.isisavocats.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# lavilla-labaule.com
+#
+0 */3 * * * root $WGET http://www.lavilla-labaule.com.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -523,6 +551,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# ouestboissons.fr
+#
+0 */3 * * * root $WGET http://www.ouestboissons.fr.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Patisserie Le Daniel
 #
 0 */3 * * * root $WGET http://www.patisserieledaniel.fr/cron.php?cron_key=tYpN2Wddau6-_angJlQ_uyAXrsxvJzqHj-L8URwGuEQ > /dev/null 2>&1
@@ -595,6 +630,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# restaurantlamiral.fr
+#
+0 */3 * * * root $WGET http://www.restaurantlamiral.fr.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # restaurant-lehoo.fr
 #
 0 */3 * * * root $WGET http://www.restaurant-lehoo.fr/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
@@ -612,6 +654,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # Schatzipark.fr
 #
 0 */3 * * * root $WGET http://www.schatzipark.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# sacib.com
+#
+0 */3 * * * root $WGET http://www.sacib.com.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
