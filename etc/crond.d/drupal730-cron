@@ -46,7 +46,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # aereauclean.fr
 #
-0 */3 * * * root $WGET http://www.aereauclean.fr/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.aereauclean.fr/cron.php?cron_key=V3VxThIszDaoAwRNJXbXEP6nZXVzxv0QnY3U42f1-4I > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
