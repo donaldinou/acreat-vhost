@@ -210,12 +210,5 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
-# Thierry Immo
-#
-5 5 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/ac3/vente/run http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra-entreprise/run http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.thierry-immobilier.fr/immobilier/notification/process http://www.thierry-immobilier.fr/agence/immobilier/imports/immobilier-nodes-count-update http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
-######################################################################################
-
-######################################################################################
-#
 # tombelaine-coquillages.com
 #

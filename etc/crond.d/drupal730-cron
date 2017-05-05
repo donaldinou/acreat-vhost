@@ -102,6 +102,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# beneat-chauvel.com
+#
+0 */3 * * * root $WGET http://www.beneat-chauvel.com.acreat.net/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # biensanantes.com
 #
 0 */3 * * * root $WGET http://www.biensanantes.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
@@ -328,6 +335,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 0 */3 * * * root $WGET http://terrains.groupe-launay.com/cron.php?cron_key=9a8u8Qq5PGUG1kw6hcA-cI0sniJ6-EQTfz14c3xwTAM > /dev/null 2>&1
 0 */3 * * * root $WGET http://promotion.groupe-launay.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 0 2 * * * root $WGET http://promotion.groupe-launay.com/admin/espace-promotion/options-maj http://promotion.groupe-launay.com/alertes-process
+30 6,10,12,14,16 * * * root $WGET http://promotion.groupe-launay.com/admin/espace-promotion/programmes-export/xml && $WGET http://promotion.groupe-launay.com/admin/espace-promotion/programmes-export/upload
 ######################################################################################
 
 ######################################################################################
@@ -703,6 +711,14 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # strateys.com
 #
 0 */3 * * * root $WGET http://www.strateys.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# thierry-immobilier.fr
+#
+0 */3 * * * root $WGET http://www.thierry-immobilier.com/cron.php?cron_key=fg8-9quSWlljjFMN0jZRKDEjArr30nAwyW2gp8fdWco > /dev/null 2>&1
+5 5 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/ac3/vente/run http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra-entreprise/run http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.thierry-immobilier.fr/immobilier/notification/process http://www.thierry-immobilier.fr/agence/immobilier/imports/immobilier-nodes-count-update http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
 ######################################################################################
 
 ######################################################################################
