@@ -80,19 +80,19 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # lehagre-tp.fr
 #
-0 */3 * * * root $WGET http://www.lehagre-tp.fr/cron/UU0e3gMQNWySRWQNzVoiH4mbwcFN--TzLi337sLxpDX-CzqhPaWrwEK7NfwimgFIZu3UEZWzbQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.lehagre-tp.fr/cron/8VPrhdK4vdn3xOuzWp8mJiOLMShg3VMdemRZtwJBAkYVSjDUZy5Jv7L8f4ARpZf0It9QLtVcdg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # ecocdlp.com
 #
-0 */3 * * * root $WGET http://www.ecocdlp/cron/UU0e3gMQNWySRWQNzVoiH4mbwcFN--TzLi337sLxpDX-CzqhPaWrwEK7NfwimgFIZu3UEZWzbQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.ecocdlp/cron/CZk2Q-E-m4Mr3dwdJTYXnpxmMoBgi-h8Y0sx0ksiusNXYxgzO1yp6PUzpSH-uxXBzWN0Ph_IDg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # cuisines-jeanne.fr
 #
-0 */3 * * * root $WGET http://www.cuisines-jeanne.fr/cron/UU0e3gMQNWySRWQNzVoiH4mbwcFN--TzLi337sLxpDX-CzqhPaWrwEK7NfwimgFIZu3UEZWzbQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.cuisines-jeanne.fr/cron/WiT8n-2_jWeVSn4NJAXbl4QC-60-gSt2UgbBLpwjfG-CinZcnpuW8tAqXisBxRruq2ujJlWAng > /dev/null 2>&1
 ######################################################################################
