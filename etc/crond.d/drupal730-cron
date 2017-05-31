@@ -168,7 +168,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # campingjullouvillelespins.fr
 #
-0 */3 * * * root http://www.campingjullouvillelespins.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk
+0 */3 * * * root http://www.campingjullouvillelespins.fr/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4
 ######################################################################################
 
 ######################################################################################
@@ -419,7 +419,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # lavilla-labaule.com
 #
-0 */3 * * * root $WGET http://www.lavilla-labaule.com.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.lavilla-labaule.com/cron.php?cron_key=RDB2f8yOvMrXxj8x3oO_p08P-unaitScnoMvv6-MLEE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -640,7 +640,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # restaurantlamiral.fr
 #
-0 */3 * * * root $WGET http://www.restaurantlamiral.fr.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.restaurantlamiral.fr/cron.php?cron_key=RDB2f8yOvMrXxj8x3oO_p08P-unaitScnoMvv6-MLEE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
