@@ -561,7 +561,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # ouestboissons.fr
 #
-0 */3 * * * root $WGET http://www.ouestboissons.fr.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.ouestboissons.fr/cron.php?cron_key=sTKeMQ8JPi_fzxjeeAonWyPr-X9iXSfJmUpL6L0Ar88 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
