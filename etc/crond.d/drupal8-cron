@@ -96,3 +96,10 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 0 */3 * * * root $WGET http://www.cuisines-jeanne.fr/cron/WiT8n-2_jWeVSn4NJAXbl4QC-60-gSt2UgbBLpwjfG-CinZcnpuW8tAqXisBxRruq2ujJlWAng > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# rennescape.com
+#
+0 */3 * * * root $WGET http://www.rennescape.com/cron/WiT8n-2_jWeVSn4NJAXbl4QC-60-gSt2UgbBLpwjfG-CinZcnpuW8tAqXisBxRruq2ujJlWAng > /dev/null 2>&1
+######################################################################################
