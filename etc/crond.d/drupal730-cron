@@ -201,6 +201,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 ######################################################################################
 
 ######################################################################################
+#
+# conjonction-immo.com
+#
+0 */3 * * * root http://www.conjonction-immo.com/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4
+######################################################################################
+
+######################################################################################
 # 
 # Daniel Mouton
 #
@@ -349,7 +356,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # groupe-pandora.com
 #
-0 */3 * * * root $WGET http://www.groupe-pandora.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+0 */3 * * * root $WGET http://groupe-pandora.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
