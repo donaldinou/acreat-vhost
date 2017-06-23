@@ -101,5 +101,5 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # rennescape.com
 #
-0 */3 * * * root $WGET http://www.rennescape.com/cron/WiT8n-2_jWeVSn4NJAXbl4QC-60-gSt2UgbBLpwjfG-CinZcnpuW8tAqXisBxRruq2ujJlWAng > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.rennescape.com/cron/nGMtfiGWWjbMDiNBSanDl2rzFaTJdunEAJqnxEAtjX0OE7q_te4ULvQX5pVHLBD2_W5P4EUW3w > /dev/null 2>&1
 ######################################################################################
