@@ -59,6 +59,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# agencelaplage.fr
+#
+0 */3 * * * root $WGET http://www.agencelaplage.fr.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # alexandre-boutique.fr
 #
 0 */3 * * * root $WGET http://www.alexandre-boutique.fr/cron.php?cron_key=Mt6v9IA-AAw90sFz_-IB_SHXOcTqezw6LOTwJqZR9Dc > /dev/null 2>&1
