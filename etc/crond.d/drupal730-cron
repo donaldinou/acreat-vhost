@@ -97,7 +97,8 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # barnoud-immobilier.fr
 #
-0 */3 * * * root $WGET http://www.barnoud-immobilier.fr.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.barnoud-immobilier.fr/cron.php?cron_key=t_I1kmmx5HddbmypAV0si4qzTbI_ePNW4R18Cqfoaoo > /dev/null 2>&1
+40 3 * * * root $WGET http://www.barnoud-immobilier.fr/admin/immobilier/imports/connectimmo/run http://www.barnoud-immobilier.fr/admin/immobilier/imports/ics/run
 ######################################################################################
 
 ######################################################################################
