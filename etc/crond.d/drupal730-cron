@@ -25,7 +25,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # 2a-immo
 #
 0 */3 * * * root $WGET http://www.2a-immo.fr/cron.php?cron_key=altHD_TxYGiZgU75tRfEqOhMKxchukqyUXnpBZlf_2w > /dev/null 2>&1
-40 3 * * * root $WGET http://www.2a-immo.fr/admin/immobilier/imports/seiitra/run http://www.2a-immo.fr/admin/immobilier/notification/process
+40 3 * * * root $WGET http://www.2a-immo.fr/admin/immobilier/imports/rodacom/run http://www.2a-immo.fr/admin/immobilier/imports/seiitra/run http://www.2a-immo.fr/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -61,7 +61,8 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # agencelaplage.fr
 #
-0 */3 * * * root $WGET http://www.agencelaplage.fr.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.agencelaplage.fr/cron.php?cron_key=9X1MxJfSING-FYKMBzRvJCmEJz3PvgCdl-mXs1-8HUI > /dev/null 2>&1
+10 4 * * * root $WGET http://www.agencelaplage.fr/admin/immobilier/imports/consortium/execute
 ######################################################################################
 
 ######################################################################################
@@ -210,9 +211,16 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# lecomtesyndic.fr
+#
+0 */3 * * * root http://www.lecomtesyndic.fr.acreat.net/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # conjonction-immo.com
 #
-0 */3 * * * root http://www.conjonction-immo.com/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4
+0 */3 * * * root http://www.conjonction-immo.com/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -683,7 +691,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # sacib.com
 #
-0 */3 * * * root $WGET http://www.sacib.com.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.sacib.com.acreat.net/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################

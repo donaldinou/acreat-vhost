@@ -33,6 +33,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 # Agence Lemeur
 #
 #40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/ac3/vente/run
+40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/consortium/execute
 0 */3 * * * root $WGET http://www.agencelemeur.com/cron.php?cron_key=h3f_XBXfbCLjm58-of0ptYccSlwPK82xRCrt59ziZNw > /dev/null 2>&1
 ######################################################################################
 
