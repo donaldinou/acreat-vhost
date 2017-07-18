@@ -170,21 +170,21 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # laboucherierennaise.com
 #
-0 */3 * * * root http://www.laboucherierennaise.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk
+0 */3 * * * root $WGET http://www.laboucherierennaise.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # campingjullouvillelespins.fr
 #
-0 */3 * * * root http://www.campingjullouvillelespins.fr/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4
+0 */3 * * * root $WGET http://www.campingjullouvillelespins.fr/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # centraleimmo.fr
 #
-0 */3 * * * root http://www.centraleimmo.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk
+0 */3 * * * root $WGET http://www.centraleimmo.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 30 3 * * * root $WGET http://www.centraleimmo.fr/admin/immobilier/imports/ics/run
 ######################################################################################
 
@@ -740,8 +740,11 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # thierry-immobilier.fr
 #
-0 */3 * * * root $WGET http://www.thierry-immobilier.com/cron.php?cron_key=fg8-9quSWlljjFMN0jZRKDEjArr30nAwyW2gp8fdWco > /dev/null 2>&1
-5 5 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/ac3/vente/run http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra-entreprise/run http://www.thierry-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.thierry-immobilier.fr/immobilier/notification/process http://www.thierry-immobilier.fr/agence/immobilier/imports/immobilier-nodes-count-update http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
+0 */3 * * * root $WGET http://www.thierry-immobilier.com/cron.php?cron_key=YzPs2XWFV501E4c7QZPsYqQEWiiem_C1jccwlG7JDMY > /dev/null 2>&1
+5 5 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/vente/run http://www.thierry-immobilier.fr/admin/immobilier/imports/entreprise/run http://www.thierry-immobilier.fr/admin/immobilier/imports/location/run 
+30 5 * * * root $WGET http://www.thierry-immobilier.fr/immobilier/notification/process http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
+0 4 1 */3 * root $WGET http://www.thierry-immobilier.fr/acreat_kelquartier/refresh_portraits
+#30 5 * * * root $WGET http://www.thierry-immobilier.fr/agence/immobilier/imports/immobilier-nodes-count-update
 ######################################################################################
 
 ######################################################################################
