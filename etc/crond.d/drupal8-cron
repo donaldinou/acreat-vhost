@@ -87,7 +87,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # ecocdlp.com
 #
-0 */3 * * * root $WGET http://www.ecocdlp/cron/CZk2Q-E-m4Mr3dwdJTYXnpxmMoBgi-h8Y0sx0ksiusNXYxgzO1yp6PUzpSH-uxXBzWN0Ph_IDg > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.ecocdlp.com/cron/CZk2Q-E-m4Mr3dwdJTYXnpxmMoBgi-h8Y0sx0ksiusNXYxgzO1yp6PUzpSH-uxXBzWN0Ph_IDg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
