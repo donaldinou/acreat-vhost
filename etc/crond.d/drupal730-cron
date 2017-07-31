@@ -316,6 +316,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
+# gasnier agri
+#
+0 */3 * * * root $WGET http://www.gasnieragri.com/cron.php?cron_key=r0rLhhEAPVfwh2DHd57BB3BxzUslS5B3a2lTKH-zRZA > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # generaleimmobiliere73.com
 #
 0 */3 * * * root $WGET http://www.generaleimmobiliere73.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
