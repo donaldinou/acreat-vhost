@@ -318,7 +318,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # gasnier agri
 #
-0 */3 * * * root $WGET http://www.gasnieragri.com/cron.php?cron_key=r0rLhhEAPVfwh2DHd57BB3BxzUslS5B3a2lTKH-zRZA > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.gasnieragri.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
