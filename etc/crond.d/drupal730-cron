@@ -435,7 +435,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # imprimerie-mevennaise.fr
 #
-0 */3 * * * root $WGET http://www.imprimerie-mevennaise.fr.acreat.net/cron.php?cron_key=4KwXVCtwWzueSrpk9JflGL9hzhtZufWC7S1rekQjA1A > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.imprimerie-mevennaise.fr/cron.php?cron_key=4KwXVCtwWzueSrpk9JflGL9hzhtZufWC7S1rekQjA1A > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
