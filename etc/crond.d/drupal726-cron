@@ -142,17 +142,6 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 
 ######################################################################################
 #
-# lefeuvre-immobilier.com
-#
-30 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/entreprise/run
-35 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf/run
-40 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf-lot/run
-45 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/location/run
-50 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/vente/run
-######################################################################################
-
-######################################################################################
-#
 # lgbtvoyages.com
 #
 

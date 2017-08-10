@@ -453,6 +453,15 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 ######################################################################################
 
 ######################################################################################
+# 
+# lefeuvre-immobilier.com
+# 
+0 */3 * * * root $WGET http://www.lefeuvre-immobilier.com/cron.php?cron_key=DHmXEf2H97dwFhHhIC7BOA0sB4r7xmGHM4EyhcU-oDU > /dev/null 2>&1
+30 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/entreprise/run http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf/run http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf-lot/run
+35 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/location/run http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/vente/run
+######################################################################################
+
+######################################################################################
 #
 # leg-electricite.fr
 #
