@@ -2,7 +2,8 @@
 MAILTO=root
 
 ## -> no retry, timeout more than 1 hour, still output errors and content
-WGET="wget -nv -t 1 -T 9400 -O -"
+#WGET="wget --no-cache --no-check-certificate --non-verbose --tries=1 --timeout=9400 --read-timeout=9600 --output-document=-"
+WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-error --connect-timeout 60 --max-time 9600 --retry 1 --output - --url"
 
 ##
 # What time not to choose:
@@ -213,7 +214,7 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 # lecomtesyndic.fr
 #
-0 */3 * * * root http://www.lecomtesyndic.fr.acreat.net/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
+0 */3 * * * root http://www.lecomtesyndic.fr/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -252,6 +253,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 #
 0 */3 * * * root $WGET http://www.dlj-syndic.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 30 3 * * * root $WGET http://www.dlj-syndic.fr/admin/immobilier/imports/ac3/run http://www.dlj-syndic.fr/admin/immobilier/notification/process
+######################################################################################
+
+######################################################################################
+#
+# duros-musique.fr
+#
+0 */3 * * * root $WGET http://www.duros-musique.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -673,6 +681,13 @@ WGET="wget -nv -t 1 -T 9400 -O -"
 0 */3 * * * root $WGET http://www.regional-interim.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 40 3 * * * root $WGET http://www.regional-interim.fr/admin/regional-interim/imports-offres http://www.regional-interim.fr/admin/regional-interim/envoi-alertes
 0 11 * * * root $WGET http://www.regional-interim.fr/admin/regional-interim/imports-offres http://www.regional-interim.fr/admin/regional-interim/envoi-alertes
+######################################################################################
+
+######################################################################################
+#
+# rennesimmobilier.com
+#
+0 */3 * * * root $WGET http://www.rennesimmobilier.com/cron.php?cron_key=RDB2f8yOvMrXxj8x3oO_p08P-unaitScnoMvv6-MLEE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
