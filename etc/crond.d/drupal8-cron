@@ -2,7 +2,7 @@
 MAILTO=root
 
 ## -> no retry, timeout more than 1 hour, still output errors and content
-#WGET="wget --no-cache --no-check-certificate --non-verbose --tries=1 --timeout=9400 --read-timeout=9600 --output-document=-"
+#WGET="wget --no-cache --no-check-certificate --non-verbose --tries=1 --timeout=9600 --read-timeout=9600 --output-document=-"
 WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-error --connect-timeout 60 --max-time 9600 --retry 1 --output - --url"
 
 ##
@@ -20,6 +20,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # |  |  |  |  .---- day of week (0 - 6) (Sunday=0 or 7) OR sun,mon,tue,wed,thu,fri,sat
 # |  |  |  |  |
 # *  *  *  *  * user-name command to be executed
+
+######################################################################################
+#
+# latest.acrea
+#
+0 */3 * * * root $WGET http://latest.acreat.com/cron/kWrAOa1ouPmUW5Bepvrh1uqNFmF_6iZXadyyi2vrBdo0hd8VV49-CzudVLCjnXexsXx4JKnf-A > /dev/null 2>&1
+######################################################################################
 
 ######################################################################################
 #
