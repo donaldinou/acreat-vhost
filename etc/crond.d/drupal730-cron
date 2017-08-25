@@ -183,6 +183,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# Cap malo
+#
+0 */3 * * * root $WGET http://www.cap-malo.com/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # centraleimmo.fr
 #
 0 */3 * * * root $WGET http://www.centraleimmo.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
