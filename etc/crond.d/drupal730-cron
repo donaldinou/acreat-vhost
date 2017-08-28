@@ -399,6 +399,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# gynecologie-rennes.fr
+#
+0 */3 * * * root $WGET http://www.gynecologie-rennes.fr.acreat.net/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # hifi35.com
 #
 0 */3 * * * root $WGET http://www.hifi35.com/cron.php?cron_key=tmZRaO-pA4kDMgugKcLlGDLQwDtxt9jvswUlRXevQYk > /dev/null 2>&1
