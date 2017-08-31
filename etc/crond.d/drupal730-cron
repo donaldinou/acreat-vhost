@@ -341,6 +341,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # gasnier agri
 #
 0 */3 * * * root $WGET http://www.gasnieragri.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
+40 4 * * * root $WGET http://www.gasnieragri.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################
@@ -349,7 +350,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 0 */3 * * * root $WGET http://www.generaleimmobiliere73.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 30 4 * * * root $WGET http://www.generaleimmobiliere73.com/admin/immobilier/imports/connectimmo/run
-40 4 * * * root $WGET http://www.generaleimmobiliere73.com/immobilier/notification/process
+50 4 * * * root $WGET http://www.generaleimmobiliere73.com/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
