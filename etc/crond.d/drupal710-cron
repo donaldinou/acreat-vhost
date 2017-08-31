@@ -3,7 +3,7 @@ MAILTO=root
 
 ## -> no retry, timeout more than 1 hour, still output errors and content
 #WGET="wget --no-cache --no-check-certificate --non-verbose --tries=1 --timeout=9600 --read-timeout=9400 --output-document=-"
-WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-error --connect-timeout 60 --max-time 9600 --retry 1 --output - --url"
+WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-error --connect-timeout 300 --max-time 9600 --retry 0 --output - --url"
 
 ##
 # What time not to choose:
