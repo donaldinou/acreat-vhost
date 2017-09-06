@@ -57,13 +57,6 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# binois
-#
-0 */3 * * * root $WGET http://www.binois-menuiserie.fr/cron.php?cron_key=QpG7tUf6NZfOe1t4mWmdPJCtXGl_zPiTGStV3E2xNT0 > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
 # Cabinet Martin
 #
 0 */3 * * * root $WGET http://cabinet-martin.fr/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1

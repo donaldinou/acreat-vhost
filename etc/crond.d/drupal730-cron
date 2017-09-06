@@ -129,6 +129,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# binois
+#
+0 */3 * * * root $WGET http://www.binois-menuiserie.fr/cron.php?cron_key=QpG7tUf6NZfOe1t4mWmdPJCtXGl_zPiTGStV3E2xNT0 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # bistrot-du-palais.fr
 #
 0 */3 * * * root $WGET http://www.bistrot-du-palais.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
