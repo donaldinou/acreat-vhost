@@ -116,7 +116,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # kristoffdroy
 #
-0 */3 * * * root $WGET http://www.kristoffdroy.fr.acreat.net/cron/nHNl6CDxhiM3fxdSUUocm-oeq_c33t5NrGzNI1_kwrsWSRQ3h3yfGTTIP8m5MEiyH2c2FG4ecA > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.kristoffdroy.fr/cron/nHNl6CDxhiM3fxdSUUocm-oeq_c33t5NrGzNI1_kwrsWSRQ3h3yfGTTIP8m5MEiyH2c2FG4ecA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################

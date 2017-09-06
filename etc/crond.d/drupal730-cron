@@ -172,7 +172,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # brilhac.com
 #
-0 */3 * * * root $WGET http://www.brilhac.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.brilhac.com.acreat.net/cron.php?cron_key=c-oUHLQfugKWAao8SbIjtgkm_qvfiCddKiXg8axnpmU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
