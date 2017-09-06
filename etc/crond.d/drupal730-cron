@@ -582,6 +582,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# natterip.com
+#
+0 */3 * * * root $WGET http://www.natterip.com/cron.php?cron_key=MVUW_eWtJQVZ8G-MGd78w2A2E4QHcXb5J54Bc81oLc4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # newr.fr
 #
 0 */3 * * * root $WGET http://www.newr.fr/cron.php?cron_key=V3VxThIszDaoAwRNJXbXEP6nZXVzxv0QnY3U42f1-4I > /dev/null 2>&1
