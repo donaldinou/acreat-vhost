@@ -172,11 +172,6 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# sarlherve.fr
-#
-
-######################################################################################
-#
 # SBM IMMO
 #
 0 6 * * * root $WGET http://www.sbm-immo.com/admin/immobilier/imports/vente/run http://www.sbm-immo.com/admin/immobilier/imports/location/run

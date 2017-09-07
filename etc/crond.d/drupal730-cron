@@ -757,9 +757,9 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# Schatzipark.fr
+# sarlherve.fr
 #
-0 */3 * * * root $WGET http://www.schatzipark.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.sarlherve.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -774,6 +774,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # extranet-promotion.sacib.com
 #
 0 */3 * * * root $WGET http://extranet.sacib.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# Schatzipark.fr
+#
+0 */3 * * * root $WGET http://www.schatzipark.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
