@@ -126,6 +126,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# bellecour-assurances.fr
+#
+0 */3 * * * root $WGET http://www.bellecour-assurances.fr/cron.php?cron_key=gdngCbPu0eJl26G6UrvAf06EqufKpVbURAa5fZ-qOXI > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # beneat-chauvel.com
 #
 0 */3 * * * root $WGET http://www.beneat-chauvel.com.acreat.net/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1

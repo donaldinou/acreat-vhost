@@ -40,11 +40,6 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# bellecour-assurance.fr
-#
-
-######################################################################################
-#
 # Cabinet Martin
 #
 0 */3 * * * root $WGET http://cabinet-martin.fr/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
