@@ -40,13 +40,6 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# atrio-gp.fr
-#
-0 */3 * * * root $WGET http://www.atrio-gp.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
 # bar-leroyal.fr
 #
 
