@@ -139,11 +139,6 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# maisondugeneral.com
-#
-
-######################################################################################
-#
 # maisonhamster.com
 #
 0 */3 * * * root $WGET http://www.maisonshamster.com/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1

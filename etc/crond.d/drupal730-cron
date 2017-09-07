@@ -561,6 +561,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# www.maisondugeneral.com
+#
+0 */3 * * * root $WGET http://www.maisondugeneral.com/cron.php?cron_key=r9In1vqq1kllEPjI6y1JjhhJV9K06I_NZjWGahz7hco > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # mdo.com.fr
 #
 0 */3 * * * root $WGET http://www.mdo.com.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
