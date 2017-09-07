@@ -820,6 +820,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# Salonespritmaison.com
+#
+0 */3 * * * root $WGET http://www.salonespritmaison.com/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # extranet-promotion.secib-immobilier.com
 #
 0 */3 * * * root $WGET http://extranet-promotion.secib-immobilier.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
