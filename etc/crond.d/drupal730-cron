@@ -104,6 +104,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# bar-leroyal.fr
+# 
+0 */3 * * * root $WGET http://www.bar-leroyal.fr/cron.php?cron_key=SogNj3HgJ5kyMJnACc_UJWagMwV8Xg3IEiycnmCpVHs > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # barnoud-immobilier.fr
 #
 0 */3 * * * root $WGET http://www.barnoud-immobilier.fr/cron.php?cron_key=t_I1kmmx5HddbmypAV0si4qzTbI_ePNW4R18Cqfoaoo > /dev/null 2>&1
