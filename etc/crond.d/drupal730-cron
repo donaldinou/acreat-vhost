@@ -759,7 +759,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # sarlherve.fr
 #
-0 */3 * * * root $WGET http://www.sarlherve.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.sarlherve.fr/cron.php?cron_key=8OjLT50effzmlB9NtF5K-qrqw9KnhmxMperRzBD-oLM > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
