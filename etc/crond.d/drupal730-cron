@@ -329,6 +329,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# expressivetherapycenter.com
+#
+0 */3 * * * root $WGET http://www.expressivetherapycenter.com/cron.php?cron_key=rdBl4ygS8Dqpopd4HwYQjcD1pYf3Vp3JXr97rQw1fIg > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # fafin-electricite.fr
 #
 0 */3 * * * root $WGET http://www.fafin-electricite.fr/cron.php?cron_key=wdCm7KcVpWx0rvAkKku3YYq4za3YUAvWhmfVLaT6k6w > /dev/null 2>&1
