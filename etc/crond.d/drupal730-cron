@@ -596,6 +596,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# maisonhamster.com
+#
+0 */3 * * * root $WGET http://www.maisonshamster.com/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # mc2avocat.fr
 #
 0 */3 * * * root $WGET http://www.mc2avocat.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
@@ -613,6 +620,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # mgeffray-immobilier.fr
 #
 0 */3 * * * root $WGET http://www.mgeffray-immobilier.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+#0 3 * * * root $WGET https://www.mgeffray-immobilier.fr/admin/immobilier/imports/ics/run
 ######################################################################################
 
 ######################################################################################
