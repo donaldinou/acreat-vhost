@@ -123,13 +123,6 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# mc2avocat.fr
-#
-0 */3 * * * root $WGET http://www.mc2avocat.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
 # mgeffray-immobilier.fr
 #
 

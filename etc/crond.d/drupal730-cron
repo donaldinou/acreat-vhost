@@ -589,9 +589,16 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# www.maisondugeneral.com
+# maisondugeneral.com
 #
 0 */3 * * * root $WGET http://www.maisondugeneral.com/cron.php?cron_key=r9In1vqq1kllEPjI6y1JjhhJV9K06I_NZjWGahz7hco > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# mc2avocat.fr
+#
+0 */3 * * * root $WGET http://www.mc2avocat.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
