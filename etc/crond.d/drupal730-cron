@@ -779,6 +779,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# prigent-associes.fr
+#
+0 */3 * * * root $WGET http://www.prigent-associes.fr/cron.php?cron_key=QXeZGZXmxu5dTj2Q2JkRfC7WyrOzojFtteyvVIL6tvo > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # quatreb.fr
 #
 0 */3 * * * root $WGET http://www.quatreb.fr/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
