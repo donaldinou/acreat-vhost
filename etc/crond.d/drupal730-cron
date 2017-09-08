@@ -212,6 +212,15 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# Cabinet Martin
+#
+0 */3 * * * root $WGET http://cabinet-martin.fr/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
+0 3 * * * root $WGET http://www.cabinet-martin.fr/admin/immobilier/imports/ac3/location/run
+10 3 * * * root $WGET http://www.cabinet-martin.fr/admin/immobilier/imports/ac3/vente/run
+######################################################################################
+
+######################################################################################
+#
 # campingjullouvillelespins.fr
 #
 0 */3 * * * root $WGET http://www.campingjullouvillelespins.fr/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1

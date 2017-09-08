@@ -40,16 +40,6 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# Cabinet Martin
-#
-0 */3 * * * root $WGET http://cabinet-martin.fr/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
-0 3 * * * root $WGET http://www.cabinet-martin.fr/admin/immobilier/imports/ac3/location/run
-10 3 * * * root $WGET http://www.cabinet-martin.fr/admin/immobilier/imports/ac3/vente/run
-
-######################################################################################
-
-######################################################################################
-#
 # Cap Transactions
 #
 20 5 * * * root $WGET http://www.cap-transactions.com/admin/immobilier/imports/entreprise/run http://www.cap-transactions.com/admin/immobilier/imports/fdc/run http://www.cap-transactions.com/admin/immobilier/imports/pdp/run http://www.cap-transactions.com/admin/immobilier/notification/process
