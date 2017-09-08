@@ -610,6 +610,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# mgeffray-immobilier.fr
+#
+0 */3 * * * root $WGET http://www.mgeffray-immobilier.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # menlog.fr
 #
 0 */3 * * * root $WGET http://www.menlog.fr/cron.php?cron_key=MYniDlVn6YSXAQcUqqW20IpQHXG0a-o7cMqbf2KsH_M > /dev/null 2>&1
