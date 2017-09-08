@@ -536,6 +536,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 # 
+# le5-restaurant
+# 
+0 */3 * * * root $WGET http://www.le5-restaurant.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+# 
 # lefeuvre-immobilier.com
 # 
 0 */3 * * * root $WGET http://www.lefeuvre-immobilier.com/cron.php?cron_key=DHmXEf2H97dwFhHhIC7BOA0sB4r7xmGHM4EyhcU-oDU > /dev/null 2>&1
