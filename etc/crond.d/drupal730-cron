@@ -68,6 +68,15 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# Agence Lemeur
+#
+#40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/ac3/vente/run
+40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/consortium/execute
+0 */3 * * * root $WGET http://www.agencelemeur.com/cron.php?cron_key=h3f_XBXfbCLjm58-of0ptYccSlwPK82xRCrt59ziZNw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # alexandre-boutique.fr
 #
 0 */3 * * * root $WGET http://www.alexandre-boutique.fr/cron.php?cron_key=Mt6v9IA-AAw90sFz_-IB_SHXOcTqezw6LOTwJqZR9Dc > /dev/null 2>&1
@@ -740,6 +749,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # Pertuisel
 #
 0 */3 * * * root $WGET http://www.pertuisel-batiment.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# groupe-pigeon.com
+#
+0 */3 * * * root $WGET http://www.groupe-pigeon.com.acreat.net/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
