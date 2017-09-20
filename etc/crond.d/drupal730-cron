@@ -407,6 +407,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# gasnier promo
+#
+0 */3 * * * root $WGET http://www.gasnierpromotion.com.acreat.net/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # generaleimmobiliere73.com
 #
 0 */3 * * * root $WGET http://www.generaleimmobiliere73.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
