@@ -816,6 +816,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# racines-restaurant.fr
+#
+0 */3 * * * root $WGET http://www.racines-restaurant.fr.acreat.net/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # regional-interim.fr
 #
 0 */3 * * * root $WGET http://www.regional-interim.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
