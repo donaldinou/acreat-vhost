@@ -862,7 +862,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # sacib.com
 #
-0 */3 * * * root $WGET http://www.sacib.com.acreat.net/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.sacib.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
