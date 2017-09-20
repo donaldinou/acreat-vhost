@@ -38,6 +38,14 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# Abita
+#
+0 */3 * * * root $WGET http://www.abita-immobilier.com/cron.php?cron_key=WM4BFxPwqb1yUxjIa0jCLyd7qtGVwLDJd43oKTotTUo > /dev/null 2>&1
+10 2 * * * root $WGET http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/1 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/2 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/3 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/4 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/5 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/6 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/177
+######################################################################################
+
+######################################################################################
+#
 # acreat.com
 #
 0 */3 * * * root $WGET http://www.acreat.com/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
