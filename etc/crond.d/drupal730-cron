@@ -153,7 +153,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # beneat-chauvel.com
 #
 0 */3 * * * root $WGET http://www.beneat-chauvel.com/cron.php?cron_key=zZCydoVgjikxHwwFcAOsBqyisbaWhapRTNJ5a_rdkIA > /dev/null 2>&1
-0 2 * * * root $WGET http://www.beneat-chauvel.com/admin/immobilier/imports/ac3/run http://www.beneat-chauvel.com/admin/immobilier/imports/seiitra/run
+0 2 * * * root $WGET http://www.beneat-chauvel.com/admin/immobilier/imports/ac3/run http://www.beneat-chauvel.com/admin/immobilier/imports/seiitra/run http://www.beneat-chauvel.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -492,7 +492,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # gynecologie-rennes.fr
 #
-0 */3 * * * root $WGET http://www.gynecologie-rennes.fr.acreat.net/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.gynecologie-rennes.fr/cron.php?cron_key=PdJc3WFpB2zjcIFd0ym7BYIHTvvFO1LutxBCrqaJomo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
