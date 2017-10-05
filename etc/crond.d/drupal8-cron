@@ -123,5 +123,5 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # mind-group
 #
-0 */3 * * * root $WGET http://www.mind-group.fr.acreat.net/cron/nGMtfiGWWjbMDiNBSanDl2rzFaTJdunEAJqnxEAtjX0OE7q_te4ULvQX5pVHLBD2_W5P4EUW3w > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.mind-group.fr/cron/nGMtfiGWWjbMDiNBSanDl2rzFaTJdunEAJqnxEAtjX0OE7q_te4ULvQX5pVHLBD2_W5P4EUW3w > /dev/null 2>&1
 ######################################################################################
