@@ -125,3 +125,10 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 0 */3 * * * root $WGET http://www.mind-group.fr/cron/l7cC6XLbxuxdaSmDPWZts9OJXzeIZoHR0fDIuzAzhUpxjke7U6DUdZqT_2Wz-q08JMKYLH-Ntw > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# hvtcontrol
+#
+0 */3 * * * root $WGET http://www.hvtcontrol.fr.acreat.net/cron/l7cC6XLbxuxdaSmDPWZts9OJXzeIZoHR0fDIuzAzhUpxjke7U6DUdZqT_2Wz-q08JMKYLH-Ntw > /dev/null 2>&1
+######################################################################################
