@@ -848,7 +848,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # racines-restaurant.fr
 #
-0 */3 * * * root $WGET http://www.racines-restaurant.fr/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.racines-restaurant.fr/cron.php?cron_key=8tz86gdT8hf1lktoLfBhk3C_u6-0njlUhi5Xys-KDks > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -864,7 +864,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # rennesimmobilier.com
 #
-0 */3 * * * root $WGET http://www.rennesimmobilier.com.acreat.net/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.rennesimmobilier.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
