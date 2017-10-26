@@ -106,6 +106,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# archi_tec.net
+# 
+0 */3 * * * root $WGET http://www.archi-tec.net.acreat.net/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # atrio-gp.fr
 # 
 0 */3 * * * root $WGET http://www.atrio-gp.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
@@ -866,6 +873,14 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 0 */3 * * * root $WGET http://www.rennesimmobilier.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
 40 3 * * * root $WGET http://www.rennesimmobilier.com/admin/immobilier/imports/ac3/run http://www.rennesimmobilier.com/admin/immobilier/notification/process
+######################################################################################
+
+######################################################################################
+#
+# RENNES VOLLEY
+#
+36 1 * * * root $WGET http://www.rennesvolley35.fr/rennesvolley_m/classement/update
+39 1 * * * root $WGET http://www.rennesvolley35.fr/rennesvolley_m/calendrier/update
 ######################################################################################
 
 ######################################################################################

@@ -65,11 +65,3 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # pelatre-tp.com
 #
-
-######################################################################################
-#
-# RENNES VOLLEY
-#
-36 1 * * * root $WGET http://www.rennesvolley35.fr/rennesvolley_m/classement/update
-39 1 * * * root $WGET http://www.rennesvolley35.fr/rennesvolley_m/calendrier/update
-######################################################################################
