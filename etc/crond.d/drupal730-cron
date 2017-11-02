@@ -108,7 +108,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # archi_tec.net
 # 
-0 */3 * * * root $WGET http://www.archi-tec.net.acreat.net/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.archi-tec.net.acreat.net/cron.php?cron_key=O1h4W-YZUAs31YqRH697q2GwLEFVi7RizKWlWlKTdp4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -255,6 +255,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # Cap malo
 #
 0 */3 * * * root $WGET http://www.cap-malo.com/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# Cap malo
+#
+0 */3 * * * root $WGET http://www.charcuterie-joly.fr/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -879,6 +886,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # RENNES VOLLEY
 #
+0 */3 * * * root $WGET http://www.rennesvolley35.fr.acreat.net/cron.php?cron_key=v1WC7-BhkuJXmje5Olu6kMzufCq8FtRtMEaB3ySFbI0 > /dev/null 2>&1
 36 1 * * * root $WGET http://www.rennesvolley35.fr/rennesvolley_m/classement/update
 39 1 * * * root $WGET http://www.rennesvolley35.fr/rennesvolley_m/calendrier/update
 ######################################################################################
