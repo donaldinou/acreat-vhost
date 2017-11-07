@@ -216,7 +216,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # bras
 #
 #10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/pericles/run
-10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/ac3/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
+10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/ac3/run https://www.bras-immobilier.fr/admin/immobilier/imports/ac3-entreprise/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
 0 */3 * * * root $WGET http://www.bras-immobilier.fr/cron.php?cron_key=0VTqUz2t_TlbKMH1i2QsDDg7wkUmHSHz-w-ar8XKOwA > /dev/null 2>&1
 ######################################################################################
 
