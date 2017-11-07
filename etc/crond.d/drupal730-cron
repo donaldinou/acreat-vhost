@@ -432,7 +432,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # gasnier promo
 #
 0 */3 * * * root $WGET http://www.gasnierpromotion.com/cron.php?cron_key=jcpi_i0AcsCDYn0cCp4-K0AT8tCoOAuiDMZPa9m-iV8 > /dev/null 2>&1
-30 4 * * * root $WGET http://www.gasnierpromotion.com/admin/immobilier/notification/process
+30 4 * * * root $WGET http://www.gasnierpromotion.com/admin/immobilier/imports/ac3/run http://www.gasnierpromotion.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
