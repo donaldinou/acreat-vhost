@@ -258,9 +258,16 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# Cap malo
+# Charcuterie Joly
 #
 0 */3 * * * root $WGET http://www.charcuterie-joly.fr/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# Traiteur Joly
+#
+0 */3 * * * root $WGET http://www.traiteur-joly.fr/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
