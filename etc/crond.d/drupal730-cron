@@ -503,7 +503,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # Groupe Jeulin
 #
-0 */3 * * * root $WGET http://www.groupejeulin-immobilier.com.acreat.net/cron.php?cron_key=bOvXHw2MNvc9iiJwzmTYIXIyEoCxS1OT66iOR7SQRn0 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.groupejeulin-immobilier.com/cron.php?cron_key=bOvXHw2MNvc9iiJwzmTYIXIyEoCxS1OT66iOR7SQRn0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1000,7 +1000,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # strateys.com
 #
-0 */3 * * * root $WGET http://www.strateys.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.strateys.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
