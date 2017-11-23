@@ -956,6 +956,14 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 ######################################################################################
 
 ######################################################################################
+# 
+# SBM IMMO
+#
+0 */3 * * * root $WGET http://www.sbm-immo.com/cron.php?cron_key=k6hqJc1EPuz28Q4tCV-eGzTW8XnbUTPChuDkLqEH7Ak > /dev/null 2>&1
+0 6 * * * root $WGET http://www.sbm-immo.com/admin/immobilier/imports/vente/run http://www.sbm-immo.com/admin/immobilier/imports/location/run
+######################################################################################
+
+######################################################################################
 #
 # Schatzipark.fr
 #
