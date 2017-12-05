@@ -183,7 +183,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # bistrot-du-palais.fr
 #
-0 */3 * * * root $WGET http://www.bistrot-du-palais.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.le-palatium.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -206,7 +206,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # boulangerie-patisserie-chocolaterie-coupel-rennes.fr
 #
-0 */3 * * * root $WGET http://www.boulangerie-patisserie-chocolaterie-coupel-rennes.fr.acreat.net/cron.php?cron_key=kE36YZL-qwQD3vWpfumJK5Ha9j-EOOUNIvrnS-nZJWo > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.coupel-boulangerie-patisserie.fr/cron.php?cron_key=6-odqU__HHbZaoWgsDXyHFg6_qSx1kVpBY1n2aGKrt4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -282,7 +282,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # Traiteur Joly
 #
-0 */3 * * * root $WGET http://www.traiteur-joly.fr/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.traiteur-joly.fr/cron.php?cron_key=97S1Pvv4F8RG_YYVYauWvMxK-MJIgIb_GSIKNc4Gcf0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -834,7 +834,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # pigeaultimmobilier.com
 #
-0 */3 * * * root $WGET http://www.pigeaultimmobilier.com.acreat.net/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.pigeaultimmobilier.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
