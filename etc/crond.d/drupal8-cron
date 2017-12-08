@@ -167,3 +167,17 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 0 */3 * * * root $WGET http://www.chezedgar.fr.acreat.net/cron/QjVF2E9Fv-qCUnDlqQWNf8cD-8T2ycdEJXtQJmE5w3Rb66QkFgzq27hRimhfGU5FPV4YwL-2LA > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# financeetcourtage.com
+#
+0 */3 * * * root $WGET http://www.financeetcourtage.com.acreat.net/cron/QjVF2E9Fv-qCUnDlqQWNf8cD-8T2ycdEJXtQJmE5w3Rb66QkFgzq27hRimhfGU5FPV4YwL-2LA > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# riskinnov
+#
+0 */3 * * * root $WGET http://www.riskinnov.fr.acreat.net/cron/QjVF2E9Fv-qCUnDlqQWNf8cD-8T2ycdEJXtQJmE5w3Rb66QkFgzq27hRimhfGU5FPV4YwL-2LA > /dev/null 2>&1
+######################################################################################
