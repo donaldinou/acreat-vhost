@@ -71,7 +71,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # agencelaplage.fr
 #
 0 */3 * * * root $WGET http://www.agencelaplage.fr/cron.php?cron_key=9X1MxJfSING-FYKMBzRvJCmEJz3PvgCdl-mXs1-8HUI > /dev/null 2>&1
-10 4 * * * root $WGET http://www.agencelaplage.fr/admin/immobilier/imports/consortium/execute
+10 4 * * * root $WGET http://www.agencelaplage.fr/admin/immobilier/imports/hektor/execute
 ######################################################################################
 
 ######################################################################################
@@ -79,7 +79,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # Agence Lemeur
 #
 #40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/ac3/vente/run
-40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/consortium/execute
+40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/hektor/execute
 0 */3 * * * root $WGET http://www.agencelemeur.com/cron.php?cron_key=h3f_XBXfbCLjm58-of0ptYccSlwPK82xRCrt59ziZNw > /dev/null 2>&1
 ######################################################################################
 
