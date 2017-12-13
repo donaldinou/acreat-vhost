@@ -169,15 +169,15 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # financeetcourtage.com
 #
-0 */3 * * * root $WGET http://www.financeetcourtage.com.acreat.net/cron/QjVF2E9Fv-qCUnDlqQWNf8cD-8T2ycdEJXtQJmE5w3Rb66QkFgzq27hRimhfGU5FPV4YwL-2LA > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.financeetcourtage.com.acreat.net/cron/tC0ZI2sk0Mc6iBNpkQzaOAMaSvbSOG6wI6pfQt9LdQ9rNPfqvpFnS-Mb_tpbgLdpp6WwI-BENg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # riskinnov
-#
-0 */3 * * * root $WGET http://www.riskinnov.fr.acreat.net/cron/QjVF2E9Fv-qCUnDlqQWNf8cD-8T2ycdEJXtQJmE5w3Rb66QkFgzq27hRimhfGU5FPV4YwL-2LA > /dev/null 2>&1
+# 
+0 */3 * * * root $WGET http://www.riskinnov.fr.acreat.net/cron/XAwqonuiLrL2Qg4--Rf2vnv1Ic3aB8Do-ybfk1M8dN1n6Jp0EVCnshqeLmucaIyj7qeB0WwdYg > /dev/null 2>&1
 ######################################################################################
