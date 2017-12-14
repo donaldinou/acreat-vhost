@@ -460,7 +460,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # gasnier maisonsindividuelles
 #
-0 */3 * * * root $WGET http://www.gasniermaisonsindividuelles.com.acreat.net/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.gasniermaisonsindividuelles.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
