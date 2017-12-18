@@ -120,6 +120,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# arcomex.fr
+# 
+0 */3 * * * root $WGET http://www.arcomex.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # axiopro.fr
 #
 0 */3 * * * root $WGET http://www.axiopro.fr/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
