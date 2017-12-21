@@ -266,6 +266,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# cab-quiniou.com
+#
+0 */3 * * * root $WGET http://www.cab-quiniou.com.acreat.net/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # campingjullouvillelespins.fr
 #
 0 */3 * * * root $WGET http://www.campingjullouvillelespins.fr/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
