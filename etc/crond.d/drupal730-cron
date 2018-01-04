@@ -268,7 +268,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # cab-quiniou.com
 #
-0 */3 * * * root $WGET http://www.cab-quiniou.com.acreat.net/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.cab-quiniou.com.acreat.net/cron.php?cron_key=1mugSkPWnyUH-kZ3eKDFMQ3VUja3RmXsoQMhNw48G7s > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -834,7 +834,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # groupe-pigeon.com
 #
-0 */3 * * * root $WGET http://www.groupe-pigeon.com.acreat.net/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.groupe-pigeon.com/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1035,8 +1035,9 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# thierry-immobilier.fr
+# thierry-immobilier.fr & nanteus
 #
+0 */3 * * * root $WGET http://www.location-studio-nanteus.fr.acreat.net/cron.php?cron_key=YzPs2XWFV501E4c7QZPsYqQEWiiem_C1jccwlG7JDMY > /dev/null 2>&1
 0 */3 * * * root $WGET http://www.thierry-immobilier.fr/cron.php?cron_key=YzPs2XWFV501E4c7QZPsYqQEWiiem_C1jccwlG7JDMY > /dev/null 2>&1
 5 5 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/vente/run http://www.thierry-immobilier.fr/admin/immobilier/imports/entreprise/run http://www.thierry-immobilier.fr/admin/immobilier/imports/location/run 
 30 5 * * * root $WGET http://www.thierry-immobilier.fr/immobilier/notification/process http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
