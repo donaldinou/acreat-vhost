@@ -245,8 +245,8 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # bretagne-proprietes.com
 #
-0 */3 * * * root $WGET http://www.bretagne-proprietes.com.acreat.net/cron.php?cron_key=B4XPsq_wzjTu8tUBSUQndpm473WiIEpX36YE8dCgmLM > /dev/null 2>&1
-0 2 * * * root $WGET http://www.bretagne-proprietes.com.acreat.net/en/admin/immobilier/imports/ac3/run
+0 */3 * * * root $WGET http://www.bretagne-proprietes.com/cron.php?cron_key=B4XPsq_wzjTu8tUBSUQndpm473WiIEpX36YE8dCgmLM > /dev/null 2>&1
+0 2 * * * root $WGET http://www.bretagne-proprietes.com/admin/immobilier/imports/ac3/run http://www.bretagne-proprietes.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
