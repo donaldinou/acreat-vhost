@@ -528,6 +528,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 0 */3 * * * root $WGET http://terrains.groupe-launay.com/cron.php?cron_key=9a8u8Qq5PGUG1kw6hcA-cI0sniJ6-EQTfz14c3xwTAM > /dev/null 2>&1
 0 */3 * * * root $WGET http://promotion.groupe-launay.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 0 2 * * * root $WGET http://promotion.groupe-launay.com/admin/espace-promotion/options-maj http://promotion.groupe-launay.com/alertes-process
+20 5 * * * root $WGET https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-licorn/xml
 30 6,10,12,14,16 * * * root $WGET http://promotion.groupe-launay.com/admin/espace-promotion/programmes-export/xml && $WGET http://promotion.groupe-launay.com/admin/espace-promotion/programmes-export/upload
 ######################################################################################
 
@@ -1044,7 +1045,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # thierry-immobilier.fr & nanteus
 #
-0 */3 * * * root $WGET http://www.location-studio-nanteus.fr.acreat.net/cron.php?cron_key=VZnPcGoqHXnDSpW7tKW3kbUx-XrCNULUd0un_IzpUCg > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.location-studio-nanteus.fr/cron.php?cron_key=VZnPcGoqHXnDSpW7tKW3kbUx-XrCNULUd0un_IzpUCg > /dev/null 2>&1
 0 */3 * * * root $WGET http://www.thierry-immobilier.fr/cron.php?cron_key=YzPs2XWFV501E4c7QZPsYqQEWiiem_C1jccwlG7JDMY > /dev/null 2>&1
 5 5 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/vente/run http://www.thierry-immobilier.fr/admin/immobilier/imports/entreprise/run http://www.thierry-immobilier.fr/admin/immobilier/imports/location/run 
 30 5 * * * root $WGET http://www.thierry-immobilier.fr/immobilier/notification/process http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
