@@ -592,7 +592,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # hotel-la-reposee.com
 #
-0 */3 * * * root $WGET http://www.hotel-la-reposee.com.acreat.net/cron.php?cron_key=ZW--FFEyrE6ljS42qvyrKo0nU78IrF2qRbkxi5E9xpw > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.hotel-la-reposee.com/cron.php?cron_key=HSgIkH-SM_lPoJdKhePwYsKDETbxnO4UkkYwE-IRIME  > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
