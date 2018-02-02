@@ -28,8 +28,8 @@
 127.0.0.1 maison-dumont.fr.acreat.net www.maison-dumont.fr.acreat.net
 127.0.0.1 coupelchocolaterie.fr.acreat.net www.coupelchocolaterie.fr.acreat.net
 127.0.0.1 chezedgar.fr www.chezedgar.fr
-127.0.0.1 financeetcourtage.com.acreat.net www.financeetcourtage.com.acreat.net
-127.0.0.1 riskinnov.fr www.riskinnov.fr
+127.0.0.1 financeetcourtage.com www.financeetcourtage.com
+127.0.0.1 riskinnov.fr www.riskinnov.fr riskinnov.com www.riskinnov.com riskinnov.ch www.riskinnov.ch riskinnov.de www.riskinnov.de
 127.0.0.1 airedesportesdebretagne.fr.acreat.net www.airedesportesdebretagne.fr.acreat.net
 
 # 730
@@ -176,6 +176,7 @@
 127.0.0.1 location-studio-nanteus.fr www.location-studio-nanteus.fr
 127.0.0.1 hotel-la-reposee.com wwww.hotel-la-reposee.com
 127.0.0.1 pozzo-immobilier.fr.acreat.net wwww.pozzo-immobilier.fr.acreat.net
+127.0.0.1 lignhabitat.fr www.lignhabitat.fr
 
 # 726
 127.0.0.1 cap-transactions.com www.cap-transactions.com

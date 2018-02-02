@@ -384,7 +384,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # durosmusique.fr
 #
-0 */3 * * * root $WGET http://www.durosmusique.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.durosmusique.fr/cron.php?cron_key=yFZMvlg9Yy7vOA824P7OVJVSThygZ4rvxrJ-zG-oAec > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -673,6 +673,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # lg2i
 #
 0 */3 * * * root $WGET http://www.lg2i.fr/cron.php?cron_key=UI34s2cLykq0x115DrNsVsYW-xIOy54gU0f0trkV8L4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# lignhabitat.fr
+#
+0 */3 * * * root $WGET http://www.lignhabitat.fr/cron.php?cron_key=GBxW6qnmcGXjyG6TB4gKjNzrYq4Jddu9gjmPdx1Aw-4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
