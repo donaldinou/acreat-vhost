@@ -55,7 +55,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # immo.acreat.com
 #
-0 */3 * * * root $WGET http://immo.acreat.com/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
+0 */3 * * * root $WGET http://immo.acreat.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1094,4 +1094,11 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # westevenement.com
 #
 0 */3 * * * root $WGET http://www.westevenement.com/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# wellcom.bzh
+#
+0 */3 * * * root $WGET http://www.wellcom.bzh.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
 ######################################################################################
