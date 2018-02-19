@@ -701,8 +701,8 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # louail-notaire.com
 #
-20 3 * * * root $WGET http://www.louail-notaire.com/admin/immobilier/imports/transim/run http://www.louail-notaire.com/admin/immobilier/notification/process
-0 */3 * * * root $WGET http://www.louail-notaire.com/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
+20 3 * * * root $WGET http://www.louail-notaire.fr/admin/immobilier/imports/transim/run http://www.louail-notaire.fr/admin/immobilier/notification/process
+0 */3 * * * root $WGET http://www.louail-notaire.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1100,5 +1100,5 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # wellcom.bzh
 #
-0 */3 * * * root $WGET http://www.wellcom.bzh.acreat.net/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.wellcom.bzh.acreat.net/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
 ######################################################################################
