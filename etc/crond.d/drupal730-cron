@@ -465,7 +465,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # galerie-m
 #
-0 */3 * * * root $WGET http://www.galerie-m.com.acreat.net/cron.php?cron_key=r0rLhhEAPVfwh2DHd57BB3BxzUslS5B3a2lTKH-zRZA > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.galeriem-boutique.fr.acreat.net/cron.php?cron_key=r0rLhhEAPVfwh2DHd57BB3BxzUslS5B3a2lTKH-zRZA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
