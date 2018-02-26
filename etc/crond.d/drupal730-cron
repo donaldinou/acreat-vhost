@@ -619,6 +619,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# Idkrea
+#
+0 */3 * * * root $WGET http://www.idkrea.com/cron.php?cron_key=KsG4S9KjoB1uF0M-biRU2sl2hSYHVW0bIbjkVp6km5o > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # imprimerielemaire.fr
 #
 0 */3 * * * root $WGET http://www.imprimerielemaire.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
