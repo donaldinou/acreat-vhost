@@ -186,7 +186,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 # airedesportesdebretagne
 # 
-0 */3 * * * root $WGET http://www.airedesportesdebretagne.fr.acreat.net/cron/XAwqonuiLrL2Qg4--Rf2vnv1Ic3aB8Do-ybfk1M8dN1n6Jp0EVCnshqeLmucaIyj7qeB0WwdYg > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.airedesportesdebretagne.fr/cron/XAwqonuiLrL2Qg4--Rf2vnv1Ic3aB8Do-ybfk1M8dN1n6Jp0EVCnshqeLmucaIyj7qeB0WwdYg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
