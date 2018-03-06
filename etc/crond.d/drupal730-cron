@@ -914,7 +914,9 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # Pozzo
 #
 0 */3 * * * root $WGET http://extranet-pozzo.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
-0 */3 * * * root $WGET http://pozzo-immobilier.fr.acreat.net/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://pozzo-immobilier.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+0 3 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-customers https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-neuf
+0 4 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/enova/run
 ######################################################################################
 
 ######################################################################################
