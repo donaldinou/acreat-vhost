@@ -456,6 +456,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# fougeray.fr
+#
+0 */3 * * * root $WGET http://www.fougeray.fr.acreat.net/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # gaalon
 #
 20 4 * * * root $WGET http://www.gaalon-guerlesquin.fr/admin/immobilier/imports/poliris/run http://www.gaalon-guerlesquin.fr/admin/immobilier/notification/process
