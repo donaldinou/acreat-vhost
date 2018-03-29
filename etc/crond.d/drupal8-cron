@@ -193,12 +193,12 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 # pikard
 # 
-0 */3 * * * root $WGET http://www.pikard.fr/cron/XAwqonuiLrL2Qg4--Rf2vnv1Ic3aB8Do-ybfk1M8dN1n6Jp0EVCnshqeLmucaIyj7qeB0WwdYg > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.pikard.fr/cron/T0ujWdCUU5_zr2ZtZCdyJsdG5nH20pu_8Hj7V38E0PZhP8ZLbNWxrQjKTqCdny9sB6BhbcLMbQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 # 
 # margotty
 # 
-0 */3 * * * root $WGET http://www.margotty.com.acreat.net/cron/XAwqonuiLrL2Qg4--Rf2vnv1Ic3aB8Do-ybfk1M8dN1n6Jp0EVCnshqeLmucaIyj7qeB0WwdYg > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.margotty.com.acreat.net/cron/C2hSoWIqk6Ywbn5hPgdf5I-NoqBVXApAPD4JQS-xpfwIYdi6YZPzS14D2iqHBNTIZYDlzgJ21Q > /dev/null 2>&1
 ######################################################################################
