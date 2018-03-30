@@ -295,9 +295,24 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# Cap Transactions
+#
+0 */3 * * * root $WGET http://www.cap-transactions.com/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
+20 5 * * * root $WGET http://www.cap-transactions.com/admin/immobilier/imports/entreprise/run http://www.cap-transactions.com/admin/immobilier/imports/fdc/run http://www.cap-transactions.com/admin/immobilier/imports/pdp/run http://www.cap-transactions.com/admin/immobilier/notification/process
+######################################################################################
+
+######################################################################################
+#
 # Charcuterie Joly
 #
 0 */3 * * * root $WGET http://www.charcuterie-joly.fr/cron.php?cron_key=Gjf_ne3tEi7HbPrV3Vqdod8c_KDkhDl17_M8hxzFxs4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# cnario
+#
+0 */3 * * * root $WGET http://www.cnario.fr.acreat.net/cron.php?cron_key=Gjf_ne3tEi7HbPrV3Vqdod8c_KDkhDl17_M8hxzFxs4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1118,6 +1133,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # vente9.com
 #
 0 */3 * * * root $WGET http://www.vente9.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# vertetbleudeco.com
+#
+0 */3 * * * root $WGET http://www.vertetbleudeco.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################

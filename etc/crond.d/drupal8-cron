@@ -186,7 +186,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 # airedesportesdebretagne
 # 
-0 */3 * * * root $WGET http://www.airedesportesdebretagne.fr/cron/XAwqonuiLrL2Qg4--Rf2vnv1Ic3aB8Do-ybfk1M8dN1n6Jp0EVCnshqeLmucaIyj7qeB0WwdYg > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.airedesportesdebretagne.fr/cron/yRr4YnrCpoaLa4EAFKX1_QQLcOX-3RDoYn6QxFCiSd8nn0BQ9EHlKs8-1iLuh5hBEBBkFdFnwQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -200,5 +200,5 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 # margotty
 # 
-0 */3 * * * root $WGET http://www.margotty.com.acreat.net/cron/C2hSoWIqk6Ywbn5hPgdf5I-NoqBVXApAPD4JQS-xpfwIYdi6YZPzS14D2iqHBNTIZYDlzgJ21Q > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.margotty.com/cron/C2hSoWIqk6Ywbn5hPgdf5I-NoqBVXApAPD4JQS-xpfwIYdi6YZPzS14D2iqHBNTIZYDlzgJ21Q > /dev/null 2>&1
 ######################################################################################
