@@ -348,7 +348,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # chronopropre.net
 #
-0 */3 * * * root $WGET http://www.chronopropre.net.acreat.net/cron.php?cron_key=-TIg3tE3TrgDuIzdbup60i9UOsDwOWk5veYPWl-c3gs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.chronopropre.net/cron.php?cron_key=-TIg3tE3TrgDuIzdbup60i9UOsDwOWk5veYPWl-c3gs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
