@@ -706,6 +706,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# lemarathonvert.org
+#
+0 */3 * * * root $WGET http://www.lemarathonvert.org.acreat.net/cron.php?cron_key=JrOl5Aj3eU_AKfbN9vOEEXzjNeIMfOkE-hKIEAdUYN0 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # lexonot-notaires
 #
 30 4 * * * root $WGET http://www.lexonot-notaires.fr/admin/immobilier/imports/transim/run http://www.lexonot-notaires.fr/admin/immobilier/notification/process
