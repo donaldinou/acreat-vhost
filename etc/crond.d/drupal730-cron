@@ -1111,6 +1111,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# strateys-contentieux.fr
+#
+0 */3 * * * root $WGET http://www.strateys-contentieux.fr.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # thierry-immobilier.fr & nanteus
 #
 0 */3 * * * root $WGET http://www.location-studio-nanteus.fr/cron.php?cron_key=VZnPcGoqHXnDSpW7tKW3kbUx-XrCNULUd0un_IzpUCg > /dev/null 2>&1
