@@ -304,8 +304,9 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # Cap Transactions
 #
-0 */3 * * * root $WGET http://www.cap-transactions.com/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
-20 5 * * * root $WGET http://www.cap-transactions.com/admin/immobilier/imports/entreprise/run http://www.cap-transactions.com/admin/immobilier/imports/fdc/run http://www.cap-transactions.com/admin/immobilier/imports/pdp/run http://www.cap-transactions.com/admin/immobilier/notification/process
+0 */3 * * * root $WGET http://www.cap-transactions.com/cron.php?cron_key=qnIe-lLRgMurNdHIxGke2fL4JwwcIjosjPEuBBDC8JA > /dev/null 2>&1
+20 5 * * * root $WGET http://www.cap-transactions.com/cap-transactions/imports/cron-run http://www.cap-transactions.com/cap-transactions/notifications/process
+#20 5 * * * root $WGET http://www.cap-transactions.com/admin/immobilier/imports/entreprise/run http://www.cap-transactions.com/admin/immobilier/imports/fdc/run http://www.cap-transactions.com/admin/immobilier/imports/pdp/run http://www.cap-transactions.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
