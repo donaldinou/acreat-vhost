@@ -1,5 +1,6 @@
 # General var
 MAILTO=root
+MAILFROM=root
 
 ## -> no retry, timeout more than 1 hour, still output errors and content
 #WGET="wget --no-cache --no-check-certificate --non-verbose --tries=1 --timeout=9400 --read-timeout=9600 --output-document=-"
