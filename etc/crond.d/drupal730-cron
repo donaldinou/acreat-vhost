@@ -1162,14 +1162,14 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # vertetbleudeco.com
 #
-0 */3 * * * root $WGET http://www.vertetbleudeco.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.vertetbleudeco.com/cron.php?cron_key=Piw4ja976QVGwxvlncs57rL_LGjA6RUKEuDhB4WfMFk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # vertetbleudeco.com constructeur-piscines.fr
 #
-0 */3 * * * root $WGET http://www.constructeur-piscines.fr.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.constructeur-piscines.fr.acreat.net/cron.php?cron_key=Piw4ja976QVGwxvlncs57rL_LGjA6RUKEuDhB4WfMFk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
