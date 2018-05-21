@@ -818,6 +818,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# mobextan.fr
+#
+0 */3 * * * root $WGET http://www.mobextan.fr.acreat.net/cron.php?cron_key=dr_PaGeyFm1zj_aKnD3XOVLKwyluUW0bANNmpFOvmd0 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # natterip.com
 #
 0 */3 * * * root $WGET http://www.natterip.com/cron.php?cron_key=MVUW_eWtJQVZ8G-MGd78w2A2E4QHcXb5J54Bc81oLc4 > /dev/null 2>&1
