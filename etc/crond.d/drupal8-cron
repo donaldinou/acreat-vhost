@@ -208,7 +208,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 # laporteacote
 # 
-0 */3 * * * root $WGET http://www.laporteacote35.com/cron/C2hSoWIqk6Ywbn5hPgdf5I-NoqBVXApAPD4JQS-xpfwIYdi6YZPzS14D2iqHBNTIZYDlzgJ21Q > /dev/null 2>&1
+0 */3 * * * root $WGET https://www.laporteacote35.com/cron/4CNB8sK3SuzAiQuOOg-DLOYL7k4pv8D63zthTLIG0hfWKVzKKYcNVXqCNxmmeJSudqB-eKThyw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
