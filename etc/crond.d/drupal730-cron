@@ -364,21 +364,21 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # lecomtesyndic.fr
 #
-0 */3 * * * root http://www.lecomtesyndic.fr/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.lecomtesyndic.fr/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # conjonction-immo.com
 #
-0 */3 * * * root http://www.conjonction-immo.com/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.conjonction-immo.com/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # destrudata.com
 #
-0 */3 * * * root http://www.destrudata.com/cron.php?cron_key=9Lxs9uenOmwTFnlVWeT9OkWN9de-vpYZEL9JPPA2yFw > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.destrudata.com/cron.php?cron_key=9Lxs9uenOmwTFnlVWeT9OkWN9de-vpYZEL9JPPA2yFw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
