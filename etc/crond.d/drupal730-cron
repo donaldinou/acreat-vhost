@@ -717,7 +717,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # lemarathonvert.org
 #
-0 */3 * * * root $WGET http://www.lemarathonvert.org.acreat.net/cron.php?cron_key=2zz0ZBRae1cX7H4u4Kl0MENeLwekYMKhd5eIdh8Pv5o > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.lemarathonvert.org/cron.php?cron_key=2zz0ZBRae1cX7H4u4Kl0MENeLwekYMKhd5eIdh8Pv5o > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
