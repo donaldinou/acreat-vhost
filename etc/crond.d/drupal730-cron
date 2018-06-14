@@ -298,7 +298,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # Cap malo - Le golf
 #
-0 */3 * * * root $WGET http://www.le-golf-cap-malo.com.acreat.net/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.le-golf-cap-malo.com.acreat.net/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
