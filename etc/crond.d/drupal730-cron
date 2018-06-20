@@ -47,6 +47,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# abacasalome.fr
+#
+0 */3 * * * root $WGET http://www.abacasalome.fr.acreat.net/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # acreat.com
 #
 0 */3 * * * root $WGET http://www.acreat.com/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
