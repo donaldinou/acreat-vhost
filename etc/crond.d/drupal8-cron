@@ -138,7 +138,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # adn.expert
 #
-0 */3 * * * root $WGET http://www.adn.expert.acreat.net/cron/11Qs_DgFLs_nQMlr0W8OdFikn-FcTzxrdU2fBhX9EkaPsfKgZsRFAFDMPxtCrJjZkSefY4Jppg > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.adn.expert/cron/11Qs_DgFLs_nQMlr0W8OdFikn-FcTzxrdU2fBhX9EkaPsfKgZsRFAFDMPxtCrJjZkSefY4Jppg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
