@@ -943,6 +943,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# Perion immo
+#
+0 */3 * * * root $WGET http://www.perion-immobilier.com.acreat.net/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # groupe-pigeon.com
 #
 0 */3 * * * root $WGET http://www.groupe-pigeon.com/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
