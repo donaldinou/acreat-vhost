@@ -1,2 +1,1 @@
-/ftp/visualqie_giboire_entreprise_c IN_CREATE /ftp/giboire_commerce/ $#
-
+/ftp/visualqie_giboire_entreprise_c/ IN_CLOSE_WRITE,IN_CREATE,IN_NO_LOOP rsync -avc $@$# /ftp/giboire_commerce/
