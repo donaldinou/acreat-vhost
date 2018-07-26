@@ -929,6 +929,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# Pelatre TP
+#
+0 */3 * * * root $WGET https://www.pelatre-tp.com/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Pertuisel
 #
 0 */3 * * * root $WGET http://www.pertuisel-batiment.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
