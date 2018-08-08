@@ -160,7 +160,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # axival.eu
 #
-0 */3 * * * root $WGET http://www.axival.eu.acreat.net/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.axival.eu/cron.php?cron_key=c-oUHLQfugKWAao8SbIjtgkm_qvfiCddKiXg8axnpmU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -650,6 +650,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# hotel-anne
+#
+0 */3 * * * root $WGET http://www.hotel-annedebretagne.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # hotel-mulhouse.com
 #
 0 */3 * * * root $WGET http://www.hotel-mulhouse.com/cron.php?cron_key=ZW--FFEyrE6ljS42qvyrKo0nU78IrF2qRbkxi5E9xpw > /dev/null 2>&1
@@ -660,6 +667,14 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # hotel-la-reposee.com
 #
 0 */3 * * * root $WGET http://www.hotel-la-reposee.com/cron.php?cron_key=HSgIkH-SM_lPoJdKhePwYsKDETbxnO4UkkYwE-IRIME  > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# Korali hotel
+#
+0 */3 * * * root $WGET http://www.koralihotel.fr/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+#*/15 * * * * root php -f /var/www/html/drupal/drupal726/sites/koralihotel.fr/scripts/get_temperatures.php > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
