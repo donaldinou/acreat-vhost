@@ -583,6 +583,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# GIBOIRE GROUPE
+#
+0 */3 * * * root $WGET http://www.giboire-groupe.com/cron.php?cron_key=-RKhSGEMls_GBUHuYNpm7rHalTolu-n6KQsBg4eipMc > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Groupe Jeulin
 #
 0 */3 * * * root $WGET http://www.groupejeulin-immobilier.com/cron.php?cron_key=bOvXHw2MNvc9iiJwzmTYIXIyEoCxS1OT66iOR7SQRn0 > /dev/null 2>&1

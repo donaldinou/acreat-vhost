@@ -58,6 +58,7 @@
 127.0.0.1 boucheriebriand.fr www.boucheriebriand.fr
 127.0.0.1 quatreb.fr www.quatreb.fr
 127.0.0.1 giboire.com www.giboire.com alet-immobilier.com www.alet-immobilier.com
+127.0.0.1 giboire-groupe.com www.giboire-groupe.com groupe.giboire.com
 127.0.0.1 giboire-promotion.com www.giboire-promotion.com
 127.0.0.1 leg-electricite.fr www.leg-electricite.fr
 127.0.0.1 fafin-electricite.fr www.fafin-electricite.fr
@@ -216,7 +217,6 @@
 127.0.0.1 evolis-avocats.fr www.evolis-avocats.fr
 127.0.0.1 giboire-commerce.com www.giboire-commerce.com commerce.giboire.com
 127.0.0.1 giboire-entreprise.com www.giboire-entreprise.com entreprise.giboire.com
-127.0.0.1 giboire-groupe.com www.giboire-groupe.com groupe.giboire.com
 127.0.0.1 globalnatura.eu www.globalnatura.eu
 127.0.0.1 kampexport.com www.kampexport.com
 127.0.0.1 leroylogistique.com www.leroylogistique.com

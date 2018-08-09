@@ -59,7 +59,6 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 45 1 * * * root $WGET http://www.giboire-commerce.com/admin/immobilier/imports/visualqie/run
 0 */3 * * * root $WGET http://www.giboire-commerce.com/cron.php?cron_key=-RKhSGEMls_GBUHuYNpm7rHalTolu-n6KQsBg4eipMc > /dev/null 2>&1
 0 */3 * * * root $WGET http://www.giboire-entreprise.com/cron.php?cron_key=-RKhSGEMls_GBUHuYNpm7rHalTolu-n6KQsBg4eipMc > /dev/null 2>&1
-0 */3 * * * root $WGET http://www.giboire-groupe.com/cron.php?cron_key=-RKhSGEMls_GBUHuYNpm7rHalTolu-n6KQsBg4eipMc > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
