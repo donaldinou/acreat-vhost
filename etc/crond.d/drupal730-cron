@@ -32,6 +32,14 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# 4immo
+#
+0 4 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ac3/run
+5 4 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ics/run
+######################################################################################
+
+######################################################################################
+#
 # abhinvestissements.fr
 #
 0 */3 * * * root $WGET http://www.abhinvestissements.fr/cron.php?cron_key=-I1W_ZYSZc2mzn1KTgahkfgnlSwWIWySWSuND2EeEvQ > /dev/null 2>&1

@@ -24,14 +24,6 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# 4immo
-#
-0 4 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ac3/run
-5 4 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ics/run
-######################################################################################
-
-######################################################################################
-#
 # Agence Seine Immo
 #
 45 3 * * * root $WGET http://www.agenceseineimmo.fr/admin/immobilier/imports/cosmo/run http://www.agenceseineimmo.fr/immobilier/notification/process
