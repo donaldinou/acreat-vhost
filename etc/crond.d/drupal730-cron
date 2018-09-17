@@ -1054,9 +1054,9 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# quatreb.fr
+# lesfranginsrennes.com / quatreb.fr
 #
-0 */3 * * * root $WGET http://www.quatreb.fr/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.lesfranginsrennes.com/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
