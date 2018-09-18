@@ -204,9 +204,10 @@
 127.0.0.1 pelatre-tp.com www.pelatre-tp.com
 127.0.0.1 4immo.fr www.4immo.fr
 127.0.0.1 isoprotek.fr www.isoprotek.fr
+127.0.0.1 hotel-annedebretagne.com www.hotel-annedebretagne.com
+127.0.0.1 kampexport.com www.kampexport.com
 
 # 726
-127.0.0.1 hotel-annedebretagne.com www.hotel-annedebretagne.com
 127.0.0.1 hotel-chateaubriand-st-malo.com www.hotel-chateaubriand-st-malo.com hotel-fr-chateaubriand.com www.hotel-fr-chateaubriand.com
 127.0.0.1 hotel-cite-st-malo-bretagne.com www.hotel-cite-st-malo-bretagne.com
 127.0.0.1 hotel-des-lices.com www.hotel-des-lices.com
@@ -221,7 +222,6 @@
 127.0.0.1 giboire-commerce.com www.giboire-commerce.com commerce.giboire.com
 127.0.0.1 giboire-entreprise.com www.giboire-entreprise.com entreprise.giboire.com
 127.0.0.1 globalnatura.eu www.globalnatura.eu
-127.0.0.1 kampexport.com www.kampexport.com
 127.0.0.1 leroylogistique.com www.leroylogistique.com
 127.0.0.1 lycee-descartes.eu www.lycee-descartes.eu
 127.0.0.1 uflevage.fr www.uflevage.fr
