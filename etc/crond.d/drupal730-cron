@@ -184,7 +184,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # bar-leroyal.fr
 # 
-0 */3 * * * root $WGET http://www.bar-leroyal.fr/cron.php?cron_key=SogNj3HgJ5kyMJnACc_UJWagMwV8Xg3IEiycnmCpVHs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.bar-leroyal.fr/cron.php?cron_key=tXo_szxgIJBHLysweU-0Ot9ZnU2ua6LkOVzDlJ1c2uc > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
