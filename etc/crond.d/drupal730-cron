@@ -998,7 +998,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Perion immo
 #
-0 */3 * * * root $WGET http://www.perion-immobilier.com.acreat.net/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.perion-habitation.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+20 4 * * * root $WGET http://www.perion-habitation.com/admin/immobilier/imports/immostore/run
 ######################################################################################
 
 ######################################################################################
@@ -1218,7 +1219,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # strateys-contentieux.fr
 #
-0 */3 * * * root $WGET http://www.strateys-contentieux.fr.acreat.net/cron.php?cron_key=-ep8AmLDvRU3N6LDwhsvpOf5LYj4zx_-EGuX04jGXYA > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.strateys-contentieux.fr/cron.php?cron_key=-ep8AmLDvRU3N6LDwhsvpOf5LYj4zx_-EGuX04jGXYA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
