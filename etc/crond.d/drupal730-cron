@@ -462,7 +462,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # empireconstructions.fr
 #
 0 */3 * * * root $WGET http://www.empireconstructions.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
-0 4 * * * root $WGET http://www.empireconstructions.fr/admin/immobilier/imports/entities/run
+#0 4 * * * root $WGET http://www.empireconstructions.fr/admin/immobilier/imports/entities/run
 ######################################################################################
 
 ######################################################################################
@@ -998,7 +998,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Perion immo
 #
-0 */3 * * * root $WGET http://www.perion-habitation.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.perion-habitation.com/cron.php?cron_key=IoWZdyXGOf56oFJvleJUX3gH89a26KbNY6QnMa1P3hw > /dev/null 2>&1
 20 4 * * * root $WGET http://www.perion-habitation.com/admin/immobilier/imports/immostore/run
 ######################################################################################
 
