@@ -217,3 +217,10 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 0 */3 * * * root $WGET http://www.borsa-architecte-dplg-saint-malo.com.acreat.net/cron/C2hSoWIqk6Ywbn5hPgdf5I-NoqBVXApAPD4JQS-xpfwIYdi6YZPzS14D2iqHBNTIZYDlzgJ21Q > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+# 
+# borsa-architecte-dplg-saint-malo.com
+# 
+0 */3 * * * root $WGET http://www.minoterie-pivan-bruz.fr.acreat.net/cron/C2hSoWIqk6Ywbn5hPgdf5I-NoqBVXApAPD4JQS-xpfwIYdi6YZPzS14D2iqHBNTIZYDlzgJ21Q > /dev/null 2>&1
+######################################################################################
