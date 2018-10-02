@@ -32,6 +32,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# 2h2c.fr
+#
+0 */3 * * * root $WGET http://www.2h2c.fr.acreat.net/cron.php?cron_key=altHD_TxYGiZgU75tRfEqOhMKxchukqyUXnpBZlf_2w > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # 4immo
 #
 0 */3 * * * root $WGET http://www.4immo.fr.acreat.net/cron.php?cron_key=G5A1LkTSiJBlWhvf9T8kP4CbJJRaghmsz-rRQN3GaCk > /dev/null 2>&1
