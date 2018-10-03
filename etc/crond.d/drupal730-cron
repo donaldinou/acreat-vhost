@@ -1070,6 +1070,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# PISB
+#
+0 */3 * * * root $WGET http://www.implants-st-brieuc.fr.acreat.net/cron.php?cron_key=sf_wejNXG_jDWLb45CRg2dANDJm-ZVINYgr9UC6C74k > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # prigent-associes.fr
 #
 0 */3 * * * root $WGET http://www.prigent-associes.fr/cron.php?cron_key=QXeZGZXmxu5dTj2Q2JkRfC7WyrOzojFtteyvVIL6tvo > /dev/null 2>&1
