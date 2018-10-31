@@ -909,7 +909,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # mobextan.fr
 #
-0 */3 * * * root $WGET http://www.mobextan.fr.acreat.net/cron.php?cron_key=dr_PaGeyFm1zj_aKnD3XOVLKwyluUW0bANNmpFOvmd0 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.mobextan.fr/cron.php?cron_key=OzmC67W-TV0XMUcv_mTgPGHsZrknVf1kdjBn_nFF--I > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
