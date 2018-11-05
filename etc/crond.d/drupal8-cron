@@ -224,3 +224,10 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 0 */3 * * * root $WGET http://www.minoterie-pivan-bruz.fr.acreat.net/cron/93ebUKG-aFFNlVWMIJQeDmEeyDOf0Cbur7DPPQxQ3-aCIfBYuh0s5W3thKQspOd-5_i1mhIn9A > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+# 
+# alexandre-boutique.fr
+# 
+0 */3 * * * root $WGET http://www.alexandre-boutique.fr.acreat.net/cron/93ebUKG-aFFNlVWMIJQeDmEeyDOf0Cbur7DPPQxQ3-aCIfBYuh0s5W3thKQspOd-5_i1mhIn9A > /dev/null 2>&1
+######################################################################################
