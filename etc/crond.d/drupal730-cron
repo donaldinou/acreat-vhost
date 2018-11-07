@@ -142,7 +142,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # agencelenoir.com
 #
-0 */3 * * * root $WGET http://www.agencelenoir.com/cron.php?cron_key=Mt6v9IA-AAw90sFz_-IB_SHXOcTqezw6LOTwJqZR9Dc > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.agencelenoir.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
+40 4 * * * root $WGET http://www.agencelenoir.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################
