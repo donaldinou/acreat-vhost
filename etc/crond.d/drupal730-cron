@@ -50,7 +50,9 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # 4immo - Coudray Lorrainne
 #
-0 */3 * * * root $WGET http://www.coudraylorraine.fr.acreat.net/cron.php?cron_key=HrL0GKO3Rgbrykuy9Be-Pwztn1yMJCLi2d2G9AVAHs8 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.coudraylorraine.fr/cron.php?cron_key=HrL0GKO3Rgbrykuy9Be-Pwztn1yMJCLi2d2G9AVAHs8 > /dev/null 2>&1
+10 4 * * * root $WGET http://www.coudraylorraine.fr/admin/immobilier/imports/ac3/run
+20 4 * * * root $WGET http://www.coudraylorraine.fr/admin/immobilier/imports/ics/run
 ######################################################################################
 
 ######################################################################################
