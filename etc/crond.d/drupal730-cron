@@ -86,6 +86,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# hotel.acreat.net
+#
+0 */3 * * * root $WGET http://hotelacreat.net/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # immo.acreat.com
 #
 0 */3 * * * root $WGET http://immo.acreat.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
