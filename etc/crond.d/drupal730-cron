@@ -67,7 +67,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # Abita
 #
 0 */3 * * * root $WGET http://www.abita-immobilier.com/cron.php?cron_key=WM4BFxPwqb1yUxjIa0jCLyd7qtGVwLDJd43oKTotTUo > /dev/null 2>&1
-10 2 * * * root $WGET http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/1 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/2 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/3 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/4 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/5 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/6 http://www.abita-immobilier.com/admin/immobilier/imports/ac3/vente/run/177
+10 2 * * * root $WGET https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/claude https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/bord_de_mer https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/cayre_immobilier https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/fauvel_immobilier https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/parame_immobilier https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/rochebonne_immobilier
 ######################################################################################
 
 ######################################################################################
@@ -149,8 +149,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # agencelenoir.com
 #
-0 */3 * * * root $WGET http://www.agencelenoir.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
-40 4 * * * root $WGET http://www.agencelenoir.com/admin/immobilier/imports/ac3/run
+0 */3 * * * root $WGET https://www.agencelenoir.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
+40 4 * * * root $WGET https://www.agencelenoir.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################
@@ -741,6 +741,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# Isoprotek
+#
+0 */3 * * * root $WGET http://www.isoprotek.fr/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Kamp Export
 #
 0 */3 * * * root $WGET https://www.kampexport.com/cron.php?cron_key=0Gr5qyJbNHI_wvHG9lCUBoc7tSBPiMvxpfnq3z-I45A > /dev/null 2>&1
@@ -795,6 +802,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 0 */3 * * * root $WGET http://www.lefeuvre-immobilier.com/cron.php?cron_key=DHmXEf2H97dwFhHhIC7BOA0sB4r7xmGHM4EyhcU-oDU > /dev/null 2>&1
 30 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/entreprise/run http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf/run http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf-lot/run
 35 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/location/run http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/vente/run
+40 4 * * * root $WGET http://www.lefeuvre-immobilier.com.acreat.net/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################
