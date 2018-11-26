@@ -195,6 +195,7 @@
 127.0.0.1 cap-transactions.com www.cap-transactions.com
 127.0.0.1 vertetbleudeco.com www.vertetbleudeco.com
 127.0.0.1 lemarathonvert.org www.lemarathonvert.org
+127.0.0.1 idkrea.com www.idkrea.com
 127.0.0.1 strateys-contentieux.com www.strateys-contentieux.com strateys-contentieux.fr www.strateys-contentieux.fr
 127.0.0.1 le-golf-cap-malo.com www.le-golf-cap-malo.com
 127.0.0.1 constructeur-piscines.fr www.constructeur-piscines.fr constructeur-piscine.fr www.constructeur-piscine.fr constructeur-piscines.com www.constructeur-piscines.com constructeur-piscine.com www.constructeur-piscine.com
@@ -208,19 +209,17 @@
 127.0.0.1 pelatre-tp.com www.pelatre-tp.com
 127.0.0.1 4immo.fr www.4immo.fr
 127.0.0.1 isoprotek.fr www.isoprotek.fr
-127.0.0.1 hotel-annedebretagne.com www.hotel-annedebretagne.com
 127.0.0.1 kampexport.com www.kampexport.com
 127.0.0.1 2h2c.fr www.2h2c.fr
 127.0.0.1 implants-st-brieuc.fr www.implants-st-brieuc.fr
 127.0.0.1 agencelenoir.com www.agencelenoir.com
 127.0.0.1 coudraylorraine.fr www.coudraylorraine.fr
-
-# 726
+127.0.0.1 ed-promotion.fr www.ed-promotion.fr
+127.0.0.1 koralihotel.fr www.koralihotel.fr
+127.0.0.1 hotel-annedebretagne.com www.hotel-annedebretagne.com
 127.0.0.1 hotel-chateaubriand-st-malo.com www.hotel-chateaubriand-st-malo.com hotel-fr-chateaubriand.com www.hotel-fr-chateaubriand.com
 127.0.0.1 hotel-cite-st-malo-bretagne.com www.hotel-cite-st-malo-bretagne.com
 127.0.0.1 hotel-des-lices.com www.hotel-des-lices.com
-127.0.0.1 idkrea.com www.idkrea.com
-127.0.0.1 koralihotel.fr www.koralihotel.fr
 
 # 710
 127.0.0.1 acreat.ca www.acreat.ca

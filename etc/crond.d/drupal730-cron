@@ -712,6 +712,20 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# hotel-chateaubriand-st-malo.com
+#
+0 */3 * * * root $WGET http://www.hotel-chateaubriand-st-malo.com.acreat.net/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# hotel-cite
+#
+0 */3 * * * root $WGET http://www.hotel-cite-st-malo-bretagne.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # hotel-mulhouse.com
 #
 0 */3 * * * root $WGET http://www.hotel-mulhouse.com/cron.php?cron_key=ZW--FFEyrE6ljS42qvyrKo0nU78IrF2qRbkxi5E9xpw > /dev/null 2>&1
@@ -720,9 +734,9 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# hotel-chateaubriand-st-malo.com
+# hotel des lices
 #
-0 */3 * * * root $WGET http://www.hotel-chateaubriand-st-malo.com.acreat.net/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.hotel-des-lices.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -808,8 +822,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # lefeuvre-immobilier.com
 # 
 0 */3 * * * root $WGET http://www.lefeuvre-immobilier.com/cron.php?cron_key=DHmXEf2H97dwFhHhIC7BOA0sB4r7xmGHM4EyhcU-oDU > /dev/null 2>&1
-30 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/entreprise/run http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf/run http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf-lot/run
-35 4 * * * root $WGET http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/location/run http://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/vente/run
+30 5 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/entreprise/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf-lot/run
+35 5 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/location/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/vente/run
 40 4 * * * root $WGET http://www.lefeuvre-immobilier.com.acreat.net/admin/immobilier/imports/ac3/run
 ######################################################################################
 
