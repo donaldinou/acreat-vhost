@@ -2,7 +2,7 @@
     <IfDefine ServerName>
         UnDefine ServerName
     </IfDefine>
-    Define ServerName bouvet-cartier.com
+    Define ServerName v1.lefeuvre-immobilier.com
 
     <IfDefine RootPath>
         UnDefine RootPath
@@ -17,14 +17,12 @@
     <IfDefine Scheme>
         UnDefine Scheme
     </IfDefine>
-    Define Scheme https
+    Define Scheme http
 
     Include includes/define-server.conf
     Include includes/drupal-website.conf
     Include includes/drupal-advagg.conf
-    Include includes/drupal-https.conf
-    Include includes/define-redirect-www.conf
+    Include includes/define-redirect.conf
 
     IncludeOptional includes/define-logs.conf
-#    IncludeOptional includes/drupal-mobile.conf
 </VirtualHost>
