@@ -245,3 +245,10 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 0 */3 * * * root $WGET http://www.hypnoserennes.fr/cron/-6SYpIonfwe4-0r8SRNHr4HLG5mDleZB51vGf2OmrM-bXz3RYM-_UfSGDDuXahK6gYhM2iY2_A > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+# 
+# Yoan Manet - maitre-oeuvre-rennes.fr
+# 
+0 */3 * * * root $WGET http://www.maitre-oeuvre-rennes.fr/cron/-6SYpIonfwe4-0r8SRNHr4HLG5mDleZB51vGf2OmrM-bXz3RYM-_UfSGDDuXahK6gYhM2iY2_A > /dev/null 2>&1
+######################################################################################
