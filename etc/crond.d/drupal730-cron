@@ -200,7 +200,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # axiopro.fr
 #
-0 */3 * * * root $WGET http://www.axiopro.fr/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.axiopro.fr/cron.php?cron_key=m8Bf1WEhRXNJXoAh8Tuk9_k2fIgofqmHEaPcKNBSGrw > /dev/null 2>&1
 30 3 * * * root $WGET http://www.axiopro.fr/admin/immobilier/imports/custom/run
 ######################################################################################
 
@@ -340,6 +340,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 0 */3 * * * root $WGET http://cabinet-martin.fr/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
 0 3 * * * root $WGET https://www.cabinet-martin.fr/admin/immobilier/imports/ac3/location/run https://www.cabinet-martin.fr/admin/immobilier/imports/ac3/vente/run https://www.cabinet-martin.fr/admin/immobilier/notification/process
+40 2 * * * root $WGET https://www.cabinet-martin.fr/admin/immobilier/imports/ac3/entreprise/run
 ######################################################################################
 
 ######################################################################################
@@ -566,6 +567,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # fougeresimmo.com
 #
 0 */3 * * * root $WGET http://www.fougeresimmo.com/cron.php?cron_key=EQaKCjl1rF4rAqZWeRqC_XUT4Kp8B_zLONne50AkUBI > /dev/null 2>&1
+55 2 * * * root $WGET https://www.fougeresimmo.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################
