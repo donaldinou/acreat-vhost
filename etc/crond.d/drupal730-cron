@@ -506,6 +506,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# myconcept.bzh
+#
+0 */3 * * * root $WGET http://www.myconcept.bzh/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # emeraudecourtage.fr
 #
 0 */3 * * * root $WGET http://www.emeraudecourtage.fr/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
