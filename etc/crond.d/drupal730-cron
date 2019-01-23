@@ -115,9 +115,9 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# aereauclean.fr
+# aqs.fr / aereauclean.fr
 #
-0 */3 * * * root $WGET http://www.aereauclean.fr/cron.php?cron_key=V3VxThIszDaoAwRNJXbXEP6nZXVzxv0QnY3U42f1-4I > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.aqs.fr/cron.php?cron_key=V3VxThIszDaoAwRNJXbXEP6nZXVzxv0QnY3U42f1-4I > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
