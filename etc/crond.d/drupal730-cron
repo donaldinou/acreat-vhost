@@ -1003,8 +1003,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # notaires-rennes-duguesclin.fr
 #
-0 */3 * * * root $WGET http://www.notaires-rennes-duguesclin.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
-30 3 * * * root $WGET http://www.notaires-rennes-duguesclin.fr/admin/immobilier/imports/transim/run
+0 */3 * * * root $WGET https://www.notaires-duguesclin.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+30 3 * * * root $WGET https://www.notaires-duguesclin.fr/admin/immobilier/imports/transim/run
 ######################################################################################
 
 ######################################################################################
