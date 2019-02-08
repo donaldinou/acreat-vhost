@@ -959,6 +959,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# Menard TP
+#
+0 */3 * * * root $WGET https://www.menard-tp.fr/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # menlog.fr
 #
 0 */3 * * * root $WGET http://www.menlog.fr/cron.php?cron_key=MYniDlVn6YSXAQcUqqW20IpQHXG0a-o7cMqbf2KsH_M > /dev/null 2>&1
