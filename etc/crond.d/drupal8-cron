@@ -243,7 +243,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 # Hypnose & Coaching
 # 
-0 */3 * * * root $WGET http://www.hypnoserennes.fr/cron/-6SYpIonfwe4-0r8SRNHr4HLG5mDleZB51vGf2OmrM-bXz3RYM-_UfSGDDuXahK6gYhM2iY2_A > /dev/null 2>&1
+0 */3 * * * root $WGET https://www.hypnoserennes.fr/cron/sc3TRH51wb5dvdBuTMqhzEcbdV6DbzSca4rdKsiU3NC9KtfaKiLZZdyFucjBKWv7bq3HfgbUkA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
