@@ -348,7 +348,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # cabinetchateaubriand.com
 #
-0 */3 * * * root $WGET http://www.cabinetchateaubriand.com/cron.php?cron_key=1mugSkPWnyUH-kZ3eKDFMQ3VUja3RmXsoQMhNw48G7s > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.cabinetchateaubriand.com/cron.php?cron_key=20HegHjmrF4w79nMmZTQxpmiW-Gk40g_S9AgzEgEowY > /dev/null 2>&1
+10 2 * * * root $WGET http://www.cabinetchateaubriand.com/admin/immobilier/imports/ac3/run http://www.cabinetchateaubriand.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -858,6 +859,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #30 5 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/entreprise/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf-lot/run
 #35 5 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/location/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/vente/run
 40 3 * * * root $WGET http://www.lefeuvre-immobilier.com/immobilier/imports/ac3/cron-run
+######################################################################################
+
+######################################################################################
+#
+# efficience-gth.com
+#
+0 */3 * * * root $WGET http://www.efficience-gth.com/cron.php?cron_key=wdCm7KcVpWx0rvAkKku3YYq4za3YUAvWhmfVLaT6k6w > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
