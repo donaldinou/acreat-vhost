@@ -838,6 +838,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# job-box.fr
+#
+0 */3 * * * root $WGET http://www.job-box.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # lavilla-labaule.com
 #
 0 */3 * * * root $WGET http://www.lavilla-labaule.com/cron.php?cron_key=RDB2f8yOvMrXxj8x3oO_p08P-unaitScnoMvv6-MLEE > /dev/null 2>&1
