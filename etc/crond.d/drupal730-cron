@@ -444,6 +444,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # lecomtesyndic.fr
 #
 0 */3 * * * root $WGET http://www.lecomtesyndic.fr/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
+15 5 * * * root $WGET https://www.lecomtesyndic.fr/admin/immobilier/imports/ics/run
 ######################################################################################
 
 ######################################################################################
@@ -840,7 +841,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # job-box.fr
 #
-0 */3 * * * root $WGET http://www.job-box.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.job-box.fr/cron.php?cron_key=XvssIQgKeWupEaM7xzTrCPTLnmNpDIhW38duCao6lY4 > /dev/null 2>&1
+10 2 * * * root $WGET http://www.job-box.fr/admin/acreat-job/notification/process
 ######################################################################################
 
 ######################################################################################
