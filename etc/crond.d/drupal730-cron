@@ -856,8 +856,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # job-box.fr
 #
-0 */3 * * * root $WGET http://www.job-box.fr/cron.php?cron_key=XvssIQgKeWupEaM7xzTrCPTLnmNpDIhW38duCao6lY4 > /dev/null 2>&1
-10 2 * * * root $WGET http://www.job-box.fr/admin/acreat-job/notification/process
+0 */3 * * * root $WGET http://www.groupe-jobbox.fr/cron.php?cron_key=XvssIQgKeWupEaM7xzTrCPTLnmNpDIhW38duCao6lY4 > /dev/null 2>&1
+10 2 * * * root $WGET http://www.groupe-jobbox.fr/admin/acreat-job/notification/process
 ######################################################################################
 
 ######################################################################################
