@@ -1439,3 +1439,11 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 0 */3 * * * root $WGET http://www.wellcom.bzh.acreat.net/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# maisonswoodz.fr
+#
+0 */3 * * * root $WGET http://www.maisonswoodz.fr/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
+#15 4 * * * root $WGET http://www.maisonswoodz.fr/admin/immobilier/imports/hektor/run
+######################################################################################
