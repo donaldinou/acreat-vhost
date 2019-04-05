@@ -332,8 +332,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # bsr-immobilier.fr
 #
-0 */3 * * * root $WGET http://www.bsr-immobilier.fr/cron.php?cron_key=SptZYsl2qc_FLAj8KzTTnNNNDDR5st-2pIb8T8ed_QM > /dev/null 2>&1
-10 3 * * * root $WGET http://www.bsr-immobilier.fr/admin/immobilier/imports/ac3/run http://www.bsr-immobilier.fr/admin/immobilier/notification/process
+0 */3 * * * root $WGET http://www.bsr-immobilier.fr/cron.php?cron_key=FLja885Ae6e-sueutmXuJ4j09cvPMiv279w5vIW3ESE > /dev/null 2>&1
+10 3 * * * root $WGET http://www.bsr-immobilier.fr/admin/immobilier/imports/ics/run http://www.bsr-immobilier.fr/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -692,7 +692,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 0 */3 * * * root $WGET http://terrains.groupe-launay.com/cron.php?cron_key=9a8u8Qq5PGUG1kw6hcA-cI0sniJ6-EQTfz14c3xwTAM > /dev/null 2>&1
 0 */3 * * * root $WGET http://promotion.groupe-launay.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 0 2 * * * root $WGET http://promotion.groupe-launay.com/admin/espace-promotion/options-maj http://promotion.groupe-launay.com/alertes-process
-20 5 * * * root $WGET https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-licorn/xml https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-acheterduneuf/xml https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-peterson/xml
+20 5 * * * root $WGET https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-licorn/xml https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-acheterduneuf/xml https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-peterson/xml https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-immobilierneuf/xml
 30 6,10,12,14,16 * * * root $WGET http://promotion.groupe-launay.com/admin/espace-promotion/programmes-export/xml && $WGET http://promotion.groupe-launay.com/admin/espace-promotion/programmes-export/upload
 ######################################################################################
 
