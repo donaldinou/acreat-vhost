@@ -151,7 +151,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # agencelenoir.com
 #
 0 */3 * * * root $WGET https://www.agencelenoir.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
-40 3 * * * root $WGET https://www.agencelenoir.com/admin/immobilier/imports/ac3/run
+40 0 * * * root $WGET https://www.agencelenoir.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################
@@ -616,7 +616,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # gasnier agri
 #
 0 */3 * * * root $WGET http://www.gasnieragri.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
-25 3 * * * root $WGET http://www.gasnieragri.com/admin/immobilier/imports/ac3/run
+25 1 * * * root $WGET http://www.gasnieragri.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################
@@ -624,7 +624,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # gasnier promo
 #
 0 */3 * * * root $WGET http://www.gasnierpromotion.com/cron.php?cron_key=jcpi_i0AcsCDYn0cCp4-K0AT8tCoOAuiDMZPa9m-iV8 > /dev/null 2>&1
-30 4 * * * root $WGET http://www.gasnierpromotion.com/admin/immobilier/imports/ac3/run http://www.gasnierpromotion.com/admin/immobilier/notification/process
+30 2 * * * root $WGET http://www.gasnierpromotion.com/admin/immobilier/imports/ac3/run http://www.gasnierpromotion.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -1243,7 +1243,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # rennesimmobilier.com
 #
 0 */3 * * * root $WGET http://www.rennesimmobilier.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
-40 3 * * * root $WGET http://www.rennesimmobilier.com/admin/immobilier/imports/ac3/run http://www.rennesimmobilier.com/admin/immobilier/notification/process
+40 1 * * * root $WGET http://www.rennesimmobilier.com/admin/immobilier/imports/ac3/run http://www.rennesimmobilier.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -1445,5 +1445,5 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # maisonswoodz.fr
 #
 0 */3 * * * root $WGET http://www.maisonswoodz.fr/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
-#15 4 * * * root $WGET http://www.maisonswoodz.fr/admin/immobilier/imports/hektor/run
+15 4 * * * root $WGET http://www.maisonswoodz.fr/admin/entities/run
 ######################################################################################
