@@ -126,7 +126,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # agence-des-druides.fr
 #
 0 */3 * * * root $WGET http://www.agence-des-druides.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
-0 4 * * * root $WGET http://www.agence-des-druides.fr/admin/immobilier/imports/ac3/run http://www.agence-des-druides.fr/admin/immobilier/imports/kiwi/run http://www.agence-des-druides.fr/admin/immobilier/notification/process
+50 0 * * * root $WGET http://www.agence-des-druides.fr/admin/immobilier/imports/ac3/run 
+0 4 * * * root $WGET http://www.agence-des-druides.fr/admin/immobilier/imports/kiwi/run http://www.agence-des-druides.fr/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
