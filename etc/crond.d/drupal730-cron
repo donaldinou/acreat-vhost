@@ -414,6 +414,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# creadimm
+#
+0 */3 * * * root $WGET http://www.creadimm.fr/cron.php?cron_key=Gjf_ne3tEi7HbPrV3Vqdod8c_KDkhDl17_M8hxzFxs4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Traiteur Joly
 #
 0 */3 * * * root $WGET http://www.traiteur-joly.fr/cron.php?cron_key=97S1Pvv4F8RG_YYVYauWvMxK-MJIgIb_GSIKNc4Gcf0 > /dev/null 2>&1
