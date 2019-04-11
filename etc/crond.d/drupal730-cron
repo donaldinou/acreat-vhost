@@ -42,7 +42,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # 4immo
 #
 0 */3 * * * root $WGET http://www.4immo.fr/cron.php?cron_key=G5A1LkTSiJBlWhvf9T8kP4CbJJRaghmsz-rRQN3GaCk > /dev/null 2>&1
-0 4 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ac3/run
+0 2 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ac3/run
 5 4 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ics/run
 ######################################################################################
 
@@ -882,7 +882,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 0 */3 * * * root $WGET http://www.lefeuvre-immobilier.com/cron.php?cron_key=cX5VytB4mgQdto_MO3QHJup5vH4Y9imNq73iiKw6FjA > /dev/null 2>&1
 #30 5 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/entreprise/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf-lot/run
 #35 5 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/location/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/vente/run
-40 3 * * * root $WGET http://www.lefeuvre-immobilier.com/immobilier/imports/ac3/cron-run
+25 1 * * * root $WGET http://www.lefeuvre-immobilier.com/immobilier/imports/ac3/cron-run
 ######################################################################################
 
 ######################################################################################
@@ -1296,7 +1296,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # sacib.com
 #
 0 */3 * * * root $WGET http://www.sacib.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
-20 3 * * * root $WGET http://www.sacib.com/admin/immobilier/imports/ac3/run
+10 1 * * * root $WGET http://www.sacib.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################
