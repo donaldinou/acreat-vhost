@@ -416,7 +416,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # creadimm
 #
-0 */3 * * * root $WGET http://www.creadimm.fr/cron.php?cron_key=Gjf_ne3tEi7HbPrV3Vqdod8c_KDkhDl17_M8hxzFxs4 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.creadimm.fr/cron.php?cron_key=OSo5EeWTrYDZ8pWaMxhB4GDsCmZXFTQRXo_7FQjairk > /dev/null 2>&1
+50 4 * * * root $WGET http://www.creadimm.fr/admin/immobilier/imports/leizee/run
 ######################################################################################
 
 ######################################################################################
