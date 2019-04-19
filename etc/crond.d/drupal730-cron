@@ -1453,6 +1453,6 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # maisonswoodz.fr
 #
-0 */3 * * * root $WGET http://www.maisonswoodz.fr/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.maisonswoodz.fr/cron.php?cron_key=KsG4S9KjoB1uF0M-biRU2sl2hSYHVW0bIbjkVp6km5o > /dev/null 2>&1
 15 4 * * * root $WGET http://www.maisonswoodz.fr/admin/entities/run
 ######################################################################################
