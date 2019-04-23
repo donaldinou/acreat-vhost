@@ -200,6 +200,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# axiome.tm.fr
+#
+0 */3 * * * root $WGET http://www.axiome.tm.fr/cron.php?cron_key=m8Bf1WEhRXNJXoAh8Tuk9_k2fIgofqmHEaPcKNBSGrw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # axiopro.fr
 #
 0 */3 * * * root $WGET http://www.axiopro.fr/cron.php?cron_key=m8Bf1WEhRXNJXoAh8Tuk9_k2fIgofqmHEaPcKNBSGrw > /dev/null 2>&1
