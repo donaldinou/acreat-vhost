@@ -202,7 +202,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # axiome.tm.fr
 #
-0 */3 * * * root $WGET http://www.axiome.tm.fr/cron.php?cron_key=m8Bf1WEhRXNJXoAh8Tuk9_k2fIgofqmHEaPcKNBSGrw > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.axiome.tm.fr/cron.php?cron_key=1vnYja7J1cENwmC9PsgOf8e_-IG8jub-yJBRZ3X-wZs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -423,8 +423,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # creadimm
 #
-0 */3 * * * root $WGET http://www.creadimm.fr/cron.php?cron_key=OSo5EeWTrYDZ8pWaMxhB4GDsCmZXFTQRXo_7FQjairk > /dev/null 2>&1
-50 4 * * * root $WGET http://www.creadimm.fr/admin/immobilier/imports/leizee/run
+0 */3 * * * root $WGET https://www.creadimm.fr/cron.php?cron_key=OSo5EeWTrYDZ8pWaMxhB4GDsCmZXFTQRXo_7FQjairk > /dev/null 2>&1
+50 4 * * * root $WGET https://www.creadimm.fr/admin/immobilier/imports/leizee/run
 ######################################################################################
 
 ######################################################################################
