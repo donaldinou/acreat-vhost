@@ -1360,6 +1360,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# padel-rennais.com
+#
+0 */3 * * * root $WGET http://www.padel-rennais.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # solimco.fr
 #
 0 */3 * * * root $WGET http://www.solimco.fr/cron.php?cron_key=SvLgiZuyPJ62kjr8QnbwZ7e1diHveczelyxaZEqSVys > /dev/null 2>&1
