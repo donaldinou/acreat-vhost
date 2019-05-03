@@ -1233,6 +1233,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# le-querrien.com
+#
+0 */3 * * * root $WGET http://www.le-querrien.com/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # racines-restaurant.fr
 #
 0 */3 * * * root $WGET http://www.racines-restaurant.fr/cron.php?cron_key=8tz86gdT8hf1lktoLfBhk3C_u6-0njlUhi5Xys-KDks > /dev/null 2>&1
