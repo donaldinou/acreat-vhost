@@ -299,5 +299,5 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 # klsconseils.fr
 # 
-0 */3 * * * root $WGET http://www.klsconseils.fr/cron/6NnxOAMeoh_Qoz-HsmCxc95822C33q3R1pF_MmiXJcYOln6zdDniNnBSMO069WVmNbj41euSQg > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.klsconseils.fr/cron/Q7Pq5cLW2-FqmNS2IK3le1oUIEWhovFtGcrs4ufVub-Bthv8-Zb6I35OSUbm7EhKEgdxIaqHvA > /dev/null 2>&1
 ######################################################################################
