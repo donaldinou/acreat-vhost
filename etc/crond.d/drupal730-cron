@@ -317,7 +317,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # bras
 #
 #10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/pericles/run
-10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/ac3/run https://www.bras-immobilier.fr/admin/immobilier/imports/ac3-entreprise/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
+#10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/ac3/run https://www.bras-immobilier.fr/admin/immobilier/imports/ac3-entreprise/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
+10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/ac3/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
 0 */3 * * * root $WGET http://www.bras-immobilier.fr/cron.php?cron_key=0VTqUz2t_TlbKMH1i2QsDDg7wkUmHSHz-w-ar8XKOwA > /dev/null 2>&1
 ######################################################################################
 
@@ -1474,6 +1475,6 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # maisonswoodz.fr
 #
-0 */3 * * * root $WGET http://www.maisonswoodz.fr/cron.php?cron_key=KsG4S9KjoB1uF0M-biRU2sl2hSYHVW0bIbjkVp6km5o > /dev/null 2>&1
-15 4 * * * root $WGET http://www.maisonswoodz.fr/admin/entities/run
+0 */3 * * * root $WGET https://www.maisonswoodz.fr/cron.php?cron_key=KsG4S9KjoB1uF0M-biRU2sl2hSYHVW0bIbjkVp6km5o > /dev/null 2>&1
+15 8 * * * root $WGET https://www.maisonswoodz.fr/admin/entities/run
 ######################################################################################
