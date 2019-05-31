@@ -64,6 +64,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# allianceanabio.fr
+#
+0 */3 * * * root $WGET http://www.allianceanabio.fr/cron.php?cron_key=-I1W_ZYSZc2mzn1KTgahkfgnlSwWIWySWSuND2EeEvQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Abita
 #
 0 */3 * * * root $WGET http://www.abita-immobilier.com/cron.php?cron_key=WM4BFxPwqb1yUxjIa0jCLyd7qtGVwLDJd43oKTotTUo > /dev/null 2>&1
@@ -1414,7 +1421,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # thautomobiles.fr
 #
-0 */3 * * * root $WGET http://www.thautomobiles.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.thautomobiles.fr/cron.php?cron_key=JaBZTJ-XJue8oLiSjO1ssPz3GIkM5Z8aLiY1qs9Vubg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
