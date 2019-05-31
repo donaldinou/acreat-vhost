@@ -1199,9 +1199,10 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # Pozzo
 #
 0 */3 * * * root $WGET http://extranet-pozzo.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
-0 */3 * * * root $WGET http://pozzo-immobilier.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+0 */3 * * * root $WGET https://pozzo-immobilier.fr/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
 0 3 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-customers https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-neuf
 0 4 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/enova/run
+0 5 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/hektor/run
 ######################################################################################
 
 ######################################################################################
@@ -1236,7 +1237,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # le-querrien.com
 #
-0 */3 * * * root $WGET http://www.le-querrien.com/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.le-querrien.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
