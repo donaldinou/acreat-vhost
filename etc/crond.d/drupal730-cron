@@ -1412,6 +1412,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# thautomobiles.fr
+#
+0 */3 * * * root $WGET http://www.thautomobiles.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # thierry-immobilier.fr & nanteus
 #
 0 */3 * * * root $WGET http://www.location-studio-nanteus.fr/cron.php?cron_key=VZnPcGoqHXnDSpW7tKW3kbUx-XrCNULUd0un_IzpUCg > /dev/null 2>&1
