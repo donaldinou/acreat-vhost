@@ -780,7 +780,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # hotel-cite
 #
-0 */3 * * * root $WGET http://www.hotel-cite-st-malo-bretagne.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.hotel-cite-st-malo-bretagne.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
