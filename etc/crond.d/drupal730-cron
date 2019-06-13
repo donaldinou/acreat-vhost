@@ -66,7 +66,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # allianceanabio.fr
 #
-0 */3 * * * root $WGET http://www.allianceanabio.fr/cron.php?cron_key=-I1W_ZYSZc2mzn1KTgahkfgnlSwWIWySWSuND2EeEvQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.allianceanabio.fr/cron.php?cron_key=QAQwAnsSJkIy9mpizI_JSqku_nJKFV5LXanFfsJs9Fs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -682,24 +682,24 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # giboire.com
 #
-0 11 * * * root $WGET http://www.giboire.com/sites/giboire.com/GiboireMobile/notification/ios/simplepush.php
-0 */3 * * * root $WGET http://www.giboire.com/cron.php?cron_key=fMmcaaAGPc2azjJwD3iEoddfFI4cUQxTV1M1QB-ykY4 > /dev/null 2>&1
-45 1 * * * root $WGET http://www.giboire.com/admin/immobilier/imports/ac3/run http://www.giboire.com/immobilier/notification/process
+#0 11 * * * root $WGET http://www.giboire.com/sites/giboire.com/GiboireMobile/notification/ios/simplepush.php
+#0 */3 * * * root $WGET http://www.giboire.com/cron.php?cron_key=fMmcaaAGPc2azjJwD3iEoddfFI4cUQxTV1M1QB-ykY4 > /dev/null 2>&1
+#45 1 * * * root $WGET http://www.giboire.com/admin/immobilier/imports/ac3/run http://www.giboire.com/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
 #
 # GIBOIRE PROMOTION
 #
-45 1 * * * root $WGET http://www.giboire-promotion.com/extranet/maj-lots-statuts
-0 */3 * * * root $WGET http://www.giboire-promotion.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+#45 1 * * * root $WGET http://www.giboire-promotion.com/extranet/maj-lots-statuts
+#0 */3 * * * root $WGET http://www.giboire-promotion.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # GIBOIRE GROUPE
 #
-0 */3 * * * root $WGET http://www.giboire-groupe.com/cron.php?cron_key=-RKhSGEMls_GBUHuYNpm7rHalTolu-n6KQsBg4eipMc > /dev/null 2>&1
+#0 */3 * * * root $WGET http://www.giboire-groupe.com/cron.php?cron_key=-RKhSGEMls_GBUHuYNpm7rHalTolu-n6KQsBg4eipMc > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -880,8 +880,9 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # job-box.fr
 #
-0 */3 * * * root $WGET http://www.groupe-jobbox.fr/cron.php?cron_key=XvssIQgKeWupEaM7xzTrCPTLnmNpDIhW38duCao6lY4 > /dev/null 2>&1
-10 2 * * * root $WGET http://www.groupe-jobbox.fr/admin/acreat-job/notification/process
+0 */3 * * * root $WGET https://www.groupe-jobbox.fr/cron.php?cron_key=XvssIQgKeWupEaM7xzTrCPTLnmNpDIhW38duCao6lY4 > /dev/null 2>&1
+0 2 * * * root $WGET https://www.groupe-jobbox.fr/admin/update-jobs
+10 2 * * * root $WGET https://www.groupe-jobbox.fr/admin/acreat-job/notification/process
 ######################################################################################
 
 ######################################################################################
