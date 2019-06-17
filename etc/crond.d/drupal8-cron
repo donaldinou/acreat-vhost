@@ -309,3 +309,10 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 0 */3 * * * root $WGET http://www.pma-illifaut.com/cron/Q7Pq5cLW2-FqmNS2IK3le1oUIEWhovFtGcrs4ufVub-Bthv8-Zb6I35OSUbm7EhKEgdxIaqHvA > /dev/null 2>&1
 ######################################################################################
 
+######################################################################################
+# 
+# marbrerie-goliot-angers.fr
+# 
+0 */3 * * * root $WGET http://www.marbrerie-goliot-angers.fr/cron/Q7Pq5cLW2-FqmNS2IK3le1oUIEWhovFtGcrs4ufVub-Bthv8-Zb6I35OSUbm7EhKEgdxIaqHvA > /dev/null 2>&1
+######################################################################################
+
