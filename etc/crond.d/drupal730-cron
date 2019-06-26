@@ -291,7 +291,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # bizeulimmobilier.com
 #
-0 */3 * * * root $WGET http://www.bizeulimmobilier.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.bizeulimmobilier.com/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
+30 4 * * * root $WGET http://www.bizeulimmobilier.com/admin/immobilier/imports/ac3/run http://www.bizeulimmobilier.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -333,6 +334,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/pericles/run
 #10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/ac3/run https://www.bras-immobilier.fr/admin/immobilier/imports/ac3-entreprise/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
 10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/ac3/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
+45 3 * * * root $WGET https://www.bras-immobilier.fr/admin/immobilier/imports/enova/run
 0 */3 * * * root $WGET http://www.bras-immobilier.fr/cron.php?cron_key=0VTqUz2t_TlbKMH1i2QsDDg7wkUmHSHz-w-ar8XKOwA > /dev/null 2>&1
 ######################################################################################
 
