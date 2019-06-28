@@ -1219,7 +1219,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 0 */3 * * * root $WGET https://pozzo-immobilier.fr/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
 0 3 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-customers https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-neuf
 0 4 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/enova/run
-0 5 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/hektor/run
+#0 5 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/hektor/run
 ######################################################################################
 
 ######################################################################################
@@ -1375,6 +1375,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # extranet-promotion.secib-immobilier.com
 #
 0 */3 * * * root $WGET http://extranet-promotion.secib-immobilier.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# servicesfuneraires77.fr
+#
+0 */3 * * * root $WGET http://www.servicesfuneraires77.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
