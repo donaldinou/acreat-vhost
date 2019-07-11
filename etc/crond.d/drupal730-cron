@@ -845,6 +845,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# inova-immo.com
+#
+0 */3 * * * root $WGET http://www.inova-immo.com/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Isoprotek
 #
 0 */3 * * * root $WGET http://www.isoprotek.fr/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
