@@ -358,7 +358,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # bsr-immobilier.fr
 #
 0 */3 * * * root $WGET http://www.bsr-immobilier.fr/cron.php?cron_key=FLja885Ae6e-sueutmXuJ4j09cvPMiv279w5vIW3ESE > /dev/null 2>&1
-10 3 * * * root $WGET http://www.bsr-immobilier.fr/admin/immobilier/imports/ics/run http://www.bsr-immobilier.fr/admin/immobilier/notification/process
+10 3 * * * root $WGET http://www.bsr-immobilier.fr/admin/immobilier/imports/ics/run http://www.bsr-immobilier.fr/admin/immobilier/imports/ac3/run http://www.bsr-immobilier.fr/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
