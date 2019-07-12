@@ -847,7 +847,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # inova-immo.com
 #
-0 */3 * * * root $WGET http://www.inova-immo.com/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.inova-immo.com/cron.php?cron_key=jkbXglSQqgLqpSaf0tarpdFR-9walOXQaLbetgK1uaE > /dev/null 2>&1
+20 3 * * * root $WGET http://www.inova-immo.com/admin/immobilier/imports/hektor/run http://www.inova-immo.com/admin/immobilier/imports/seiitra/run http://www.inova-immo.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -1337,7 +1338,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # rupin-plomberie.fr
 #
-0 */3 * * * root $WGET http://www.rupin-plomberie.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.rupin-plomberie.fr/cron.php?cron_key=vt1X3Y2wsM0zbni1TFJmgId2tWWyzOY2YP8IX3EGOzM > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1508,6 +1509,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # constructeur-piscines.fr
 #
 0 */3 * * * root $WGET http://www.constructeur-piscines.fr/cron.php?cron_key=dMJ95bkwjIjx0yZzoLMFkY9ls8KOtO0bX4CmcUabo3k > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# viabilis-amenagement.com
+#
+0 */3 * * * root $WGET http://www.viabilis-amenagement.com/cron.php?cron_key=L9KACPETwh_7lRITUB6UPIRx-skyIzx-so5Cyq7BFUo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
