@@ -1394,9 +1394,9 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# servicesfuneraires77.fr
+# servicesfuneraires77.com
 #
-0 */3 * * * root $WGET http://www.servicesfuneraires77.fr/cron.php?cron_key=gvOF3CW6hc--voSlzMrippPruOiIJiPK8LkjM5qGcyU > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.servicesfuneraires77.com/cron.php?cron_key=gvOF3CW6hc--voSlzMrippPruOiIJiPK8LkjM5qGcyU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
