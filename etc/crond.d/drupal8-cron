@@ -306,7 +306,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 # pma-illifaut.com
 # 
-0 */3 * * * root $WGET http://www.pma-illifaut.com/cron/Q7Pq5cLW2-FqmNS2IK3le1oUIEWhovFtGcrs4ufVub-Bthv8-Zb6I35OSUbm7EhKEgdxIaqHvA > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.pma-illifaut.fr/cron/Q7Pq5cLW2-FqmNS2IK3le1oUIEWhovFtGcrs4ufVub-Bthv8-Zb6I35OSUbm7EhKEgdxIaqHvA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
