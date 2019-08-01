@@ -752,6 +752,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# has-climatisation.com
+#
+0 */3 * * * root $WGET http://www.has-climatisation.com/cron.php?cron_key=tmZRaO-pA4kDMgugKcLlGDLQwDtxt9jvswUlRXevQYk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # hifi35.com
 #
 0 */3 * * * root $WGET http://www.hifi35.com/cron.php?cron_key=tmZRaO-pA4kDMgugKcLlGDLQwDtxt9jvswUlRXevQYk > /dev/null 2>&1
