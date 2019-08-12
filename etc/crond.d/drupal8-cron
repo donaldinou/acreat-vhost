@@ -320,13 +320,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 # 
 # pompes-funebres-taligot.fr
 # 
-0 */3 * * * root $WGET http://www.pompes-funebres-taligot.fr/cron/Q7Pq5cLW2-FqmNS2IK3le1oUIEWhovFtGcrs4ufVub-Bthv8-Zb6I35OSUbm7EhKEgdxIaqHvA > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.pompes-funebres-taligot.fr/cron/IXgJP5qDyj5Y6685sciwYv0zw2tpmyinYTI59DlEmbSwrn8ucOELZdCn_beyRDpysYbQKX9nfQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 # 
 # scodeo.fr
 # 
-0 */3 * * * root $WGET http://www.scodeo.fr/cron/Q7Pq5cLW2-FqmNS2IK3le1oUIEWhovFtGcrs4ufVub-Bthv8-Zb6I35OSUbm7EhKEgdxIaqHvA > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.scodeo.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
 ######################################################################################
 

@@ -426,7 +426,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # leschaisdesaintecroix.com
 #
-0 */3 * * * root $WGET http://www.leschaisdesaintecroix.com/cron.php?cron_key=Gjf_ne3tEi7HbPrV3Vqdod8c_KDkhDl17_M8hxzFxs4 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.leschaisdesaintecroix.com/cron.php?cron_key=f5rnJ5xNKi8D4zXu1_r231B5Nf-d7oMFUNecom0bOOk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1543,7 +1543,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # welcomeimmo.com
 #
-0 */3 * * * root $WGET http://www.welcomeimmo.com/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.welcomeimmo.com/cron.php?cron_key=Uo_6IljqoP0DDOmNQ3Gu60WJ7F658-5hSXMdUxowDag > /dev/null 2>&1
 #20 4 * * * root $WGET http://www.thierry-immobilier.fr/admin/imports//run
 ######################################################################################
 
