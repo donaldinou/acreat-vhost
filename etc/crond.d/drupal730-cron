@@ -754,7 +754,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # has-climatisation.com
 #
-0 */3 * * * root $WGET http://www.has-climatisation.com/cron.php?cron_key=tmZRaO-pA4kDMgugKcLlGDLQwDtxt9jvswUlRXevQYk > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.has-climatisation.com/cron.php?cron_key=83UjRNZ3vund1jwknoNmTOPHM4ZOIX1UJYkFwlaEXm8 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1530,6 +1530,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # westevenement.com
 #
 0 */3 * * * root $WGET http://www.westevenement.com/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# welcomeimmo.com
+#
+0 */3 * * * root $WGET http://www.welcomeimmo.com/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+#20 4 * * * root $WGET http://www.thierry-immobilier.fr/admin/imports//run
 ######################################################################################
 
 ######################################################################################
