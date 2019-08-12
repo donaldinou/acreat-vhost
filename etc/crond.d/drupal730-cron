@@ -424,6 +424,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# leschaisdesaintecroix.com
+#
+0 */3 * * * root $WGET http://www.leschaisdesaintecroix.com/cron.php?cron_key=Gjf_ne3tEi7HbPrV3Vqdod8c_KDkhDl17_M8hxzFxs4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Charcuterie Joly
 #
 0 */3 * * * root $WGET http://www.charcuterie-joly.fr/cron.php?cron_key=Gjf_ne3tEi7HbPrV3Vqdod8c_KDkhDl17_M8hxzFxs4 > /dev/null 2>&1
