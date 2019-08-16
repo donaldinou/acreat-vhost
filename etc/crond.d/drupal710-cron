@@ -24,13 +24,6 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# Evolis
-#
-0 */3 * * * root $WGET http://www.evolis-avocats.fr/cron.php?cron_key=DeYEarZ5tZokq2Qy3tJzunm7b4jn-jzzFKaY1F_ErZI > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
 # GIBOIRE
 #
 #45 1 * * * root $WGET http://www.giboire-entreprise.com/admin/immobilier/imports/visualqie/run http://www.giboire-entreprise.com/admin/immobilier/imports/visualqie-nantes/run http://www.giboire-entreprise.com/admin/immobilier/imports/visualqie-com/run
