@@ -1528,6 +1528,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# uflevage.Fr
+#
+0 */3 * * * root $WGET http://www.uflevage.fr/cron.php?cron_key=aOGwNH7xs4OOGttTrr2JrpV7HDNdiTu4Kgf5lyGqXEk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # vente9.com
 #
 0 */3 * * * root $WGET http://www.vente9.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
