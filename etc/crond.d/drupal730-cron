@@ -1110,10 +1110,10 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# moins-notaires.fr
+# moins-vachon-notaires.fr | moins-notaires.fr
 #
-0 */3 * * * root $WGET http://www.moins-notaires.fr/cron.php?cron_key=vFspSJWNl9xv8nBxjj7xC-9pn5yuk5A6MztU3AwI0Fo > /dev/null 2>&1
-10 1 * * * root $WGET https://www.moins-notaires.fr/admin/immobilier/imports/ac3/run
+0 */3 * * * root $WGET http://www.moins-vachon-notaires.fr/cron.php?cron_key=vFspSJWNl9xv8nBxjj7xC-9pn5yuk5A6MztU3AwI0Fo > /dev/null 2>&1
+10 1 * * * root $WGET https://www.moins-vachon-notaires.fr/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################

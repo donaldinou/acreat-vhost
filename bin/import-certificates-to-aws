@@ -1,0 +1,231 @@
+#!/bin/bash
+
+# import-certificates-to-aws
+
+# Help menu
+print_help() {
+cat <<-HELP
+This script is used to import certificates into AWS
+you need to provide the following arguments:
+
+  1) The action.
+  2) [Optional] the domain name.
+
+Usage: (sudo) bash ${0##*/} ACTION --domain=DOMAIN
+Example: (sudo) bash ${0##*/} renew --domain=acreat.com
+HELP
+exit 0
+}
+
+print_env() {
+  printf "\n**********************************************\n"
+  printf "* \n"
+  printf "* COMMAND               : ${COMMAND}\n"
+  printf "* DOMAINS_PATH          : %s\n" "${DOMAINS_PATH[@]}"
+  printf "* DOMAIN                : ${DOMAIN}\n"
+  printf "* LETSENCRYPT_LIVE_PATH : ${LETSENCRYPT_LIVE_PATH}\n"
+  printf "* LOAD_BALANCER_ARN     : ${LOAD_BALANCER_ARN}\n"
+  printf "* LISTENER_ARN          : ${LISTENER_ARN}\n"
+  printf "* \n"
+  printf "**********************************************\n\n"
+}
+
+print_debug() {
+  local message="Debug: "${1}
+
+  printf "\n** ${message}\n" >&2
+}
+
+print_error() {
+  local message="Error: "${1}
+
+  printf "\n**********************************************\n" >&2
+  printf "* ${message}         *\n" >&2
+  printf "**********************************************\n\n" >&2
+}
+
+print_certificate_error() {
+  print_error "Certificate does not exist."
+}
+
+get_arn_load_balancer_id() {
+  local lb_name="d7-lb-waf"
+  aws elbv2 describe-load-balancers --names $lb_name | jq -r '.LoadBalancers[0].LoadBalancerArn'
+}
+
+get_arn_listener_id() {
+  aws elbv2 describe-listeners --load-balancer-arn $LOAD_BALANCER_ARN | jq -r '.Listeners[0].ListenerArn'
+}
+
+get_arn_ssl_certificate_id() {
+  local domain=$1
+  aws iam get-server-certificate --server-certificate-name $domain | jq -r '.ServerCertificate.ServerCertificateMetadata.Arn'
+}
+
+exists() {
+  local domain=$(aws iam get-server-certificate --server-certificate-name $1 | jq -r '.ServerCertificate.ServerCertificateMetadata.ServerCertificateName')
+
+  print_debug "Try for: ${1}."
+
+  if [[ "${domain}" = "${1}" ]]; then
+    printf "true"
+  else
+    printf "false"
+  fi
+}
+
+delete() {
+  local domain=${1}
+
+  print_debug "Try delete for: ${domain}."
+
+  if [[ $(exists ${domain}) = "true" ]]; then
+    local certificate_arn=$(get_arn_ssl_certificate_id "${domain}")
+    aws elbv2 remove-listener-certificates --listener-arn $LISTENER_ARN --certificates CertificateArn=$certificate_arn
+
+    print_debug "Sleep for 30 seconds."
+    sleep 30
+
+    aws iam delete-server-certificate --server-certificate-name ${domain}
+  else
+    print_certificate_error
+  fi
+}
+
+upload() {
+  local domain=${1}
+
+  print_debug "Try upload for: ${domain}."
+
+  if [[ -d "${LETSENCRYPT_LIVE_PATH}/${domain}" ]]; then
+    aws iam upload-server-certificate --server-certificate-name "${domain}" --private-key "file://${LETSENCRYPT_LIVE_PATH}/${domain}/privkey.pem" --certificate-body "file://${LETSENCRYPT_LIVE_PATH}/${domain}/cert.pem" --certificate-chain "file://${LETSENCRYPT_LIVE_PATH}/${domain}/chain.pem" | jq -r '.ServerCertificateMetadata.Arn'
+  else
+    print_certificate_error
+  fi
+}
+
+attach() {
+  local domain=${1}
+
+  if [[ $(exists ${domain}) = "true" ]]; then
+    local certificate_arn=$(get_arn_ssl_certificate_id "${domain}")
+    aws elbv2 add-listener-certificates --listener-arn $LISTENER_ARN --certificates CertificateArn=$certificate_arn
+  else
+    print_certificate_error
+  fi
+}
+
+insert() {
+  local domain=${1}
+
+  print_debug "Try insert for: ${domain}."
+
+  if [[ -d "${LETSENCRYPT_LIVE_PATH}/${domain}" ]]; then
+    upload "${domain}"
+
+    print_debug "Sleep for 30 seconds."
+    sleep 30
+
+    attach "${domain}"
+  else
+    print_certificate_error
+  fi
+}
+
+renew() {
+  local domain=${1}
+
+  if [[ -d "${LETSENCRYPT_LIVE_PATH}/${domain}" && $(exists "${domain}") = "true" ]]; then
+    delete "${domain}"
+    insert "${domain}"
+  else
+    print_certificate_error
+  fi
+}
+
+import() {
+  local domain=${1}
+
+  delete "${domain}"
+  insert "${domain}"
+}
+
+if [[ $(id -u) != 0 ]]; then
+  print_error "You must run this with sudo or root"
+  print_help
+  exit 1
+fi
+
+DOMAINS_PATH=$(realpath $(pwd)"/../sites-enabled")"/*"
+LETSENCRYPT_LIVE_PATH="/var/share/letsencrypt/live"
+LOAD_BALANCER_ARN=$(get_arn_load_balancer_id)
+LISTENER_ARN=$(get_arn_listener_id)
+
+COMMAND=${1}
+DOMAIN=${2}
+
+# Parse Command Line Arguments
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    import | upload | attach | insert | renew | delete | exists | status)
+        ;;
+    --domain=*)
+        DOMAIN="${1#*=}"
+        ;;
+    --help) print_help;;
+    *)
+      print_error "Invalid argument [$1], run --help for valid arguments."
+      exit 1
+  esac
+  shift
+done
+
+if [[ -n "${DOMAIN}" ]]; then
+  DOMAINS_PATH=("${DOMAIN}")
+fi
+
+if [[ -z "${COMMAND}" || "${COMMAND}" = "help"  ]]; then
+  print_help
+  exit 1
+fi
+
+if [[ "${COMMAND}" = "status"  ]]; then
+  print_env
+  exit 1
+fi
+
+printf "${COMMAND} START\n"
+printf "\n"
+
+case $COMMAND in
+  import | insert | upload | attach | renew | delete)
+    for path in $DOMAINS_PATH; do
+      dn=$(basename --suffix=.conf $path)
+      if [[ "${dn}" = "acreat.com" ]]; then
+        print_debug "Ignored domain: ${dn}."
+      else
+        $COMMAND "${dn}"
+      fi
+    done
+  ;;
+  exists)
+    for path in $DOMAINS_PATH; do
+      dn=$(basename --suffix=.conf $path)
+      if [[ $(exists "${dn}") = "true"  ]]; then
+        print_debug "Certificate exists."
+      else
+        print_certificate_error
+      fi
+    done
+  ;;
+  *)
+    print_error "Please provide a vadid command."
+    print_help
+    printf "\n"
+    exit 1
+  ;;
+esac
+
+printf "${COMMAND} END\n"
+printf "\n"
+
