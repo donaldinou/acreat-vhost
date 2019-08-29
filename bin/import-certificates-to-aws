@@ -104,6 +104,18 @@ upload() {
   fi
 }
 
+revoke() {
+  local domain=${1}
+
+  print_debug "Try revoke for: ${domain}."
+
+  if [[ $(exists ${domain}) = "true" ]]; then
+    aws iam delete-server-certificate --server-certificate-name ${domain}
+  else
+    print_certificate_error
+  fi
+}
+
 attach() {
   local domain=${1}
 
@@ -167,7 +179,7 @@ DOMAIN=${2}
 # Parse Command Line Arguments
 while [ "$#" -gt 0 ]; do
   case "$1" in
-    import | upload | attach | insert | renew | delete | exists | status)
+    import | upload | revoke | attach | insert | renew | delete | exists | status)
         ;;
     --domain=*)
         DOMAIN="${1#*=}"
@@ -198,7 +210,7 @@ printf "${COMMAND} START\n"
 printf "\n"
 
 case $COMMAND in
-  import | insert | upload | attach | renew | delete)
+  import | insert | upload | revoke | attach | renew | delete)
     for path in $DOMAINS_PATH; do
       dn=$(basename --suffix=.conf $path)
       if [[ "${dn}" = "acreat.com" ]]; then
