@@ -1120,6 +1120,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# immobilier-moraine.fr
+#
+0 */3 * * * root $WGET http://www.immobilier-moraine.fr/cron.php?cron_key=vFspSJWNl9xv8nBxjj7xC-9pn5yuk5A6MztU3AwI0Fo > /dev/null 2>&1
+10 2 * * * root $WGET https://www.immobilier-moraine.fr/admin/immobilier/imports/ac3/run
+######################################################################################
+
+######################################################################################
+#
 # natterip.com
 #
 0 */3 * * * root $WGET http://www.natterip.com/cron.php?cron_key=MVUW_eWtJQVZ8G-MGd78w2A2E4QHcXb5J54Bc81oLc4 > /dev/null 2>&1
