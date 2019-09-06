@@ -52,7 +52,7 @@ certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.hifi35.com
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.homardandchips.com
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.hotel-mulhouse.com
-certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.immobilier.orange.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d immobilier.orange.com
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.imprimerielemaire.fr
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.isisavocats.fr
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.itsinyou.fr
@@ -98,4 +98,74 @@ certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.vente9.com
 certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.westevenement.com
 
+# 726
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.abita-immobilier.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.agencelemeur.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.atrio-gp.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.bar-leroyal.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.bellecour-assurances.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.binois-menuiserie.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.cabinet-martin.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.cap-malo.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.cap-transaction.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.delphine-teillaud.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.expressivetherapycenter.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.hotel-annedebretagne.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.hotel-chateaubriand-st-malo.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.hotel-cite-st-malo-bretagne.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.hotel-des-lices.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.idkrea.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.koralihotel.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.le5-restaurant.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.lefeuvre-immobilier.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.lgbtvoyages.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.lignhabitat.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.maisondugeneral.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.maisonshamster.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.mc2avocat.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.mgeffray-immobilier.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.natterip.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.noyal-poids-lourds.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.prigent-associes.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.salonespritmaison.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.sarlherve.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.sbm-immo.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.thierry-immobilier.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.tombelaine-coquillages.com
+
+# d8
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.gibert-consulting.com
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.la-trinquette.fr
+certbot-auto --non-interactive --manual-public-ip-logging-ok --debug certonly --manual --preferred-challenges=http --manual-auth-hook ${DIR}/certbot_authenticator.sh --manual-cleanup-hook ${DIR}/certbot_cleanup.sh -d www.planete-running-rennes.fr
+
 ${DIR}/certbot_resolve_ln.sh
+
+// admin/structure/taxonomy/%taxonomy_vocabulary_machine_name
+// admin/structure/taxonomy/%taxonomy_vocabulary_machine_name/add
+'access callback' => 'user_access',
+    'access arguments' => array('administer taxonomy'),
+
+// taxonomy/term/<id>/edit
+'access callback' => 'taxonomy_term_edit_access',
+    'access arguments' => array(2),
+
+// taxonomy/term/<id>/feed
+'access callback' => 'user_access',
+    'access arguments' => array('access content'),
+
+// view
+
+// taxonomy/term/<id>
+'access callback' => 'user_access',
+    'access arguments' => array('access content'),
+
+
+    * FIX : problème de traduction
+* FIX: https
+* FIX: problème de récupération des champs dans le formulaire
+* UPDATE : stabilité et sécurité
+
+FIX: translation problem
+FIX: https
+FIX: webform field problem
+UPDATE: stability and security
