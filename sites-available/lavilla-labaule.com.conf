@@ -7,7 +7,7 @@
     <IfDefine RootPath>
         UnDefine RootPath
     </IfDefine>
-    Define RootPath ${DRUPAL_HOME}/drupal730
+    Define RootPath ${DRUPAL_7_HOME}
 
     <IfDefine ServerPath>
         UnDefine ServerPath
