@@ -707,7 +707,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 15 4 * * * root $WGET http://www.gerinter.fr/gerinter/annonces/update-nb
 #16 4 * * * root $WGET http://www.gerinter.fr/gerinter/export/ouest-france/xml
 18 4 * * * root $WGET http://www.gerinter.fr/gerinter/notification/process
-*/30 * * * * root $WGET http://www.gerinter.fr/admin/config/gerinter/ouestfrance/actions/run
+#*/30 * * * * root $WGET http://www.gerinter.fr/admin/config/gerinter/ouestfrance/actions/run
 ######################################################################################
 
 ######################################################################################
