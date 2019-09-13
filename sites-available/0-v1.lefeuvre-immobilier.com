@@ -2,7 +2,7 @@
     <IfDefine ServerName>
         UnDefine ServerName
     </IfDefine>
-    Define ServerName racines-restaurant.fr
+    Define ServerName v1.lefeuvre-immobilier.com
 
     <IfDefine RootPath>
         UnDefine RootPath
@@ -22,8 +22,7 @@
     Include includes/drupal-website.conf
     Include includes/drupal-advagg.conf
     Include includes/drupal-https.conf
-    Include includes/define-redirect-www.conf
+    Include includes/define-redirect.conf
 
     IncludeOptional includes/define-logs.conf
-    #IncludeOptional includes/drupal-mobile.conf
 </VirtualHost>
