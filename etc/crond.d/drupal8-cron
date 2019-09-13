@@ -170,169 +170,163 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # financeetcourtage.com
 #
 0 */3 * * * root $WGET http://www.financeetcourtage.com/cron/tC0ZI2sk0Mc6iBNpkQzaOAMaSvbSOG6wI6pfQt9LdQ9rNPfqvpFnS-Mb_tpbgLdpp6WwI-BENg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # riskinnov
-#
+# 
 0 */3 * * * root $WGET http://www.riskinnov.com/cron/XAwqonuiLrL2Qg4--Rf2vnv1Ic3aB8Do-ybfk1M8dN1n6Jp0EVCnshqeLmucaIyj7qeB0WwdYg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # airedesportesdebretagne
-#
+# 
 0 */3 * * * root $WGET http://www.airedesportesdebretagne.fr/cron/yRr4YnrCpoaLa4EAFKX1_QQLcOX-3RDoYn6QxFCiSd8nn0BQ9EHlKs8-1iLuh5hBEBBkFdFnwQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # pikard
-#
+# 
 0 */3 * * * root $WGET http://www.pikard.fr/cron/T0ujWdCUU5_zr2ZtZCdyJsdG5nH20pu_8Hj7V38E0PZhP8ZLbNWxrQjKTqCdny9sB6BhbcLMbQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # margotty
-#
+# 
 0 */3 * * * root $WGET http://www.margotty.com/cron/C2hSoWIqk6Ywbn5hPgdf5I-NoqBVXApAPD4JQS-xpfwIYdi6YZPzS14D2iqHBNTIZYDlzgJ21Q > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # laporteacote
-#
+# 
 0 */3 * * * root $WGET https://www.laporteacote35.com/cron/4CNB8sK3SuzAiQuOOg-DLOYL7k4pv8D63zthTLIG0hfWKVzKKYcNVXqCNxmmeJSudqB-eKThyw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # borsa-architecte-dplg-saint-malo.com
-#
+# 
 0 */3 * * * root $WGET http://www.borsa-architecte-dplg-saint-malo.com.acreat.net/cron/C2hSoWIqk6Ywbn5hPgdf5I-NoqBVXApAPD4JQS-xpfwIYdi6YZPzS14D2iqHBNTIZYDlzgJ21Q > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # minoterie-pivan-bruz.fr
-#
+# 
 0 */3 * * * root $WGET http://www.minoterie-pivan-bruz.fr/cron/93ebUKG-aFFNlVWMIJQeDmEeyDOf0Cbur7DPPQxQ3-aCIfBYuh0s5W3thKQspOd-5_i1mhIn9A > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # alexandre-boutique.fr
-#
+# 
 0 */3 * * * root $WGET http://www.alexandre-boutique.fr/cron/S3qUlvd9vOSMgFjr3vTENZxFhLQe_zNCcf4KyE2qvrKETn1aR3SsRqbnSq42Tc9DqlFF1lZ9aQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # SCP Guillou Renaudin procedure-appel.fr
-#
+# 
 0 */3 * * * root $WGET http://www.procedure-appel.fr/cron/-6SYpIonfwe4-0r8SRNHr4HLG5mDleZB51vGf2OmrM-bXz3RYM-_UfSGDDuXahK6gYhM2iY2_A > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # Hypnose & Coaching
-#
+# 
 0 */3 * * * root $WGET https://www.hypnoserennes.fr/cron/sc3TRH51wb5dvdBuTMqhzEcbdV6DbzSca4rdKsiU3NC9KtfaKiLZZdyFucjBKWv7bq3HfgbUkA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # Yoan Manet - maitre-oeuvre-rennes.fr
-#
+# 
 0 */3 * * * root $WGET http://www.maitreoeuvrerennes.fr/cron/-6SYpIonfwe4-0r8SRNHr4HLG5mDleZB51vGf2OmrM-bXz3RYM-_UfSGDDuXahK6gYhM2iY2_A > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # acosteo.com
-#
+# 
 0 */3 * * * root $WGET http://www.acosteo.com/cron/-6SYpIonfwe4-0r8SRNHr4HLG5mDleZB51vGf2OmrM-bXz3RYM-_UfSGDDuXahK6gYhM2iY2_A > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # peinture-decoration-35.fr
-#
+# 
 0 */3 * * * root $WGET http://www.peinture-decoration-35.fr/cron/bY9QKxTj-IxL4X1BgE7hMYQNExdGXw8He-wxXK9dFykeXKVIFP6HOKuCAoqeBtwa7aDLN1mTmw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # lorblanc-allaitement.com
-#
+# 
 #0 */3 * * * root $WGET http://www.lorblanc-allaitement.com/cron/-6SYpIonfwe4-0r8SRNHr4HLG5mDleZB51vGf2OmrM-bXz3RYM-_UfSGDDuXahK6gYhM2iY2_A > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # pompesfunebres-vauquer.fr
-#
+# 
 0 */3 * * * root $WGET http://www.pompesfunebres-vauquer.fr/cron/-6SYpIonfwe4-0r8SRNHr4HLG5mDleZB51vGf2OmrM-bXz3RYM-_UfSGDDuXahK6gYhM2iY2_A > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # livraison-fioul-35.fr
-#
+# 
 0 */3 * * * root $WGET http://www.livraison-fioul-35.fr/cron/6NnxOAMeoh_Qoz-HsmCxc95822C33q3R1pF_MmiXJcYOln6zdDniNnBSMO069WVmNbj41euSQg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # armacell.com
-#
+# 
 0 */3 * * * root $WGET http://corporate.armacell.com/cron/-6SYpIonfwe4-0r8SRNHr4HLG5mDleZB51vGf2OmrM-bXz3RYM-_UfSGDDuXahK6gYhM2iY2_A > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # klsconseils.fr
-#
+# 
 0 */3 * * * root $WGET http://www.klsconseils.fr/cron/Q7Pq5cLW2-FqmNS2IK3le1oUIEWhovFtGcrs4ufVub-Bthv8-Zb6I35OSUbm7EhKEgdxIaqHvA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # pma-illifaut.com
-#
+# 
 0 */3 * * * root $WGET http://www.pma-illifaut.fr/cron/Q7Pq5cLW2-FqmNS2IK3le1oUIEWhovFtGcrs4ufVub-Bthv8-Zb6I35OSUbm7EhKEgdxIaqHvA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # marbrerie-goliot-angers.fr
-#
+# 
 0 */3 * * * root $WGET http://www.marbrerie-goliot-angers.fr/cron/Q7Pq5cLW2-FqmNS2IK3le1oUIEWhovFtGcrs4ufVub-Bthv8-Zb6I35OSUbm7EhKEgdxIaqHvA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # pompes-funebres-taligot.fr
-#
+# 
 0 */3 * * * root $WGET http://www.pompes-funebres-taligot.fr/cron/IXgJP5qDyj5Y6685sciwYv0zw2tpmyinYTI59DlEmbSwrn8ucOELZdCn_beyRDpysYbQKX9nfQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
-#
+# 
 # scodeo.fr
-#
+# 
 0 */3 * * * root $WGET http://www.scodeo.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
 ######################################################################################
 
-######################################################################################
-#
-# escaliers35.fr
-#
-0 */3 * * * root $WGET http://www.escaliers35.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
-######################################################################################
