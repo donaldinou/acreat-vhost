@@ -1100,7 +1100,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # milleetunsourires
 #
-0 */3 * * * root $WGET http://www.milleetunsourires.fr/cron.php?cron_key=MYniDlVn6YSXAQcUqqW20IpQHXG0a-o7cMqbf2KsH_M > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.milleetunsourires.fr/cron.php?cron_key=VLQvknKjxK-eOCPr6hnB7HQ6clnXweW7b0gBz9FvYjw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
