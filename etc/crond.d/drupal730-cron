@@ -1098,6 +1098,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# milleetunsourires
+#
+0 */3 * * * root $WGET http://www.milleetunsourires.fr/cron.php?cron_key=MYniDlVn6YSXAQcUqqW20IpQHXG0a-o7cMqbf2KsH_M > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # mmt35.fr
 #
 0 */3 * * * root $WGET http://www.mmt35.fr/cron.php?cron_key=dr_PaGeyFm1zj_aKnD3XOVLKwyluUW0bANNmpFOvmd0 > /dev/null 2>&1
