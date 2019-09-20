@@ -1582,6 +1582,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# creabatijardin.com
+#
+0 */3 * * * root $WGET http://www.creabatijardin.com/cron.php?cron_key=dMJ95bkwjIjx0yZzoLMFkY9ls8KOtO0bX4CmcUabo3k > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # viabilis-amenagement.com
 #
 0 */3 * * * root $WGET http://www.viabilis-amenagement.com/cron.php?cron_key=L9KACPETwh_7lRITUB6UPIRx-skyIzx-so5Cyq7BFUo > /dev/null 2>&1
