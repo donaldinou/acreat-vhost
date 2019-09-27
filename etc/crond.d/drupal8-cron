@@ -24,6 +24,13 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# sandbox.acreat.net
+#
+0 */3 * * * root $WGET http://sandbox.acreat.net/cron/kWrAOa1ouPmUW5Bepvrh1uqNFmF_6iZXadyyi2vrBdo0hd8VV49-CzudVLCjnXexsXx4JKnf-A > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # latest.acreat
 #
 0 */3 * * * root $WGET http://latest.acreat.com/cron/kWrAOa1ouPmUW5Bepvrh1uqNFmF_6iZXadyyi2vrBdo0hd8VV49-CzudVLCjnXexsXx4JKnf-A > /dev/null 2>&1
