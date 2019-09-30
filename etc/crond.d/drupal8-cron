@@ -343,3 +343,17 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 0 */3 * * * root $WGET http://www.escalier35.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# sitec35.fr
+#
+0 */3 * * * root $WGET https://www.sitec35.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# breizh-toit.com
+#
+0 */3 * * * root $WGET https://www.breizh-toit.com/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
