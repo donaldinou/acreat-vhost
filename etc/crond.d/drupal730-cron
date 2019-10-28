@@ -884,6 +884,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# ink-enseigne.com
+#
+0 */3 * * * root $WGET https://www.ink-enseigne.com/cron.php?cron_key=jkbXglSQqgLqpSaf0tarpdFR-9walOXQaLbetgK1uaE > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Isoprotek
 #
 0 */3 * * * root $WGET http://www.isoprotek.fr/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
