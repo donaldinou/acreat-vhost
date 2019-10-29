@@ -279,6 +279,11 @@
 127.0.0.1 spertys.fr www.spertys.fr
 127.0.0.1 ink-enseigne.com www.ink-enseigne.com
 
+# 6
+127.0.0.1 rennesparcexpo.fr www.rennesparcexpo.fr
+127.0.0.1 foirederennes.com www.foirederennes.com
+127.0.0.1 leasametric.com www.leasametric.com
+
 # misc
 85.69.117.189 maison-nc
 

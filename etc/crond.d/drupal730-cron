@@ -886,7 +886,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # ink-enseigne.com
 #
-0 */3 * * * root $WGET https://www.ink-enseigne.com/cron.php?cron_key=jkbXglSQqgLqpSaf0tarpdFR-9walOXQaLbetgK1uaE > /dev/null 2>&1
+0 */3 * * * root $WGET https://www.ink-enseigne.com/cron.php?cron_key=QpG7tUf6NZfOe1t4mWmdPJCtXGl_zPiTGStV3E2xNT0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
