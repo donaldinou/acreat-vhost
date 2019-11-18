@@ -267,7 +267,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # le-bureau-vert.com
 #
-0 */3 * * * root $WGET http://www.le-bureau-vert.com/cron.php?cron_key=gdngCbPu0eJl26G6UrvAf06EqufKpVbURAa5fZ-qOXI > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.le-bureau-vert.com/cron.php?cron_key=poGIJRpmI9KuJb8KOXT-b9JghXZcDuoJQA2nSLz16VQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -551,7 +551,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Delphine Lechat
 #
-0 */3 * * * root $WGET http://delphine-lechat-avocat.fr/cron.php?cron_key=tEGTIU5BLd3IKGh7OzIrKQui-ezrpM3JG1t7LECiSlM > /dev/null 2>&1
+0 */3 * * * root $WGET http://delphine-lechat-avocat.fr/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1291,7 +1291,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # firstbeton.com
 #
-0 */3 * * * root $WGET http://www.firstbeton.com/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.firstbeton.com/cron.php?cron_key=PVUKKxB-mzrgZjR_sqMxMv1eYvhyGV-SW0raMPh6nMU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
