@@ -1289,6 +1289,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# firstbeton.com
+#
+0 */3 * * * root $WGET http://www.firstbeton.com/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # pigeon-materiaux.com
 #
 0 */3 * * * root $WGET http://www.pigeon-materiaux.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
