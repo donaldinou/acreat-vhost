@@ -535,6 +535,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# Delphine Lechat
+#
+0 */3 * * * root $WGET http://delphine-lechat-avocat.fr/cron.php?cron_key=tEGTIU5BLd3IKGh7OzIrKQui-ezrpM3JG1t7LECiSlM > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # destruction-disques-durs.com
 #
 0 */3 * * * root $WGET http://www.destruction-disques-durs.com/cron.php?cron_key=Q61jpHAL4a_0IWH-t80s8_6BbfgeaPfhcrZeLTmr6FY > /dev/null 2>&1
