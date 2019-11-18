@@ -519,6 +519,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# dominno
+#
+0 */3 * * * root $WGET http://www.dominno-immobilier.fr/cron.php?cron_key=9Lxs9uenOmwTFnlVWeT9OkWN9de-vpYZEL9JPPA2yFw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Daniel Mouton
 #
 0 */3 * * * root $WGET http://www.daniel-mouton.com/cron.php?cron_key=f82KjqntVEOGs87iCUdmngpwMFGZ9A9VkaCS-G0dNfo > /dev/null 2>&1
