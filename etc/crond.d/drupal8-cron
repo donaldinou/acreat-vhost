@@ -357,3 +357,10 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 0 */3 * * * root $WGET https://www.breizh-toit.com/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# bertrandrealisations.com
+#
+0 */3 * * * root $WGET https://www.bertrandrealisations.com/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
