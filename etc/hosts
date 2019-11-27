@@ -105,7 +105,7 @@
 127.0.0.1 lefeuvre-immobilier.com www.lefeuvre-immobilier.com cabinet-lefeuvre.com www.cabinet-lefeuvre.com
 127.0.0.1 groupe-pandora.com www.groupe-pandora.com groupe-pandora.fr www.groupe-pandora.fr
 127.0.0.1 terrains.groupe-launay.com extranet.groupe-launay.com
-127.0.0.1 promotion.groupe-launay.com extranet-promotion.groupe-launay.com
+127.0.0.1 promotion.groupe-launay.com extranet-promotion.groupe-launay.com promotion.groupe-launay.com.acreat.net
 127.0.0.1 officenotarial-hellivan-ploubalay.fr www.officenotarial-hellivan-ploubalay.fr
 127.0.0.1 strateys.com www.strateys.com strateys.fr www.strateys.fr
 127.0.0.1 notaires-rennes-duguesclin.fr www.notaires-rennes-duguesclin.fr
@@ -271,6 +271,7 @@
 127.0.0.1 lycee-descartes.eu www.lycee-descartes.eu
 127.0.0.1 immobilier-moraine.fr www.immobilier-moraine.fr
 127.0.0.1 creabatijardin.com www.creabatijardin.com
+127.0.0.1 spertys.fr www.spertys.fr
 
 # misc
 85.69.117.189 maison-nc
