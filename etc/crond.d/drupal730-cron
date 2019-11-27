@@ -879,7 +879,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # inova-immo.com
 #
 0 */3 * * * root $WGET http://www.inova-immo.com/cron.php?cron_key=jkbXglSQqgLqpSaf0tarpdFR-9walOXQaLbetgK1uaE > /dev/null 2>&1
-20 3 * * * root $WGET http://www.inova-immo.com/admin/immobilier/imports/hektor/run http://www.inova-immo.com/admin/immobilier/imports/seiitra/run http://www.inova-immo.com/admin/immobilier/notification/process
+20 3 * * * root $WGET http://www.inova-immo.com/admin/immobilier/imports/hektor/execute http://www.inova-immo.com/admin/immobilier/imports/seiitra/run http://www.inova-immo.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -1290,7 +1290,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 0 */3 * * * root $WGET https://www.pozzo-immobilier.fr/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
 0 3 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-customers https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-neuf
 0 5 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/enova/run
-#0 5 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/hektor/run
+#0 5 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/hektor/execute
 ######################################################################################
 
 ######################################################################################
@@ -1471,6 +1471,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# spertys.fr
+#
+0 */3 * * * root $WGET https://www.spertys.fr/cron.php?cron_key=hEbVNJxLBs1u3XOkZ3suQ_b0PLvvQsr5SBWdKc8i-_g > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # solimco.fr
 #
 0 */3 * * * root $WGET http://www.solimco.fr/cron.php?cron_key=SvLgiZuyPJ62kjr8QnbwZ7e1diHveczelyxaZEqSVys > /dev/null 2>&1
@@ -1502,7 +1509,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # sweethome-rennes.fr
 #
 0 */3 * * * root $WGET http://www.sweethome-rennes.fr/cron.php?cron_key=gl15mKLYxkCNYxi_YKCpzXNCKq2mKqmzSsbyf71tsAI > /dev/null 2>&1
-15 4 * * * root $WGET http://www.sweethome-rennes.fr/admin/immobilier/imports/hektor/run http://www.sweethome-rennes.fr/admin/immobilier/notification/process
+15 4 * * * root $WGET http://www.sweethome-rennes.fr/admin/immobilier/imports/hektor/execute http://www.sweethome-rennes.fr/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -1599,8 +1606,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # welcomeimmo.com
 #
-0 */3 * * * root $WGET http://www.welcomeimmo.com/cron.php?cron_key=Uo_6IljqoP0DDOmNQ3Gu60WJ7F658-5hSXMdUxowDag > /dev/null 2>&1
-#20 4 * * * root $WGET http://www.thierry-immobilier.fr/admin/imports//run
+0 */3 * * * root $WGET https://www.welcomeimmo.com/cron.php?cron_key=Uo_6IljqoP0DDOmNQ3Gu60WJ7F658-5hSXMdUxowDag > /dev/null 2>&1
+20 4 * * * root $WGET https://www.welcomeimmo.com/admin/immobilier/imports/hektor/execute
 ######################################################################################
 
 ######################################################################################
