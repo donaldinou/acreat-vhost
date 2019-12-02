@@ -371,3 +371,10 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 0 */3 * * * root $WGET https://www.pompes-funebres-de-la-baie.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# marbrerie-legall.fr
+#
+0 */3 * * * root $WGET https://www.marbrerie-legall.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
