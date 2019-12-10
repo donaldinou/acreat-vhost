@@ -71,6 +71,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# alicos.fr
+#
+0 */3 * * * root $WGET http://www.alicos.fr/cron.php?cron_key=QAQwAnsSJkIy9mpizI_JSqku_nJKFV5LXanFfsJs9Fs > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # allianceanabio.fr
 #
 0 */3 * * * root $WGET http://www.allianceanabio.fr/cron.php?cron_key=QAQwAnsSJkIy9mpizI_JSqku_nJKFV5LXanFfsJs9Fs > /dev/null 2>&1
