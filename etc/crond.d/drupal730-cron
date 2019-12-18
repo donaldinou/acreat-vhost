@@ -730,6 +730,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# generaleimmobiliereneuf.com
+#
+0 */3 * * * root $WGET https://www.generaleimmobiliereneuf.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+#30 4 * * * root $WGET https://www.generaleimmobiliereneuf.com/admin/immobilier/imports/connectimmo/run
+######################################################################################
+
+######################################################################################
+#
 # Gerinter
 #
 0 */3 * * * root $WGET http://www.gerinter.fr/cron.php?cron_key=DEfnB2Ak3E84Y9VMlb619am25FsHVHJMzMqdMbYRpIs > /dev/null 2>&1
@@ -848,7 +856,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # hotel-chateaubriand-st-malo.com
 #
-0 */3 * * * root $WGET http://www.hotel-chateaubriand-st-malo.com.acreat.net/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.hotel-chateaubriand-st-malo.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -862,8 +870,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # hotel-mulhouse.com
 #
-0 */3 * * * root $WGET http://www.hotel-mulhouse.com/cron.php?cron_key=ZW--FFEyrE6ljS42qvyrKo0nU78IrF2qRbkxi5E9xpw > /dev/null 2>&1
-0 */3 * * * root $WGET http://www.hotel-mulhouse.com.acreat.net/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.hotel-mulhouse.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
