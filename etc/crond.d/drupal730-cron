@@ -1594,12 +1594,12 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # thierry-immobilier.fr & nanteus
 #
 0 */3 * * * root $WGET http://www.location-studio-nanteus.fr/cron.php?cron_key=VZnPcGoqHXnDSpW7tKW3kbUx-XrCNULUd0un_IzpUCg > /dev/null 2>&1
-0 */3 * * * root $WGET http://www.thierry-immobilier.fr/cron.php?cron_key=YzPs2XWFV501E4c7QZPsYqQEWiiem_C1jccwlG7JDMY > /dev/null 2>&1
-5 3 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/vente/run http://www.thierry-immobilier.fr/admin/immobilier/imports/location/run
-30 5 * * * root $WGET http://www.thierry-immobilier.fr/immobilier/notification/process http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
-0 4 1 */3 * root $WGET http://www.thierry-immobilier.fr/acreat_kelquartier/refresh_portraits
-#30 5 * * * root $WGET http://www.thierry-immobilier.fr/agence/immobilier/imports/immobilier-nodes-count-update
-#5 3 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/entreprise/run
+#0 */3 * * * root $WGET http://www.thierry-immobilier.fr/cron.php?cron_key=YzPs2XWFV501E4c7QZPsYqQEWiiem_C1jccwlG7JDMY > /dev/null 2>&1
+#5 3 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/vente/run http://www.thierry-immobilier.fr/admin/immobilier/imports/location/run
+#30 5 * * * root $WGET http://www.thierry-immobilier.fr/immobilier/notification/process http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
+#0 4 1 */3 * root $WGET http://www.thierry-immobilier.fr/acreat_kelquartier/refresh_portraits
+##30 5 * * * root $WGET http://www.thierry-immobilier.fr/agence/immobilier/imports/immobilier-nodes-count-update
+##5 3 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/entreprise/run
 ######################################################################################
 
 ######################################################################################
