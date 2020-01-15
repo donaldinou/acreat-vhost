@@ -807,6 +807,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# guine-cuisines.fr
+#
+0 */3 * * * root $WGET http://www.guine-cuisines.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # gynecologie-rennes.fr
 #
 0 */3 * * * root $WGET http://www.gynecologie-rennes.fr/cron.php?cron_key=PdJc3WFpB2zjcIFd0ym7BYIHTvvFO1LutxBCrqaJomo > /dev/null 2>&1
