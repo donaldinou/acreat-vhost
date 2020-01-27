@@ -125,6 +125,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 0 */3 * * * root $WGET http://www.agencequiberon.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
 45 2 * * * root $WGET http://www.agencequiberon.com/admin/immobilier/imports/orpi/run http://www.agencequiberon.com/admin/immobilier/notification/process
+0 4 * * * root $WGET https://www.beneat-chauvel.com/admin/immobilier/imports/enova/run
 ######################################################################################
 
 ######################################################################################
@@ -283,6 +284,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 0 */3 * * * root $WGET http://www.beneat-chauvel.com/cron.php?cron_key=zZCydoVgjikxHwwFcAOsBqyisbaWhapRTNJ5a_rdkIA > /dev/null 2>&1
 0 2 * * * root $WGET http://www.beneat-chauvel.com/admin/immobilier/imports/ac3/run http://www.beneat-chauvel.com/admin/immobilier/imports/seiitra/run http://www.beneat-chauvel.com/admin/immobilier/notification/process
+10 4 * * * root $WGET https://www.beneat-chauvel.com/admin/immobilier/imports/enova/run
 ######################################################################################
 
 ######################################################################################
@@ -809,7 +811,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # guine-cuisines.fr
 #
-0 */3 * * * root $WGET http://www.guine-cuisines.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.guine-cuisines.fr/cron.php?cron_key=1vnYja7J1cENwmC9PsgOf8e_-IG8jub-yJBRZ3X-wZs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
