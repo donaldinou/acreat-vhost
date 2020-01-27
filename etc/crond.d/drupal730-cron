@@ -118,6 +118,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 0 */3 * * * root $WGET http://www.agencequiberon.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
 45 2 * * * root $WGET http://www.agencequiberon.com/admin/immobilier/imports/orpi/run http://www.agencequiberon.com/admin/immobilier/notification/process
+0 4 * * * root $WGET https://www.agencequiberon.com/admin/immobilier/imports/enova/run
 ######################################################################################
 
 ######################################################################################
@@ -269,6 +270,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 0 */3 * * * root $WGET http://www.beneat-chauvel.com/cron.php?cron_key=zZCydoVgjikxHwwFcAOsBqyisbaWhapRTNJ5a_rdkIA > /dev/null 2>&1
 0 2 * * * root $WGET http://www.beneat-chauvel.com/admin/immobilier/imports/ac3/run http://www.beneat-chauvel.com/admin/immobilier/imports/seiitra/run http://www.beneat-chauvel.com/admin/immobilier/notification/process
+10 4 * * * root $WGET https://www.beneat-chauvel.com/admin/immobilier/imports/enova/run
 ######################################################################################
 
 ######################################################################################
@@ -391,6 +393,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 0 */3 * * * root $WGET http://www.cabinetchateaubriand.com/cron.php?cron_key=20HegHjmrF4w79nMmZTQxpmiW-Gk40g_S9AgzEgEowY > /dev/null 2>&1
 10 2 * * * root $WGET http://www.cabinetchateaubriand.com/admin/immobilier/imports/ac3/run http://www.cabinetchateaubriand.com/admin/immobilier/notification/process
+0 23 * * * root cd /var/www/html/drupal/drupal730/sites/cabinetchateaubriand.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
+30 23 * * * root cd /var/www/html/drupal/drupal730/sites/cabinetchateaubriand.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
 ######################################################################################
 
 ######################################################################################
@@ -698,6 +702,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 0 */3 * * * root $WGET http://www.generaleimmobiliere73.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 30 4 * * * root $WGET http://www.generaleimmobiliere73.com/admin/immobilier/imports/connectimmo/run
 50 4 * * * root $WGET http://www.generaleimmobiliere73.com/immobilier/notification/process
+######################################################################################
+
+######################################################################################
+#
+# generaleimmobiliereneuf.com
+#
+0 */3 * * * root $WGET https://www.generaleimmobiliere73.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+40 4 * * * root $WGET https://www.generaleimmobiliereneuf.com/admin/immobilier/imports/connectimmo/run https://www.generaleimmobiliereneuf.com/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
