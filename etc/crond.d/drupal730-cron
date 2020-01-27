@@ -123,9 +123,9 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # www.agencedebretagne.fr | agencequiberon.com
 #
-0 */3 * * * root $WGET http://www.agencequiberon.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
-45 2 * * * root $WGET http://www.agencequiberon.com/admin/immobilier/imports/orpi/run http://www.agencequiberon.com/admin/immobilier/notification/process
-0 4 * * * root $WGET https://www.beneat-chauvel.com/admin/immobilier/imports/enova/run
+0 */3 * * * root $WGET https://www.agencequiberon.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
+45 2 * * * root $WGET https://www.agencequiberon.com/admin/immobilier/imports/orpi/run https://www.agencequiberon.com/admin/immobilier/notification/process
+0 4 * * * root $WGET https://www.agencequiberon.com/admin/immobilier/imports/enova/run
 ######################################################################################
 
 ######################################################################################
