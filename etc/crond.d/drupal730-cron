@@ -554,6 +554,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# dominnoimmobilier.fr
+#
+0 */3 * * * root $WGET https://www.dominnoimmobilier.fr/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
+30 2 * * * root $WGET https://www.dominnoimmobilier.fr/admin/immobilier/imports/ac3/run/classique https://www.dominnoimmobilier.fr/admin/immobilier/imports/ac3/run/entreprise https://www.dominnoimmobilier.fr/admin/immobilier/notification/process
+######################################################################################
+
+######################################################################################
+#
 # durosmusique.fr
 #
 0 */3 * * * root $WGET http://www.durosmusique.fr/cron.php?cron_key=yFZMvlg9Yy7vOA824P7OVJVSThygZ4rvxrJ-zG-oAec > /dev/null 2>&1
