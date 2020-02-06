@@ -1679,6 +1679,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# viabilis-amenagement.com
+#
+0 */3 * * * root $WGET http://extranet.viabilis-amenagement.com/cron.php?cron_key=L9KACPETwh_7lRITUB6UPIRx-skyIzx-so5Cyq7BFUo > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # westevenement.com
 #
 0 */3 * * * root $WGET http://www.westevenement.com/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
