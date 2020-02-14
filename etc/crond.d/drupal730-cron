@@ -678,6 +678,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# forma-design.fr
+#
+0 */3 * * * root $WGET http://www.forma-design.fr/cron.php?cron_key=zhxfxXcNYS4E8k76DBy14WHUP8WHg5uHOkyJW1rGb_s > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # fougeresimmo.com
 #
 0 */3 * * * root $WGET http://www.fougeresimmo.com/cron.php?cron_key=EQaKCjl1rF4rAqZWeRqC_XUT4Kp8B_zLONne50AkUBI > /dev/null 2>&1
