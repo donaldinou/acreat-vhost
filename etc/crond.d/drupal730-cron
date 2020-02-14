@@ -680,7 +680,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # forma-design.fr
 #
-0 */3 * * * root $WGET http://www.forma-design.fr/cron.php?cron_key=zhxfxXcNYS4E8k76DBy14WHUP8WHg5uHOkyJW1rGb_s > /dev/null 2>&1
+0 */3 * * * root $WGET https://www.forma-design.fr/cron.php?cron_key=8bQvGLVnT17qk_5bjI0gpJMOhOqjSO2a1dm7d9bgoYk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1461,7 +1461,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # restaurant-laromates.com
 #
-0 */3 * * * root $WGET https://www.restaurant-laromates.com/cron.php?cron_key=RDB2f8yOvMrXxj8x3oO_p08P-unaitScnoMvv6-MLEE > /dev/null 2>&1
+0 */3 * * * root $WGET https://www.restaurant-laromates.com/cron.php?cron_key=ZfuPEA30EoUMkM3CbJBMXyqXce26H72U_CfN5wAL7H0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
