@@ -1225,6 +1225,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# bio-r.com
+#
+0 */3 * * * root $WGET https://www.bio-r.com/cron.php?cron_key=zG1sN_h_B1C36xYVOI2y1PFozMVHvzqEwVjzZ3-RqTU > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # notaires-rennes-alma.fr
 #
 0 */3 * * * root $WGET http://www.notaires-rennes-alma.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
