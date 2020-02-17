@@ -838,6 +838,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# has-undergroundventilation.com
+#
+0 */3 * * * root $WGET http://www.has-undergroundventilation.com/cron.php?cron_key=83UjRNZ3vund1jwknoNmTOPHM4ZOIX1UJYkFwlaEXm8 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # hifi35.com
 #
 0 */3 * * * root $WGET http://www.hifi35.com/cron.php?cron_key=tmZRaO-pA4kDMgugKcLlGDLQwDtxt9jvswUlRXevQYk > /dev/null 2>&1
