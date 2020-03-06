@@ -561,6 +561,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# decorateur-interieur-rennes.fr (Marjorie Dufee)
+#
+0 */3 * * * root $WGET https://www.decorateur-interieur-rennes.fr/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Delphine Lechat
 #
 0 */3 * * * root $WGET http://delphine-lechat-avocat.fr/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
