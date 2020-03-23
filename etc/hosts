@@ -7,6 +7,11 @@
 172.30.2.153 mattermost.acreat.com slack.acreat.com
 172.30.2.153 redmine.acreat.com projet.acreat.com
 
+# symfony
+127.0.0.1 acreat.com www.acreat.com backoff.acreat.com
+127.0.0.1 pricer.acreat.com
+127.0.0.1 d2d.acreat.com
+
 # 8
 127.0.0.1 sandbox.acreat.net
 127.0.0.1 latest.acreat.com
@@ -91,7 +96,6 @@
 127.0.0.1 isisavocats.fr www.isisavocats.fr
 127.0.0.1 soccer-rennais.com www.soccer-rennais.com
 127.0.0.1 cert-online.biz www.cert-online.biz
-127.0.0.1 acreat.com www.acreat.com
 127.0.0.1 hotel.acreat.com
 127.0.0.1 dlj-syndic.fr www.dlj-syndic.fr
 127.0.0.1 notaires-rennes-st-germain.fr www.notaires-rennes-st-germain.fr scp-scouarnec-gours-notaires-rennes.fr www.scp-scouarnec-gours-notaires-rennes.fr
