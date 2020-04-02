@@ -140,9 +140,10 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # agence-des-druides.fr
 #
-0 */3 * * * root $WGET http://www.agence-des-druides.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
-50 0 * * * root $WGET http://www.agence-des-druides.fr/admin/immobilier/imports/ac3/run 
-0 4 * * * root $WGET http://www.agence-des-druides.fr/admin/immobilier/imports/kiwi/run http://www.agence-des-druides.fr/admin/immobilier/notification/process
+0 */3 * * * root $WGET https://www.agence-des-druides.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+50 0 * * * root $WGET https://www.agence-des-druides.fr/admin/immobilier/imports/ac3/run 
+0 4 * * * root $WGET https://www.agence-des-druides.fr/admin/immobilier/imports/spi/run https://www.agence-des-druides.fr/admin/immobilier/notification/process
+0 5 * * * root $WGET https://www.agence-des-druides.fr/admin/immobilier/imports/spi/availabilities
 ######################################################################################
 
 ######################################################################################
@@ -302,6 +303,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 0 */3 * * * root $WGET http://www.bizeulimmobilier.com/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
 30 4 * * * root $WGET http://www.bizeulimmobilier.com/admin/immobilier/imports/ac3/run http://www.bizeulimmobilier.com/admin/immobilier/notification/process
+0 23 * * * root cd /var/www/html/drupal/drupal730/sites/bizeulimmobilier.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
+30 23 * * * root cd /var/www/html/drupal/drupal730/sites/bizeulimmobilier.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
 ######################################################################################
 
 ######################################################################################
@@ -557,7 +560,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # dominnoimmobilier.fr
 #
 0 */3 * * * root $WGET https://www.dominnoimmobilier.fr/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
-30 2 * * * root $WGET https://www.dominnoimmobilier.fr/admin/immobilier/imports/ac3/run/classique https://www.dominnoimmobilier.fr/admin/immobilier/imports/ac3/run/entreprise https://www.dominnoimmobilier.fr/admin/immobilier/notification/process
+30 2 * * * root $WGET https://www.dominnoimmobilier.fr/admin/immobilier/imports/ac3/run/classique https://www.dominnoimmobilier.fr/admin/immobilier/notification/process
+#30 2 * * * root $WGET https://www.dominnoimmobilier.fr/admin/immobilier/imports/ac3/run/entreprise
 ######################################################################################
 
 ######################################################################################
@@ -1120,7 +1124,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # mmt35.fr
 #
-0 */3 * * * root $WGET http://www.mmt35.fr/cron.php?cron_key=dr_PaGeyFm1zj_aKnD3XOVLKwyluUW0bANNmpFOvmd0 > /dev/null 2>&1
+0 */3 * * * root $WGET http://www.mmt35.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1392,6 +1396,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # restaurantlamiral.fr
 #
 0 */3 * * * root $WGET http://www.restaurantlamiral.fr/cron.php?cron_key=RDB2f8yOvMrXxj8x3oO_p08P-unaitScnoMvv6-MLEE > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# restaurant-laromates.com
+#
+0 */3 * * * root $WGET https://www.restaurant-laromates.com/cron.php?cron_key=ZfuPEA30EoUMkM3CbJBMXyqXce26H72U_CfN5wAL7H0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
