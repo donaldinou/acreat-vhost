@@ -735,7 +735,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # gdl-avocats.fr
 #
-0 */3 * * * root $WGET https://www.gdl-avocats.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+0 */3 * * * root $WGET https://www.gdl-avocats.fr/cron.php?cron_key=iIoeE2uZmPWZF4DBpOJISLPecOjpymNhcen3nC_WFYA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
