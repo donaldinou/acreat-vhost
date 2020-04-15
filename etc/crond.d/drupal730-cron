@@ -733,6 +733,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# gdl-avocats.fr
+#
+0 */3 * * * root $WGET https://www.gdl-avocats.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # generaleimmobiliere73.com
 #
 0 23 * * * root cd /var/www/html/drupal/drupal730/sites/generaleimmobiliere73.com && php -d memory_limit=-1 /var/www/html/drupal/7/vendor/bin/drush osir
