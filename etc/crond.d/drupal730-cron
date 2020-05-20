@@ -889,6 +889,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# horus-df.com
+#
+0 */3 * * * root $WGET https://www.horus-df.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # hotel-anne
 #
 0 */3 * * * root $WGET http://www.hotel-annedebretagne.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
