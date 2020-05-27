@@ -891,7 +891,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # horus-df.com
 #
-0 */3 * * * root $WGET https://www.horus-df.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+0 */3 * * * root $WGET https://www.horus-df.com/cron.php?cron_key=WMbvPiNAkJbqwS5_hhm2SQbWMTygzq0c25ZLLme8OrU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1113,6 +1113,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 0 */3 * * * root $WGET http://www.limmoneuf.immo/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
 0 5 * * * root $WGET http://www.limmoneuf.immo/admin/immobilier/imports/rodacom/run
+######################################################################################
+
+######################################################################################
+#
+# limmoneuf.immo
+#
+0 */3 * * * root $WGET https://www.lloyd-davis.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+#20 1 * * * root $WGET https://www.lloyd-davis.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################
