@@ -41,7 +41,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # 4immo
 #
-0 */3 * * * root $WGET http://www.4immo.fr/cron.php?cron_key=G5A1LkTSiJBlWhvf9T8kP4CbJJRaghmsz-rRQN3GaCk > /dev/null 2>&1
+1 */3 * * * root $WGET http://www.4immo.fr/cron.php?cron_key=G5A1LkTSiJBlWhvf9T8kP4CbJJRaghmsz-rRQN3GaCk > /dev/null 2>&1
 0 0 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ac3/run
 5 4 * * * root $WGET http://www.4immo.fr/admin/immobilier/imports/ics/run
 ######################################################################################
@@ -50,7 +50,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # 4immo - Coudray Lorrainne
 #
-0 */3 * * * root $WGET http://www.coudraylorraine.fr/cron.php?cron_key=HrL0GKO3Rgbrykuy9Be-Pwztn1yMJCLi2d2G9AVAHs8 > /dev/null 2>&1
+2 */3 * * * root $WGET http://www.coudraylorraine.fr/cron.php?cron_key=HrL0GKO3Rgbrykuy9Be-Pwztn1yMJCLi2d2G9AVAHs8 > /dev/null 2>&1
 10 0 * * * root $WGET http://www.coudraylorraine.fr/admin/immobilier/imports/ac3/run
 20 6 * * * root $WGET http://www.coudraylorraine.fr/admin/immobilier/imports/ics/run
 ######################################################################################
@@ -59,35 +59,35 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # abhinvestissements.fr
 #
-0 */3 * * * root $WGET http://www.abhinvestissements.fr/cron.php?cron_key=-I1W_ZYSZc2mzn1KTgahkfgnlSwWIWySWSuND2EeEvQ > /dev/null 2>&1
+3 */3 * * * root $WGET http://www.abhinvestissements.fr/cron.php?cron_key=-I1W_ZYSZc2mzn1KTgahkfgnlSwWIWySWSuND2EeEvQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # agenceduvieuxport.com
 #
-0 */3 * * * root $WGET http://www.agenceduvieuxport.com/cron.php?cron_key=tp2TRFNt-MgX7K0LEvLeVtlff1bN8Z7d2tR5VK1hykY > /dev/null 2>&1
+4 */3 * * * root $WGET http://www.agenceduvieuxport.com/cron.php?cron_key=tp2TRFNt-MgX7K0LEvLeVtlff1bN8Z7d2tR5VK1hykY > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # alicos.fr
 #
-0 */3 * * * root $WGET http://www.alicos.fr/cron.php?cron_key=brSeTlasUR2r3Lefgw0bGPgRdTiyhPi3IrQXwp_LFSQ > /dev/null 2>&1
+5 */3 * * * root $WGET http://www.alicos.fr/cron.php?cron_key=brSeTlasUR2r3Lefgw0bGPgRdTiyhPi3IrQXwp_LFSQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # allianceanabio.fr
 #
-0 */3 * * * root $WGET http://www.allianceanabio.fr/cron.php?cron_key=QAQwAnsSJkIy9mpizI_JSqku_nJKFV5LXanFfsJs9Fs > /dev/null 2>&1
+6 */3 * * * root $WGET http://www.allianceanabio.fr/cron.php?cron_key=QAQwAnsSJkIy9mpizI_JSqku_nJKFV5LXanFfsJs9Fs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Abita
 #
-0 */3 * * * root $WGET http://www.abita-immobilier.com/cron.php?cron_key=WM4BFxPwqb1yUxjIa0jCLyd7qtGVwLDJd43oKTotTUo > /dev/null 2>&1
+7 */3 * * * root $WGET http://www.abita-immobilier.com/cron.php?cron_key=WM4BFxPwqb1yUxjIa0jCLyd7qtGVwLDJd43oKTotTUo > /dev/null 2>&1
 15 0 * * * root $WGET https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/claude https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/bord_de_mer https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/cayre_immobilier https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/fauvel_immobilier https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/parame_immobilier https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/rochebonne_immobilier https://www.abita-immobilier.com/admin/immobilier/imports/ac3/run/h2b_immobilier
 ######################################################################################
 
@@ -95,28 +95,28 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # abacasalome.fr
 #
-0 */3 * * * root $WGET https://www.abacasalome.fr/cron.php?cron_key=X3Ucowr1PIA6Rrk64UlUo2XEgJ40WSSQMK4L7g2fbDY > /dev/null 2>&1
+8 */3 * * * root $WGET https://www.abacasalome.fr/cron.php?cron_key=X3Ucowr1PIA6Rrk64UlUo2XEgJ40WSSQMK4L7g2fbDY > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # hotel.acreat.net
 #
-0 */3 * * * root $WGET http://hotelacreat.net/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
+9 */3 * * * root $WGET http://hotelacreat.net/cron.php?cron_key=KePnIAG3z_9vnqS0Oy0AVKnVQoV3zYyIs2PnMkgo_Bc > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # immo.acreat.com
 #
-0 */3 * * * root $WGET http://immo.acreat.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+10 */3 * * * root $WGET http://immo.acreat.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # www.agencedebretagne.fr | agencequiberon.com
 #
-0 */3 * * * root $WGET https://www.agencequiberon.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
+11 */3 * * * root $WGET https://www.agencequiberon.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
 45 2 * * * root $WGET https://www.agencequiberon.com/admin/immobilier/imports/orpi/run https://www.agencequiberon.com/admin/immobilier/notification/process
 0 4 * * * root $WGET https://www.agencequiberon.com/admin/immobilier/imports/enova/run
 ######################################################################################
@@ -125,7 +125,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Agence Seine Immo
 #
-0 */3 * * * root $WGET https://www.agenceseineimmo.fr/cron.php?cron_key=6F22_xXRhAY5LT5_fdf-MEPrgfKIHD9ZiwErYAsV7aw > /dev/null 2>&1
+12 */3 * * * root $WGET https://www.agenceseineimmo.fr/cron.php?cron_key=6F22_xXRhAY5LT5_fdf-MEPrgfKIHD9ZiwErYAsV7aw > /dev/null 2>&1
 45 3 * * * root $WGET https://www.agenceseineimmo.fr/admin/immobilier/imports/cosmo/run https://www.agenceseineimmo.fr/immobilier/notification/process
 ######################################################################################
 
@@ -140,7 +140,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # agence-des-druides.fr
 #
-0 */3 * * * root $WGET https://www.agence-des-druides.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+13 */3 * * * root $WGET https://www.agence-des-druides.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 50 0 * * * root $WGET https://www.agence-des-druides.fr/admin/immobilier/imports/ac3/run 
 0 4 * * * root $WGET https://www.agence-des-druides.fr/admin/immobilier/imports/spi/run https://www.agence-des-druides.fr/admin/immobilier/notification/process
 0 5 * * * root $WGET https://www.agence-des-druides.fr/admin/immobilier/imports/spi/availabilities
@@ -150,7 +150,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # agencelaplage.fr
 #
-0 */3 * * * root $WGET http://www.agencelaplage.fr/cron.php?cron_key=9X1MxJfSING-FYKMBzRvJCmEJz3PvgCdl-mXs1-8HUI > /dev/null 2>&1
+14 */3 * * * root $WGET http://www.agencelaplage.fr/cron.php?cron_key=9X1MxJfSING-FYKMBzRvJCmEJz3PvgCdl-mXs1-8HUI > /dev/null 2>&1
 10 4 * * * root $WGET http://www.agencelaplage.fr/admin/immobilier/imports/hektor/execute
 ######################################################################################
 
@@ -160,57 +160,50 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 #40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/ac3/vente/run
 40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/hektor/execute
-0 */3 * * * root $WGET http://www.agencelemeur.com/cron.php?cron_key=h3f_XBXfbCLjm58-of0ptYccSlwPK82xRCrt59ziZNw > /dev/null 2>&1
+15 */3 * * * root $WGET http://www.agencelemeur.com/cron.php?cron_key=h3f_XBXfbCLjm58-of0ptYccSlwPK82xRCrt59ziZNw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # agencelenoir.com
 #
-0 */3 * * * root $WGET https://www.agencelenoir.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
+16 */3 * * * root $WGET https://www.agencelenoir.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
 40 0 * * * root $WGET https://www.agencelenoir.com/admin/immobilier/imports/ac3/run
-######################################################################################
-
-######################################################################################
-#
-# alexandre-boutique.fr
-#
-0 */3 * * * root $WGET http://www.alexandre-boutique.fr/cron.php?cron_key=Mt6v9IA-AAw90sFz_-IB_SHXOcTqezw6LOTwJqZR9Dc > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # am-rochereuil.fr
 #
-0 */3 * * * root $WGET http://www.am-rochereuil.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+17 */3 * * * root $WGET http://www.am-rochereuil.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # app.notaires-rennes-duguesclin.fr
 #
-0 */3 * * * root $WGET http://app.notaires-rennes-duguesclin.fr/cron.php?cron_key=Iya6ZlzLHfh9QSQhzEq6Qoq7d-D6TQt7Q6OQLGVSJTc > /dev/null 2>&1
+18 */3 * * * root $WGET http://app.notaires-rennes-duguesclin.fr/cron.php?cron_key=Iya6ZlzLHfh9QSQhzEq6Qoq7d-D6TQt7Q6OQLGVSJTc > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # archi_tec.net
 #
-0 */3 * * * root $WGET http://www.archi-tec.net/cron.php?cron_key=O1h4W-YZUAs31YqRH697q2GwLEFVi7RizKWlWlKTdp4 > /dev/null 2>&1
+19 */3 * * * root $WGET http://www.archi-tec.net/cron.php?cron_key=O1h4W-YZUAs31YqRH697q2GwLEFVi7RizKWlWlKTdp4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # atrio-gp.fr
 #
-0 */3 * * * root $WGET http://www.atrio-gp.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+20 */3 * * * root $WGET http://www.atrio-gp.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # arcomex.fr
 #
-0 */3 * * * root $WGET http://www.arcomex.fr/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
+21 */3 * * * root $WGET http://www.arcomex.fr/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
 0 3 * * * root $WGET http://www.arcomex.fr/import-actualites
 ######################################################################################
 
@@ -218,14 +211,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # axiome.tm.fr
 #
-0 */3 * * * root $WGET http://www.axiome.tm.fr/cron.php?cron_key=1vnYja7J1cENwmC9PsgOf8e_-IG8jub-yJBRZ3X-wZs > /dev/null 2>&1
+22 */3 * * * root $WGET http://www.axiome.tm.fr/cron.php?cron_key=1vnYja7J1cENwmC9PsgOf8e_-IG8jub-yJBRZ3X-wZs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # axiopro.fr
 #
-0 */3 * * * root $WGET http://www.axiopro.fr/cron.php?cron_key=m8Bf1WEhRXNJXoAh8Tuk9_k2fIgofqmHEaPcKNBSGrw > /dev/null 2>&1
+23 */3 * * * root $WGET http://www.axiopro.fr/cron.php?cron_key=m8Bf1WEhRXNJXoAh8Tuk9_k2fIgofqmHEaPcKNBSGrw > /dev/null 2>&1
 30 3 * * * root $WGET http://www.axiopro.fr/admin/immobilier/imports/custom/run
 ######################################################################################
 
@@ -233,50 +226,43 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # axival.eu
 #
-0 */3 * * * root $WGET http://www.axival.eu/cron.php?cron_key=c-oUHLQfugKWAao8SbIjtgkm_qvfiCddKiXg8axnpmU > /dev/null 2>&1
+24 */3 * * * root $WGET http://www.axival.eu/cron.php?cron_key=c-oUHLQfugKWAao8SbIjtgkm_qvfiCddKiXg8axnpmU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # bar-leroyal.fr
 #
-0 */3 * * * root $WGET http://www.bar-leroyal.fr/cron.php?cron_key=tXo_szxgIJBHLysweU-0Ot9ZnU2ua6LkOVzDlJ1c2uc > /dev/null 2>&1
+25 */3 * * * root $WGET http://www.bar-leroyal.fr/cron.php?cron_key=tXo_szxgIJBHLysweU-0Ot9ZnU2ua6LkOVzDlJ1c2uc > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # barnoud-immobilier.fr
 #
-0 */3 * * * root $WGET http://www.barnoud-immobilier.fr/cron.php?cron_key=t_I1kmmx5HddbmypAV0si4qzTbI_ePNW4R18Cqfoaoo > /dev/null 2>&1
+26 */3 * * * root $WGET http://www.barnoud-immobilier.fr/cron.php?cron_key=t_I1kmmx5HddbmypAV0si4qzTbI_ePNW4R18Cqfoaoo > /dev/null 2>&1
 40 3 * * * root $WGET http://www.barnoud-immobilier.fr/admin/immobilier/imports/connectimmo/run http://www.barnoud-immobilier.fr/admin/immobilier/imports/ics/run
-######################################################################################
-
-######################################################################################
-#
-# beim.fr
-#
-0 */3 * * * root $WGET http://www.beim.fr/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # bellecour-assurances.fr
 #
-0 */3 * * * root $WGET http://www.bellecour-assurances.fr/cron.php?cron_key=gdngCbPu0eJl26G6UrvAf06EqufKpVbURAa5fZ-qOXI > /dev/null 2>&1
+27 */3 * * * root $WGET http://www.bellecour-assurances.fr/cron.php?cron_key=gdngCbPu0eJl26G6UrvAf06EqufKpVbURAa5fZ-qOXI > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # le-bureau-vert.com
 #
-0 */3 * * * root $WGET http://www.le-bureau-vert.com/cron.php?cron_key=poGIJRpmI9KuJb8KOXT-b9JghXZcDuoJQA2nSLz16VQ > /dev/null 2>&1
+28 */3 * * * root $WGET http://www.le-bureau-vert.com/cron.php?cron_key=poGIJRpmI9KuJb8KOXT-b9JghXZcDuoJQA2nSLz16VQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # beneat-chauvel.com
 #
-0 */3 * * * root $WGET http://www.beneat-chauvel.com/cron.php?cron_key=zZCydoVgjikxHwwFcAOsBqyisbaWhapRTNJ5a_rdkIA > /dev/null 2>&1
+29 */3 * * * root $WGET http://www.beneat-chauvel.com/cron.php?cron_key=zZCydoVgjikxHwwFcAOsBqyisbaWhapRTNJ5a_rdkIA > /dev/null 2>&1
 0 1 * * * root $WGET http://www.beneat-chauvel.com/admin/immobilier/imports/ac3/run http://www.beneat-chauvel.com/admin/immobilier/imports/seiitra/run http://www.beneat-chauvel.com/admin/immobilier/notification/process
 10 4 * * * root $WGET https://www.beneat-chauvel.com/admin/immobilier/imports/enova/run
 ######################################################################################
@@ -285,7 +271,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # biensanantes.com
 #
-0 */3 * * * root $WGET http://www.biensanantes.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+30 */3 * * * root $WGET http://www.biensanantes.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 50 4 * * * root $WGET http://www.biensanantes.com/admin/immobilier/imports/ac3/run
 0 5 * * * root $WGET http://www.biensanantes.com/immobilier/notification/process
 ######################################################################################
@@ -294,21 +280,21 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # binois
 #
-0 */3 * * * root $WGET http://www.binois-menuiserie.fr/cron.php?cron_key=QpG7tUf6NZfOe1t4mWmdPJCtXGl_zPiTGStV3E2xNT0 > /dev/null 2>&1
+31 */3 * * * root $WGET http://www.binois-menuiserie.fr/cron.php?cron_key=QpG7tUf6NZfOe1t4mWmdPJCtXGl_zPiTGStV3E2xNT0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # bistrot-du-palais.fr
 #
-0 */3 * * * root $WGET http://www.le-palatium.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+32 */3 * * * root $WGET http://www.le-palatium.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # bizeulimmobilier.com
 #
-0 */3 * * * root $WGET http://www.bizeulimmobilier.com/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
+33 */3 * * * root $WGET http://www.bizeulimmobilier.com/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
 30 4 * * * root $WGET http://www.bizeulimmobilier.com/admin/immobilier/imports/ac3/run http://www.bizeulimmobilier.com/admin/immobilier/notification/process
 0 23 * * * root cd /var/www/html/drupal/drupal730/sites/bizeulimmobilier.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
 30 23 * * * root cd /var/www/html/drupal/drupal730/sites/bizeulimmobilier.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
@@ -318,7 +304,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # bochard.fr
 #
-0 */3 * * * root $WGET http://www.bochard.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
+34 */3 * * * root $WGET http://www.bochard.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
 10 4 * * * root $WGET http://www.bochard.fr/admin/immobilier/imports/rodacom/run http://www.bochard.fr/admin/immobilier/imports/seiitra/run
 10 0 * * * root $WGET http://www.bochard.fr/admin/immobilier/imports/ac3/run
 20 4 * * * root $WGET http://www.bochard.fr/immobilier/notification/process
@@ -328,21 +314,21 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # boucheriebriand.fr
 #
-0 */3 * * * root $WGET http://www.boucheriebriand.fr/cron.php?cron_key=kE36YZL-qwQD3vWpfumJK5Ha9j-EOOUNIvrnS-nZJWo > /dev/null 2>&1
+35 */3 * * * root $WGET http://www.boucheriebriand.fr/cron.php?cron_key=kE36YZL-qwQD3vWpfumJK5Ha9j-EOOUNIvrnS-nZJWo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # boulangerie-patisserie-chocolaterie-coupel-rennes.fr
 #
-0 */3 * * * root $WGET http://www.coupel-boulangerie-patisserie.fr/cron.php?cron_key=6-odqU__HHbZaoWgsDXyHFg6_qSx1kVpBY1n2aGKrt4 > /dev/null 2>&1
+36 */3 * * * root $WGET http://www.coupel-boulangerie-patisserie.fr/cron.php?cron_key=6-odqU__HHbZaoWgsDXyHFg6_qSx1kVpBY1n2aGKrt4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # bouvet-cartier.com
 #
-0 */3 * * * root $WGET http://www.bouvet-cartier.com/cron.php?cron_key=SptZYsl2qc_FLAj8KzTTnNNNDDR5st-2pIb8T8ed_QM > /dev/null 2>&1
+37 */3 * * * root $WGET http://www.bouvet-cartier.com/cron.php?cron_key=SptZYsl2qc_FLAj8KzTTnNNNDDR5st-2pIb8T8ed_QM > /dev/null 2>&1
 10 3 * * * root $WGET http://www.bouvet-cartier.com/admin/immobilier/imports/crypto/run http://www.bouvet-cartier.com/admin/immobilier/imports/rodacom/run http://www.bouvet-cartier.com/admin/immobilier/notification/process
 #20 3 * * * root $WGET http://www.bouvet-cartier.com/admin/immobilier/dossiers-de-location/purge
 ######################################################################################
@@ -355,21 +341,21 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/ac3/run https://www.bras-immobilier.fr/admin/immobilier/imports/ac3-entreprise/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
 10 4 * * * root $WGET http://www.bras-immobilier.fr/admin/immobilier/imports/ac3/run http://www.bras-immobilier.fr/admin/immobilier/imports/seiitra/run http://www.bras-immobilier.fr/immobilier/notification/process http://www.bras-immobilier.fr/annonces-count-maj
 45 3 * * * root $WGET https://www.bras-immobilier.fr/admin/immobilier/imports/enova/run
-0 */3 * * * root $WGET http://www.bras-immobilier.fr/cron.php?cron_key=0VTqUz2t_TlbKMH1i2QsDDg7wkUmHSHz-w-ar8XKOwA > /dev/null 2>&1
+38 */3 * * * root $WGET http://www.bras-immobilier.fr/cron.php?cron_key=0VTqUz2t_TlbKMH1i2QsDDg7wkUmHSHz-w-ar8XKOwA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # brilhac.com
 #
-0 */3 * * * root $WGET http://www.brilhac.com.acreat.net/cron.php?cron_key=c-oUHLQfugKWAao8SbIjtgkm_qvfiCddKiXg8axnpmU > /dev/null 2>&1
+39 */3 * * * root $WGET http://www.brilhac.com.acreat.net/cron.php?cron_key=c-oUHLQfugKWAao8SbIjtgkm_qvfiCddKiXg8axnpmU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # bretagne-proprietes.com
 #
-0 */3 * * * root $WGET http://www.bretagne-proprietes.com/cron.php?cron_key=B4XPsq_wzjTu8tUBSUQndpm473WiIEpX36YE8dCgmLM > /dev/null 2>&1
+40 */3 * * * root $WGET http://www.bretagne-proprietes.com/cron.php?cron_key=B4XPsq_wzjTu8tUBSUQndpm473WiIEpX36YE8dCgmLM > /dev/null 2>&1
 0 0 * * * root $WGET http://www.bretagne-proprietes.com/admin/immobilier/imports/ac3/run http://www.bretagne-proprietes.com/admin/immobilier/notification/process
 ######################################################################################
 
@@ -377,7 +363,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # bsr-immobilier.fr
 #
-0 */3 * * * root $WGET http://www.bsr-immobilier.fr/cron.php?cron_key=FLja885Ae6e-sueutmXuJ4j09cvPMiv279w5vIW3ESE > /dev/null 2>&1
+41 */3 * * * root $WGET http://www.bsr-immobilier.fr/cron.php?cron_key=FLja885Ae6e-sueutmXuJ4j09cvPMiv279w5vIW3ESE > /dev/null 2>&1
 10 3 * * * root $WGET http://www.bsr-immobilier.fr/admin/immobilier/imports/ics/run http://www.bsr-immobilier.fr/admin/immobilier/imports/ac3/run http://www.bsr-immobilier.fr/admin/immobilier/notification/process
 ######################################################################################
 
@@ -385,15 +371,15 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # laboucherierennaise.com
 #
-0 */3 * * * root $WGET http://www.laboucherierennaise.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+42 */3 * * * root $WGET http://www.laboucherierennaise.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Cabinet Martin
 #
-0 */3 * * * root $WGET http://cabinet-martin.fr/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
-0 */3 * * * root $WGET https://www.dossier-cabinet-martin.fr/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
+43 */3 * * * root $WGET http://cabinet-martin.fr/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
+43 */3 * * * root $WGET https://www.dossier-cabinet-martin.fr/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
 0 3 * * * root $WGET https://www.cabinet-martin.fr/admin/immobilier/imports/ac3/location/run https://www.cabinet-martin.fr/admin/immobilier/imports/ac3/vente/run https://www.cabinet-martin.fr/admin/immobilier/notification/process
 40 2 * * * root $WGET https://www.cabinet-martin.fr/admin/immobilier/imports/ac3/entreprise/run
 ######################################################################################
@@ -402,7 +388,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # cabinetchateaubriand.com
 #
-0 */3 * * * root $WGET http://www.cabinetchateaubriand.com/cron.php?cron_key=20HegHjmrF4w79nMmZTQxpmiW-Gk40g_S9AgzEgEowY > /dev/null 2>&1
+44 */3 * * * root $WGET http://www.cabinetchateaubriand.com/cron.php?cron_key=20HegHjmrF4w79nMmZTQxpmiW-Gk40g_S9AgzEgEowY > /dev/null 2>&1
 10 1 * * * root $WGET http://www.cabinetchateaubriand.com/admin/immobilier/imports/ac3/run http://www.cabinetchateaubriand.com/admin/immobilier/notification/process
 0 23 * * * root cd /var/www/html/drupal/drupal730/sites/cabinetchateaubriand.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
 30 23 * * * root cd /var/www/html/drupal/drupal730/sites/cabinetchateaubriand.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
@@ -412,42 +398,42 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # cab-quiniou.com
 #
-0 */3 * * * root $WGET http://www.cab-quiniou.com/cron.php?cron_key=1mugSkPWnyUH-kZ3eKDFMQ3VUja3RmXsoQMhNw48G7s > /dev/null 2>&1
+45 */3 * * * root $WGET http://www.cab-quiniou.com/cron.php?cron_key=1mugSkPWnyUH-kZ3eKDFMQ3VUja3RmXsoQMhNw48G7s > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # cadoret
 #
-0 */3 * * * root $WGET http://www.cadoret-immobilier.com/cron.php?cron_key=Mrp8gA7H_on7QLKt3xrZsvJk8P1sfnh8bDknGs8F7wo > /dev/null 2>&1
+46 */3 * * * root $WGET http://www.cadoret-immobilier.com/cron.php?cron_key=Mrp8gA7H_on7QLKt3xrZsvJk8P1sfnh8bDknGs8F7wo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # campingjullouvillelespins.fr
 #
-0 */3 * * * root $WGET http://www.campingjullouvillelespins.fr/cron.php?cron_key=PCQP_AkbMYwOZ-SBvV1GhDglXsV0qmNsKV1uT3sUju8 > /dev/null 2>&1
+47 */3 * * * root $WGET http://www.campingjullouvillelespins.fr/cron.php?cron_key=PCQP_AkbMYwOZ-SBvV1GhDglXsV0qmNsKV1uT3sUju8 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Cap malo
 #
-0 */3 * * * root $WGET http://www.cap-malo.com/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
+48 */3 * * * root $WGET http://www.cap-malo.com/cron.php?cron_key=iKULTz6GmUdjipXGePyiU5u0Gp9hgOcFyJGgRFYqZzc > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Cap malo - Le golf
 #
-0 */3 * * * root $WGET http://www.le-golf-cap-malo.com.acreat.net/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
+49 */3 * * * root $WGET http://www.le-golf-cap-malo.com.acreat.net/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Cap Transactions
 #
-0 */3 * * * root $WGET http://www.cap-transactions.com/cron.php?cron_key=qnIe-lLRgMurNdHIxGke2fL4JwwcIjosjPEuBBDC8JA > /dev/null 2>&1
+50 */3 * * * root $WGET http://www.cap-transactions.com/cron.php?cron_key=qnIe-lLRgMurNdHIxGke2fL4JwwcIjosjPEuBBDC8JA > /dev/null 2>&1
 20 5 * * * root $WGET http://www.cap-transactions.com/cap-transactions/imports/cron-run http://www.cap-transactions.com/cap-transactions/notifications/process
 #20 5 * * * root $WGET http://www.cap-transactions.com/admin/immobilier/imports/entreprise/run http://www.cap-transactions.com/admin/immobilier/imports/fdc/run http://www.cap-transactions.com/admin/immobilier/imports/pdp/run http://www.cap-transactions.com/admin/immobilier/notification/process
 ######################################################################################
@@ -456,43 +442,29 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # leschaisdesaintecroix.com
 #
-0 */3 * * * root $WGET http://www.leschaisdesaintecroix.com/cron.php?cron_key=f5rnJ5xNKi8D4zXu1_r231B5Nf-d7oMFUNecom0bOOk > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
-# Charcuterie Joly
-#
-0 */3 * * * root $WGET http://www.charcuterie-joly.fr/cron.php?cron_key=Gjf_ne3tEi7HbPrV3Vqdod8c_KDkhDl17_M8hxzFxs4 > /dev/null 2>&1
+51 */3 * * * root $WGET http://www.leschaisdesaintecroix.com/cron.php?cron_key=f5rnJ5xNKi8D4zXu1_r231B5Nf-d7oMFUNecom0bOOk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # cnario
 #
-0 */3 * * * root $WGET http://www.cnario.fr.acreat.net/cron.php?cron_key=Gjf_ne3tEi7HbPrV3Vqdod8c_KDkhDl17_M8hxzFxs4 > /dev/null 2>&1
+52 */3 * * * root $WGET http://www.cnario.fr.acreat.net/cron.php?cron_key=Gjf_ne3tEi7HbPrV3Vqdod8c_KDkhDl17_M8hxzFxs4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # creadimm
 #
-0 */3 * * * root $WGET https://www.creadimm.fr/cron.php?cron_key=OSo5EeWTrYDZ8pWaMxhB4GDsCmZXFTQRXo_7FQjairk > /dev/null 2>&1
+53 */3 * * * root $WGET https://www.creadimm.fr/cron.php?cron_key=OSo5EeWTrYDZ8pWaMxhB4GDsCmZXFTQRXo_7FQjairk > /dev/null 2>&1
 50 4 * * * root $WGET https://www.creadimm.fr/admin/immobilier/imports/leizee/run
-######################################################################################
-
-######################################################################################
-#
-# Traiteur Joly
-#
-0 */3 * * * root $WGET http://www.traiteur-joly.fr/cron.php?cron_key=97S1Pvv4F8RG_YYVYauWvMxK-MJIgIb_GSIKNc4Gcf0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # centraleimmo.fr
 #
-0 */3 * * * root $WGET http://www.centraleimmo.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+54 */3 * * * root $WGET http://www.centraleimmo.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 30 3 * * * root $WGET http://www.centraleimmo.fr/admin/immobilier/imports/ics/run
 ######################################################################################
 
@@ -500,28 +472,28 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # cert-online.biz
 #
-0 */3 * * * root $WGET http://www.cert-online.biz/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+55 */3 * * * root $WGET http://www.cert-online.biz/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # chouznoux.fr
 #
-0 */3 * * * root $WGET http://www.chouzenoux-architecture.fr/cron.php?cron_key=lp2ujeSWqq53nAVnvAazd5fW5wFX9XYMmSnkdiAkgrE > /dev/null 2>&1
+56 */3 * * * root $WGET http://www.chouzenoux-architecture.fr/cron.php?cron_key=lp2ujeSWqq53nAVnvAazd5fW5wFX9XYMmSnkdiAkgrE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # chronopropre.net
 #
-0 */3 * * * root $WGET http://www.chronopropre.net/cron.php?cron_key=-TIg3tE3TrgDuIzdbup60i9UOsDwOWk5veYPWl-c3gs > /dev/null 2>&1
+57 */3 * * * root $WGET http://www.chronopropre.net/cron.php?cron_key=-TIg3tE3TrgDuIzdbup60i9UOsDwOWk5veYPWl-c3gs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # lecomtesyndic.fr
 #
-0 */3 * * * root $WGET http://www.lecomtesyndic.fr/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
+58 */3 * * * root $WGET http://www.lecomtesyndic.fr/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
 15 5 * * * root $WGET https://www.lecomtesyndic.fr/admin/immobilier/imports/ics/run
 ######################################################################################
 
@@ -529,7 +501,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # conjonction-immo.com
 #
-0 */3 * * * root $WGET http://www.conjonction-immo.com/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
+59 */3 * * * root $WGET http://www.conjonction-immo.com/cron.php?cron_key=pb_LOU47uTkVrKZLeBAIHnbsasIffvJYZu-cAb_Qbe4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -543,7 +515,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # dominno
 #
-0 */3 * * * root $WGET https://www.dominnoimmobilier.fr/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
+1 */3 * * * root $WGET https://www.dominnoimmobilier.fr/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
 30 2 * * * root $WGET https://www.dominnoimmobilier.fr/admin/immobilier/imports/ac3/run/classique https://www.dominnoimmobilier.fr/admin/immobilier/notification/process
 #30 2 * * * root $WGET https://www.dominnoimmobilier.fr/admin/immobilier/imports/ac3/run/entreprise
 ######################################################################################
@@ -552,44 +524,36 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Daniel Mouton
 #
-0 */3 * * * root $WGET http://www.daniel-mouton.com/cron.php?cron_key=f82KjqntVEOGs87iCUdmngpwMFGZ9A9VkaCS-G0dNfo > /dev/null 2>&1
+2 */3 * * * root $WGET http://www.daniel-mouton.com/cron.php?cron_key=f82KjqntVEOGs87iCUdmngpwMFGZ9A9VkaCS-G0dNfo > /dev/null 2>&1
 10 6 * * * root $WGET http://www.daniel-mouton.com/admin/annonce/imports/custom/run
-######################################################################################
-
-######################################################################################
-#
-# Delphine Teillaud
-#
-0 */3 * * * root $WGET http://www.delphine-teillaud.com/cron.php?cron_key=tEGTIU5BLd3IKGh7OzIrKQui-ezrpM3JG1t7LECiSlM > /dev/null 2>&1
-20 6 * * * root $WGET http://www.delphine-teillaud.com/admin/immobilier/imports/connectimmo/run
 ######################################################################################
 
 ######################################################################################
 #
 # decorateur-interieur-rennes.com (Marjorie Dufee)
 #
-0 */3 * * * root $WGET https://www.decorateur-interieur-rennes.com/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
+3 */3 * * * root $WGET https://www.decorateur-interieur-rennes.com/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Delphine Lechat
 #
-0 */3 * * * root $WGET http://delphine-lechat-avocat.fr/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
+4 */3 * * * root $WGET http://delphine-lechat-avocat.fr/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # destruction-disques-durs.com
 #
-0 */3 * * * root $WGET http://www.destruction-disques-durs.com/cron.php?cron_key=Q61jpHAL4a_0IWH-t80s8_6BbfgeaPfhcrZeLTmr6FY > /dev/null 2>&1
+5 */3 * * * root $WGET http://www.destruction-disques-durs.com/cron.php?cron_key=Q61jpHAL4a_0IWH-t80s8_6BbfgeaPfhcrZeLTmr6FY > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # dlj-syndic.fr
 #
-0 */3 * * * root $WGET http://www.dlj-syndic.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+6 */3 * * * root $WGET http://www.dlj-syndic.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 30 3 * * * root $WGET http://www.dlj-syndic.fr/admin/immobilier/imports/ac3/run http://www.dlj-syndic.fr/admin/immobilier/notification/process
 ######################################################################################
 
@@ -597,21 +561,21 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # durosmusique.fr
 #
-0 */3 * * * root $WGET http://www.durosmusique.fr/cron.php?cron_key=yFZMvlg9Yy7vOA824P7OVJVSThygZ4rvxrJ-zG-oAec > /dev/null 2>&1
+7 */3 * * * root $WGET http://www.durosmusique.fr/cron.php?cron_key=yFZMvlg9Yy7vOA824P7OVJVSThygZ4rvxrJ-zG-oAec > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # ed-promotion.fr
 #
-0 */3 * * * root $WGET http://www.ed-promotion.fr/cron.php?cron_key=XvssIQgKeWupEaM7xzTrCPTLnmNpDIhW38duCao6lY4 > /dev/null 2>&1
+08 */3 * * * root $WGET http://www.ed-promotion.fr/cron.php?cron_key=XvssIQgKeWupEaM7xzTrCPTLnmNpDIhW38duCao6lY4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # empireconstructions.fr
 #
-0 */3 * * * root $WGET http://www.empireconstructions.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
+09 */3 * * * root $WGET http://www.empireconstructions.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
 #0 4 * * * root $WGET http://www.empireconstructions.fr/admin/immobilier/imports/entities/run
 ######################################################################################
 
@@ -619,14 +583,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Evolis
 #
-0 */3 * * * root $WGET http://www.evolis-avocats.fr/cron.php?cron_key=DeYEarZ5tZokq2Qy3tJzunm7b4jn-jzzFKaY1F_ErZI > /dev/null 2>&1
+10 */3 * * * root $WGET http://www.evolis-avocats.fr/cron.php?cron_key=DeYEarZ5tZokq2Qy3tJzunm7b4jn-jzzFKaY1F_ErZI > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # myconcept.bzh
 #
-0 */3 * * * root $WGET http://www.myconcept.bzh/cron.php?cron_key=rd81Clb_3EdaWF_5czoX16PBKL6lDbknduwprLTBJkQ > /dev/null 2>&1
+11 */3 * * * root $WGET http://www.myconcept.bzh/cron.php?cron_key=rd81Clb_3EdaWF_5czoX16PBKL6lDbknduwprLTBJkQ > /dev/null 2>&1
 0 4 * * * root $WGET http://www.myconcept.bzh/admin/entities/run
 ######################################################################################
 
@@ -634,35 +598,35 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # emeraudecourtage.fr
 #
-0 */3 * * * root $WGET http://www.emeraudecourtage.fr/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
+12 */3 * * * root $WGET http://www.emeraudecourtage.fr/cron.php?cron_key=0w3tYDoCGpPKvpg0Ja7o-dmPs0574KT5L48oUoN3A7E > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # executiveretreat itsinyou.fr
 #
-0 */3 * * * root $WGET http://www.executiveretreat.fr/cron.php?cron_key=hzWpRX-I-Cp2WqDHBNXAxCm2QKt9-0zydDO-a_395S4 > /dev/null 2>&1
+13 */3 * * * root $WGET http://www.executiveretreat.fr/cron.php?cron_key=hzWpRX-I-Cp2WqDHBNXAxCm2QKt9-0zydDO-a_395S4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # expressivetherapycenter.com
 #
-0 */3 * * * root $WGET http://www.expressivetherapycenter.com/cron.php?cron_key=rdBl4ygS8Dqpopd4HwYQjcD1pYf3Vp3JXr97rQw1fIg > /dev/null 2>&1
+14 */3 * * * root $WGET http://www.expressivetherapycenter.com/cron.php?cron_key=rdBl4ygS8Dqpopd4HwYQjcD1pYf3Vp3JXr97rQw1fIg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # fafin-electricite.fr
 #
-0 */3 * * * root $WGET http://www.fafin-electricite.fr/cron.php?cron_key=wdCm7KcVpWx0rvAkKku3YYq4za3YUAvWhmfVLaT6k6w > /dev/null 2>&1
+15 */3 * * * root $WGET http://www.fafin-electricite.fr/cron.php?cron_key=wdCm7KcVpWx0rvAkKku3YYq4za3YUAvWhmfVLaT6k6w > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # fauvelimmobilier
 #
-0 */3 * * * root $WGET http://www.fauvelimmobilier.com/cron.php?cron_key=w5LKiXwqZzzWhh6wSK6B-ljDxAxUDP5YGju7aU_RYQ4 > /dev/null 2>&1
+16 */3 * * * root $WGET http://www.fauvelimmobilier.com/cron.php?cron_key=w5LKiXwqZzzWhh6wSK6B-ljDxAxUDP5YGju7aU_RYQ4 > /dev/null 2>&1
 50 3 * * * root $WGET http://www.fauvelimmobilier.com/admin/immobilier/imports/ac3/run http://www.fauvelimmobilier.com/admin/immobilier/notification/process
 ######################################################################################
 
@@ -670,14 +634,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # frimousse-ledrugstore.fr
 #
-0 */3 * * * root $WGET http://www.frimousse-ledrugstore.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+17 */3 * * * root $WGET http://www.frimousse-ledrugstore.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # francois-notaire-stmalo.fr
 #
-0 */3 * * * root $WGET http://www.francois-notaire-stmalo.fr/cron.php?cron_key=vFspSJWNl9xv8nBxjj7xC-9pn5yuk5A6MztU3AwI0Fo > /dev/null 2>&1
+18 */3 * * * root $WGET http://www.francois-notaire-stmalo.fr/cron.php?cron_key=vFspSJWNl9xv8nBxjj7xC-9pn5yuk5A6MztU3AwI0Fo > /dev/null 2>&1
 0 4 * * * root $WGET http://www.francois-notaire-stmalo.fr/admin/immobilier/imports/ncis/run http://www.francois-notaire-stmalo.fr/admin/immobilier/notification/process
 ######################################################################################
 
@@ -685,21 +649,21 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # fougeray.fr
 #
-0 */3 * * * root $WGET http://www.fougeray.fr/cron.php?cron_key=zhxfxXcNYS4E8k76DBy14WHUP8WHg5uHOkyJW1rGb_s > /dev/null 2>&1
+19 */3 * * * root $WGET http://www.fougeray.fr/cron.php?cron_key=zhxfxXcNYS4E8k76DBy14WHUP8WHg5uHOkyJW1rGb_s > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # forma-design.fr
 #
-0 */3 * * * root $WGET https://www.forma-design.fr/cron.php?cron_key=8bQvGLVnT17qk_5bjI0gpJMOhOqjSO2a1dm7d9bgoYk > /dev/null 2>&1
+20 */3 * * * root $WGET https://www.forma-design.fr/cron.php?cron_key=8bQvGLVnT17qk_5bjI0gpJMOhOqjSO2a1dm7d9bgoYk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # fougeresimmo.com
 #
-0 */3 * * * root $WGET http://www.fougeresimmo.com/cron.php?cron_key=EQaKCjl1rF4rAqZWeRqC_XUT4Kp8B_zLONne50AkUBI > /dev/null 2>&1
+21 */3 * * * root $WGET http://www.fougeresimmo.com/cron.php?cron_key=EQaKCjl1rF4rAqZWeRqC_XUT4Kp8B_zLONne50AkUBI > /dev/null 2>&1
 55 2 * * * root $WGET https://www.fougeresimmo.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
@@ -707,22 +671,22 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # gaalon
 #
+22 */3 * * * root $WGET http://www.gaalon-guerlesquin.fr/cron.php?cron_key=r0rLhhEAPVfwh2DHd57BB3BxzUslS5B3a2lTKH-zRZA > /dev/null 2>&1
 20 4 * * * root $WGET http://www.gaalon-guerlesquin.fr/admin/immobilier/imports/poliris/run http://www.gaalon-guerlesquin.fr/admin/immobilier/notification/process
-0 */3 * * * root $WGET http://www.gaalon-guerlesquin.fr/cron.php?cron_key=r0rLhhEAPVfwh2DHd57BB3BxzUslS5B3a2lTKH-zRZA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # galerie-m
 #
-0 */3 * * * root $WGET http://www.galeriem-boutique.fr.acreat.net/cron.php?cron_key=r0rLhhEAPVfwh2DHd57BB3BxzUslS5B3a2lTKH-zRZA > /dev/null 2>&1
+23 */3 * * * root $WGET http://www.galeriem-boutique.fr.acreat.net/cron.php?cron_key=r0rLhhEAPVfwh2DHd57BB3BxzUslS5B3a2lTKH-zRZA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # gasnier agri
 #
-0 */3 * * * root $WGET http://www.gasnieragri.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
+24 */3 * * * root $WGET http://www.gasnieragri.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
 25 1 * * * root $WGET http://www.gasnieragri.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
@@ -730,7 +694,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # gasnier promo
 #
-0 */3 * * * root $WGET http://www.gasnierpromotion.com/cron.php?cron_key=jcpi_i0AcsCDYn0cCp4-K0AT8tCoOAuiDMZPa9m-iV8 > /dev/null 2>&1
+25 */3 * * * root $WGET http://www.gasnierpromotion.com/cron.php?cron_key=jcpi_i0AcsCDYn0cCp4-K0AT8tCoOAuiDMZPa9m-iV8 > /dev/null 2>&1
 30 2 * * * root $WGET http://www.gasnierpromotion.com/admin/immobilier/imports/ac3/run http://www.gasnierpromotion.com/admin/immobilier/notification/process
 ######################################################################################
 
@@ -738,23 +702,23 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # gasnier maisonsindividuelles
 #
-0 */3 * * * root $WGET http://www.gasniermaisonsindividuelles.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
+26 */3 * * * root $WGET http://www.gasniermaisonsindividuelles.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # gdl-avocats.fr
 #
-0 */3 * * * root $WGET https://www.gdl-avocats.fr/cron.php?cron_key=iIoeE2uZmPWZF4DBpOJISLPecOjpymNhcen3nC_WFYA > /dev/null 2>&1
+27 */3 * * * root $WGET https://www.gdl-avocats.fr/cron.php?cron_key=iIoeE2uZmPWZF4DBpOJISLPecOjpymNhcen3nC_WFYA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # generaleimmobiliere73.com
 #
+28 */3 * * * root $WGET http://www.generaleimmobiliere73.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 0 23 * * * root cd /var/www/html/drupal/drupal730/sites/generaleimmobiliere73.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
 30 23 * * * root cd /var/www/html/drupal/drupal730/sites/generaleimmobiliere73.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
-0 */3 * * * root $WGET http://www.generaleimmobiliere73.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 30 4 * * * root $WGET http://www.generaleimmobiliere73.com/admin/immobilier/imports/connectimmo/run
 50 4 * * * root $WGET http://www.generaleimmobiliere73.com/immobilier/notification/process
 ######################################################################################
@@ -763,7 +727,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # generaleimmobiliereneuf.com
 #
-0 */3 * * * root $WGET https://www.generaleimmobiliere73.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+28 */3 * * * root $WGET https://www.generaleimmobiliere73.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 40 4 * * * root $WGET https://www.generaleimmobiliereneuf.com/admin/immobilier/imports/connectimmo/run https://www.generaleimmobiliereneuf.com/immobilier/notification/process
 ######################################################################################
 
@@ -771,7 +735,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Gerinter
 #
-0 */3 * * * root $WGET http://www.gerinter.fr/cron.php?cron_key=DEfnB2Ak3E84Y9VMlb619am25FsHVHJMzMqdMbYRpIs > /dev/null 2>&1
+29 */3 * * * root $WGET http://www.gerinter.fr/cron.php?cron_key=DEfnB2Ak3E84Y9VMlb619am25FsHVHJMzMqdMbYRpIs > /dev/null 2>&1
 15 4 * * * root $WGET http://www.gerinter.fr/gerinter/annonces/update-nb
 #16 4 * * * root $WGET http://www.gerinter.fr/gerinter/export/ouest-france/xml
 18 4 * * * root $WGET http://www.gerinter.fr/gerinter/notification/process
@@ -780,41 +744,10 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# giboire.com
-#
-#0 11 * * * root $WGET http://www.giboire.com/sites/giboire.com/GiboireMobile/notification/ios/simplepush.php
-#0 */3 * * * root $WGET http://www.giboire.com/cron.php?cron_key=fMmcaaAGPc2azjJwD3iEoddfFI4cUQxTV1M1QB-ykY4 > /dev/null 2>&1
-#45 1 * * * root $WGET http://www.giboire.com/admin/immobilier/imports/ac3/run http://www.giboire.com/immobilier/notification/process
-######################################################################################
-
-######################################################################################
-#
-# GIBOIRE PROMOTION
-#
-#45 1 * * * root $WGET http://www.giboire-promotion.com/extranet/maj-lots-statuts
-#0 */3 * * * root $WGET http://www.giboire-promotion.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
-# GIBOIRE GROUPE
-#
-#0 */3 * * * root $WGET http://www.giboire-groupe.com/cron.php?cron_key=-RKhSGEMls_GBUHuYNpm7rHalTolu-n6KQsBg4eipMc > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
-# Groupe Jeulin
-#
-0 */3 * * * root $WGET http://www.groupejeulin-immobilier.com/cron.php?cron_key=bOvXHw2MNvc9iiJwzmTYIXIyEoCxS1OT66iOR7SQRn0 > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
 # Groupe Launay
 #
-0 */3 * * * root $WGET http://terrains.groupe-launay.com/cron.php?cron_key=9a8u8Qq5PGUG1kw6hcA-cI0sniJ6-EQTfz14c3xwTAM > /dev/null 2>&1
-0 */3 * * * root $WGET http://promotion.groupe-launay.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+30 */3 * * * root $WGET http://terrains.groupe-launay.com/cron.php?cron_key=9a8u8Qq5PGUG1kw6hcA-cI0sniJ6-EQTfz14c3xwTAM > /dev/null 2>&1
+30 */3 * * * root $WGET http://promotion.groupe-launay.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 0 2 * * * root $WGET http://promotion.groupe-launay.com/admin/espace-promotion/options-maj http://promotion.groupe-launay.com/alertes-process
 20 5 * * * root $WGET https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-licorn/xml https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-acheterduneuf/xml https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-peterson/xml https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-immobilierneuf/xml https://promotion.groupe-launay.com/admin/espace-promotion/programmes-export-kermarrec/xml
 30 6,10,12,14,16 * * * root $WGET http://promotion.groupe-launay.com/admin/espace-promotion/programmes-export/xml && $WGET http://promotion.groupe-launay.com/admin/espace-promotion/programmes-export/upload
@@ -824,126 +757,126 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Groupe Lamotte
 #
-0 */3 * * * root $WGET http://extranet-promotion.groupe-lamotte.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+31 */3 * * * root $WGET http://extranet-promotion.groupe-lamotte.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # groupe-pandora.com
 #
-0 */3 * * * root $WGET http://groupe-pandora.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+32 */3 * * * root $WGET http://groupe-pandora.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # guine-cuisines.fr
 #
-0 */3 * * * root $WGET http://www.guine-cuisines.fr/cron.php?cron_key=1vnYja7J1cENwmC9PsgOf8e_-IG8jub-yJBRZ3X-wZs > /dev/null 2>&1
+33 */3 * * * root $WGET http://www.guine-cuisines.fr/cron.php?cron_key=1vnYja7J1cENwmC9PsgOf8e_-IG8jub-yJBRZ3X-wZs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # gynecologie-rennes.fr
 #
-0 */3 * * * root $WGET http://www.gynecologie-rennes.fr/cron.php?cron_key=PdJc3WFpB2zjcIFd0ym7BYIHTvvFO1LutxBCrqaJomo > /dev/null 2>&1
+34 */3 * * * root $WGET http://www.gynecologie-rennes.fr/cron.php?cron_key=PdJc3WFpB2zjcIFd0ym7BYIHTvvFO1LutxBCrqaJomo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # has-climatisation.com
 #
-0 */3 * * * root $WGET http://www.has-climatisation.com/cron.php?cron_key=83UjRNZ3vund1jwknoNmTOPHM4ZOIX1UJYkFwlaEXm8 > /dev/null 2>&1
+35 */3 * * * root $WGET http://www.has-climatisation.com/cron.php?cron_key=83UjRNZ3vund1jwknoNmTOPHM4ZOIX1UJYkFwlaEXm8 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # has-undergroundventilation.com
 #
-0 */3 * * * root $WGET http://www.has-undergroundventilation.com/cron.php?cron_key=83UjRNZ3vund1jwknoNmTOPHM4ZOIX1UJYkFwlaEXm8 > /dev/null 2>&1
+36 */3 * * * root $WGET http://www.has-undergroundventilation.com/cron.php?cron_key=83UjRNZ3vund1jwknoNmTOPHM4ZOIX1UJYkFwlaEXm8 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # hifi35.com
 #
-0 */3 * * * root $WGET http://www.hifi35.com/cron.php?cron_key=tmZRaO-pA4kDMgugKcLlGDLQwDtxt9jvswUlRXevQYk > /dev/null 2>&1
+37 */3 * * * root $WGET http://www.hifi35.com/cron.php?cron_key=tmZRaO-pA4kDMgugKcLlGDLQwDtxt9jvswUlRXevQYk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # homardandchips.com
 #
-0 */3 * * * root $WGET http://www.homardandchips.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+38 */3 * * * root $WGET http://www.homardandchips.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # hebdo-armor.com
 #
-0 */3 * * * root $WGET http://www.hebdo-armor.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+39 */3 * * * root $WGET http://www.hebdo-armor.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # hermitalu.fr
 #
-0 */3 * * * root $WGET http://www.hermitalu.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+40 */3 * * * root $WGET http://www.hermitalu.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # horus-df.com
 #
-0 */3 * * * root $WGET https://www.horus-df.com/cron.php?cron_key=WMbvPiNAkJbqwS5_hhm2SQbWMTygzq0c25ZLLme8OrU > /dev/null 2>&1
+41 */3 * * * root $WGET https://www.horus-df.com/cron.php?cron_key=WMbvPiNAkJbqwS5_hhm2SQbWMTygzq0c25ZLLme8OrU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # hotel-anne
 #
-0 */3 * * * root $WGET http://www.hotel-annedebretagne.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+42 */3 * * * root $WGET http://www.hotel-annedebretagne.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # hotel-chateaubriand-st-malo.com
 #
-0 */3 * * * root $WGET http://www.hotel-chateaubriand-st-malo.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
+43 */3 * * * root $WGET http://www.hotel-chateaubriand-st-malo.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # hotel-cite
 #
-0 */3 * * * root $WGET http://www.hotel-cite-st-malo-bretagne.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+44 */3 * * * root $WGET http://www.hotel-cite-st-malo-bretagne.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # hotel-mulhouse.com
 #
-0 */3 * * * root $WGET http://www.hotel-mulhouse.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
+45 */3 * * * root $WGET http://www.hotel-mulhouse.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # hotel des lices
 #
-0 */3 * * * root $WGET http://www.hotel-des-lices.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
+46 */3 * * * root $WGET http://www.hotel-des-lices.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # hotel-la-reposee.com
 #
-0 */3 * * * root $WGET http://www.hotel-la-reposee.com/cron.php?cron_key=HSgIkH-SM_lPoJdKhePwYsKDETbxnO4UkkYwE-IRIME  > /dev/null 2>&1
+47 */3 * * * root $WGET http://www.hotel-la-reposee.com/cron.php?cron_key=HSgIkH-SM_lPoJdKhePwYsKDETbxnO4UkkYwE-IRIME  > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Korali hotel
 #
-0 */3 * * * root $WGET http://www.koralihotel.fr/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+48 */3 * * * root $WGET http://www.koralihotel.fr/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
 #*/15 * * * * root php -f /var/www/html/drupal/drupal726/sites/koralihotel.fr/scripts/get_temperatures.php > /dev/null 2>&1
 ######################################################################################
 
@@ -951,21 +884,21 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Husson notaires
 #
-0 */3 * * * root $WGET http://husson-notaires.fr/cron.php?cron_key=Lje_T8kumbBoO3Bx6wRehyVPM2CA6B5qKusfb6onD2w > /dev/null 2>&1
+49 */3 * * * root $WGET http://husson-notaires.fr/cron.php?cron_key=Lje_T8kumbBoO3Bx6wRehyVPM2CA6B5qKusfb6onD2w > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Orange Immobilier
 #
-0 */3 * * * root $WGET http://immobilier.orange.com/cron.php?cron_key=K4KHhIBK7XJoZ941CYLzpAZGO8yyh0cnuS5RSITNTg4 > /dev/null 2>&1
+50 */3 * * * root $WGET http://immobilier.orange.com/cron.php?cron_key=K4KHhIBK7XJoZ941CYLzpAZGO8yyh0cnuS5RSITNTg4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # inova-immo.com
 #
-0 */3 * * * root $WGET http://www.inova-immo.com/cron.php?cron_key=jkbXglSQqgLqpSaf0tarpdFR-9walOXQaLbetgK1uaE > /dev/null 2>&1
+51 */3 * * * root $WGET http://www.inova-immo.com/cron.php?cron_key=jkbXglSQqgLqpSaf0tarpdFR-9walOXQaLbetgK1uaE > /dev/null 2>&1
 20 3 * * * root $WGET http://www.inova-immo.com/admin/immobilier/imports/hektor/execute http://www.inova-immo.com/admin/immobilier/imports/seiitra/run http://www.inova-immo.com/admin/immobilier/notification/process
 ######################################################################################
 
@@ -973,63 +906,49 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # ink-enseigne.com
 #
-0 */3 * * * root $WGET https://www.ink-enseigne.com/cron.php?cron_key=QpG7tUf6NZfOe1t4mWmdPJCtXGl_zPiTGStV3E2xNT0 > /dev/null 2>&1
+52 */3 * * * root $WGET https://www.ink-enseigne.com/cron.php?cron_key=QpG7tUf6NZfOe1t4mWmdPJCtXGl_zPiTGStV3E2xNT0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Isoprotek
 #
-0 */3 * * * root $WGET http://www.isoprotek.fr/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
+53 */3 * * * root $WGET http://www.isoprotek.fr/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Kamp Export
 #
-0 */3 * * * root $WGET https://www.kampexport.com/cron.php?cron_key=0Gr5qyJbNHI_wvHG9lCUBoc7tSBPiMvxpfnq3z-I45A > /dev/null 2>&1
+54 */3 * * * root $WGET https://www.kampexport.com/cron.php?cron_key=0Gr5qyJbNHI_wvHG9lCUBoc7tSBPiMvxpfnq3z-I45A > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Idkrea
 #
-0 */3 * * * root $WGET http://www.idkrea.com/cron.php?cron_key=KsG4S9KjoB1uF0M-biRU2sl2hSYHVW0bIbjkVp6km5o > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
-# imprimerielemaire.fr
-#
-0 */3 * * * root $WGET http://www.imprimerielemaire.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
-# imprimerie-mevennaise.fr
-#
-0 */3 * * * root $WGET http://www.imprimerie-mevennaise.fr/cron.php?cron_key=4KwXVCtwWzueSrpk9JflGL9hzhtZufWC7S1rekQjA1A > /dev/null 2>&1
+55 */3 * * * root $WGET http://www.idkrea.com/cron.php?cron_key=KsG4S9KjoB1uF0M-biRU2sl2hSYHVW0bIbjkVp6km5o > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # ineohabitat.com
 #
-0 */3 * * * root $WGET http://www.ineohabitat.com/cron.php?cron_key=hspAjo9qQ1qpyO9doF5wrx4TTtJQX86hrCRPcC-Yv9I > /dev/null 2>&1
+56 */3 * * * root $WGET http://www.ineohabitat.com/cron.php?cron_key=hspAjo9qQ1qpyO9doF5wrx4TTtJQX86hrCRPcC-Yv9I > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # isisavocats.fr
 #
-0 */3 * * * root $WGET http://www.isisavocats.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+57 */3 * * * root $WGET http://www.isisavocats.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # job-box.fr
 #
-0 */3 * * * root $WGET https://www.groupe-jobbox.fr/cron.php?cron_key=XvssIQgKeWupEaM7xzTrCPTLnmNpDIhW38duCao6lY4 > /dev/null 2>&1
+58 */3 * * * root $WGET https://www.groupe-jobbox.fr/cron.php?cron_key=XvssIQgKeWupEaM7xzTrCPTLnmNpDIhW38duCao6lY4 > /dev/null 2>&1
 0 2 * * * root $WGET https://www.groupe-jobbox.fr/admin/update-jobs
 10 2 * * * root $WGET https://www.groupe-jobbox.fr/admin/acreat-job/notification/process
 ######################################################################################
@@ -1038,7 +957,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # lavilla-labaule.com
 #
-0 */3 * * * root $WGET http://www.lavilla-labaule.com/cron.php?cron_key=RDB2f8yOvMrXxj8x3oO_p08P-unaitScnoMvv6-MLEE > /dev/null 2>&1
+059 */3 * * * root $WGET http://www.lavilla-labaule.com/cron.php?cron_key=RDB2f8yOvMrXxj8x3oO_p08P-unaitScnoMvv6-MLEE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1052,8 +971,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # lefeuvre-immobilier.com
 #
-#0 */3 * * * root $WGET http://v1.lefeuvre-immobilier.com/cron.php?cron_key=DHmXEf2H97dwFhHhIC7BOA0sB4r7xmGHM4EyhcU-oDU > /dev/null 2>&1
-0 */3 * * * root $WGET http://www.lefeuvre-immobilier.com/cron.php?cron_key=cX5VytB4mgQdto_MO3QHJup5vH4Y9imNq73iiKw6FjA > /dev/null 2>&1
+01 */3 * * * root $WGET https://www.lefeuvre-immobilier.com/cron.php?cron_key=cX5VytB4mgQdto_MO3QHJup5vH4Y9imNq73iiKw6FjA > /dev/null 2>&1
 #30 5 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/entreprise/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf-lot/run
 #35 5 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/location/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/vente/run
 25 1 * * * root $WGET http://www.lefeuvre-immobilier.com/immobilier/imports/ac3/cron-run
@@ -1063,21 +981,21 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # efficience-gth.com
 #
-0 */3 * * * root $WGET http://www.efficience-gth.com/cron.php?cron_key=ltQqqy1cLHmaxCkgA3qm5ESnuWOFWHpLNSnmOSj6D-k > /dev/null 2>&1
+02 */3 * * * root $WGET http://www.efficience-gth.com/cron.php?cron_key=ltQqqy1cLHmaxCkgA3qm5ESnuWOFWHpLNSnmOSj6D-k > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # leg-electricite.fr
 #
-0 */3 * * * root $WGET http://www.leg-electricite.fr/cron.php?cron_key=wdCm7KcVpWx0rvAkKku3YYq4za3YUAvWhmfVLaT6k6w > /dev/null 2>&1
+03 */3 * * * root $WGET http://www.leg-electricite.fr/cron.php?cron_key=wdCm7KcVpWx0rvAkKku3YYq4za3YUAvWhmfVLaT6k6w > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Legendre
 #
-0 */3 * * * root $WGET http://www.legendre-immobilier.com/cron.php?cron_key=JrOl5Aj3eU_AKfbN9vOEEXzjNeIMfOkE-hKIEAdUYN0 > /dev/null 2>&1
+04 */3 * * * root $WGET http://www.legendre-immobilier.com/cron.php?cron_key=JrOl5Aj3eU_AKfbN9vOEEXzjNeIMfOkE-hKIEAdUYN0 > /dev/null 2>&1
 5 4 * * * root $WGET https://www.legendre-immobilier.com/admin/immobilier/imports/immotalk/run
 ######################################################################################
 
@@ -1085,36 +1003,36 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # lemarathonvert.org
 #
-0 */3 * * * root $WGET http://www.lemarathonvert.org/cron.php?cron_key=2zz0ZBRae1cX7H4u4Kl0MENeLwekYMKhd5eIdh8Pv5o > /dev/null 2>&1
+05 */3 * * * root $WGET http://www.lemarathonvert.org/cron.php?cron_key=2zz0ZBRae1cX7H4u4Kl0MENeLwekYMKhd5eIdh8Pv5o > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # lexonot-notaires
 #
+06 */3 * * * root $WGET http://www.lexonot-notaires.fr/cron.php?cron_key=8a8G5K0AZCiibJbuWBwL6I4FFV2rnaOtG8sHP8OEHM0 > /dev/null 2>&1
 30 4 * * * root $WGET http://www.lexonot-notaires.fr/admin/immobilier/imports/transim/run http://www.lexonot-notaires.fr/admin/immobilier/notification/process
-0 */3 * * * root $WGET http://www.lexonot-notaires.fr/cron.php?cron_key=8a8G5K0AZCiibJbuWBwL6I4FFV2rnaOtG8sHP8OEHM0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # lg2i
 #
-0 */3 * * * root $WGET http://www.lg2i.fr/cron.php?cron_key=UI34s2cLykq0x115DrNsVsYW-xIOy54gU0f0trkV8L4 > /dev/null 2>&1
+07 */3 * * * root $WGET http://www.lg2i.fr/cron.php?cron_key=UI34s2cLykq0x115DrNsVsYW-xIOy54gU0f0trkV8L4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # lignhabitat.fr
 #
-0 */3 * * * root $WGET http://www.lignhabitat.fr/cron.php?cron_key=GBxW6qnmcGXjyG6TB4gKjNzrYq4Jddu9gjmPdx1Aw-4 > /dev/null 2>&1
+08 */3 * * * root $WGET http://www.lignhabitat.fr/cron.php?cron_key=GBxW6qnmcGXjyG6TB4gKjNzrYq4Jddu9gjmPdx1Aw-4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # limmoneuf.immo
 #
-0 */3 * * * root $WGET http://www.limmoneuf.immo/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+09 */3 * * * root $WGET http://www.limmoneuf.immo/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
 0 5 * * * root $WGET http://www.limmoneuf.immo/admin/immobilier/imports/rodacom/run
 ######################################################################################
 
@@ -1122,7 +1040,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # lloyd n davis
 #
-0 */3 * * * root $WGET https://www.lloyd-davis.com/cron.php?cron_key=M8D5iaHNTOqlbUTw19GxazStKcBAdnZzpPvApAGLKME > /dev/null 2>&1
+10 */3 * * * root $WGET https://www.lloyd-davis.com/cron.php?cron_key=M8D5iaHNTOqlbUTw19GxazStKcBAdnZzpPvApAGLKME > /dev/null 2>&1
 #20 1 * * * root $WGET https://www.lloyd-davis.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
@@ -1130,22 +1048,22 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # louail-notaire.com
 #
+11 */3 * * * root $WGET http://www.louail-notaire.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
 20 3 * * * root $WGET http://www.louail-notaire.fr/admin/immobilier/imports/transim/run http://www.louail-notaire.fr/admin/immobilier/notification/process
-0 */3 * * * root $WGET http://www.louail-notaire.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # lycee-descartes.eu
 #
-0 */3 * * * root $WGET http://www.lycee-descartes.eu/cron.php?cron_key=EQniNjhZjFzMUTxrU3Xoss61sLcKH7EP8AdubNr3AjI > /dev/null 2>&1
+12 */3 * * * root $WGET http://www.lycee-descartes.eu/cron.php?cron_key=EQniNjhZjFzMUTxrU3Xoss61sLcKH7EP8AdubNr3AjI > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # maisonscreation.com
 #
-0 */3 * * * root $WGET http://www.maisonscreation.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+13 */3 * * * root $WGET http://www.maisonscreation.com/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
 0 2 * * * root $WGET http://www.maisonscreation.com/immobilier/notification/process
 ######################################################################################
 
@@ -1153,35 +1071,35 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # maisondugeneral.com
 #
-0 */3 * * * root $WGET http://www.maisondugeneral.com/cron.php?cron_key=r9In1vqq1kllEPjI6y1JjhhJV9K06I_NZjWGahz7hco > /dev/null 2>&1
+14 */3 * * * root $WGET http://www.maisondugeneral.com/cron.php?cron_key=r9In1vqq1kllEPjI6y1JjhhJV9K06I_NZjWGahz7hco > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # maisonhamster.com
 #
-0 */3 * * * root $WGET http://www.maisonshamster.com/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
+15 */3 * * * root $WGET http://www.maisonshamster.com/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # mc2avocat.fr
 #
-0 */3 * * * root $WGET http://www.mc2avocat.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+16 */3 * * * root $WGET http://www.mc2avocat.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # mdo.com.fr
 #
-0 */3 * * * root $WGET http://www.mdo.com.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+17 */3 * * * root $WGET http://www.mdo.com.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # mgeffray-immobilier.fr
 #
-0 */3 * * * root $WGET http://www.mgeffray-immobilier.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+18 */3 * * * root $WGET http://www.mgeffray-immobilier.fr/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
 #0 3 * * * root $WGET https://www.mgeffray-immobilier.fr/admin/immobilier/imports/ics/run
 ######################################################################################
 
@@ -1189,49 +1107,49 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # melwann-resines.fr
 #
-0 */3 * * * root $WGET https://www.melwann-resines.fr/cron.php?cron_key=Vz1O8YWtb3yeMu8egzuO-KrhHAJlTV7hEQF8zBI2Cd8 > /dev/null 2>&1
+19 */3 * * * root $WGET https://www.melwann-resines.fr/cron.php?cron_key=Vz1O8YWtb3yeMu8egzuO-KrhHAJlTV7hEQF8zBI2Cd8 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Menard TP
 #
-0 */3 * * * root $WGET https://www.menard-tp.fr/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
+20 */3 * * * root $WGET https://www.menard-tp.fr/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # menlog.fr
 #
-0 */3 * * * root $WGET http://www.menlog.fr/cron.php?cron_key=MYniDlVn6YSXAQcUqqW20IpQHXG0a-o7cMqbf2KsH_M > /dev/null 2>&1
+21 */3 * * * root $WGET http://www.menlog.fr/cron.php?cron_key=MYniDlVn6YSXAQcUqqW20IpQHXG0a-o7cMqbf2KsH_M > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # milleetunsourires
 #
-0 */3 * * * root $WGET http://www.milleetunsourires.fr/cron.php?cron_key=VLQvknKjxK-eOCPr6hnB7HQ6clnXweW7b0gBz9FvYjw > /dev/null 2>&1
+22 */3 * * * root $WGET http://www.milleetunsourires.fr/cron.php?cron_key=VLQvknKjxK-eOCPr6hnB7HQ6clnXweW7b0gBz9FvYjw > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # mmt35.fr
 #
-0 */3 * * * root $WGET http://www.mmt35.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+23 */3 * * * root $WGET http://www.mmt35.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # mobextan.fr
 #
-0 */3 * * * root $WGET http://www.mobextan.fr/cron.php?cron_key=OzmC67W-TV0XMUcv_mTgPGHsZrknVf1kdjBn_nFF--I > /dev/null 2>&1
+24 */3 * * * root $WGET http://www.mobextan.fr/cron.php?cron_key=OzmC67W-TV0XMUcv_mTgPGHsZrknVf1kdjBn_nFF--I > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # moins-vachon.notaires.fr | moins-notaires.fr | moins-vachon-notaires.fr
 #
-0 */3 * * * root $WGET http://www.moins-vachon-notaires.fr/cron.php?cron_key=vFspSJWNl9xv8nBxjj7xC-9pn5yuk5A6MztU3AwI0Fo > /dev/null 2>&1
+25 */3 * * * root $WGET http://www.moins-vachon-notaires.fr/cron.php?cron_key=vFspSJWNl9xv8nBxjj7xC-9pn5yuk5A6MztU3AwI0Fo > /dev/null 2>&1
 10 1 * * * root $WGET https://www.moins-vachon-notaires.fr/admin/immobilier/imports/ac3/run
 ######################################################################################
 
@@ -1239,7 +1157,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # immobilier-moraine.fr
 #
-0 */3 * * * root $WGET https://www.immobilier-moraine.fr/cron.php?cron_key=dPdthm3DH1fKMI0uEjES3ie6ZhXsLCXYEQTOuwYm97Y > /dev/null 2>&1
+26 */3 * * * root $WGET https://www.immobilier-moraine.fr/cron.php?cron_key=dPdthm3DH1fKMI0uEjES3ie6ZhXsLCXYEQTOuwYm97Y > /dev/null 2>&1
 10 0 * * * root $WGET https://www.immobilier-moraine.fr/admin/immobilier/imports/ac3/run
 ######################################################################################
 
@@ -1247,35 +1165,35 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # natterip.com
 #
-0 */3 * * * root $WGET http://www.natterip.com/cron.php?cron_key=MVUW_eWtJQVZ8G-MGd78w2A2E4QHcXb5J54Bc81oLc4 > /dev/null 2>&1
+27 */3 * * * root $WGET http://www.natterip.com/cron.php?cron_key=MVUW_eWtJQVZ8G-MGd78w2A2E4QHcXb5J54Bc81oLc4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # newr.fr
 #
-0 */3 * * * root $WGET http://www.newr.fr/cron.php?cron_key=zG1sN_h_B1C36xYVOI2y1PFozMVHvzqEwVjzZ3-RqTU > /dev/null 2>&1
+28 */3 * * * root $WGET http://www.newr.fr/cron.php?cron_key=zG1sN_h_B1C36xYVOI2y1PFozMVHvzqEwVjzZ3-RqTU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # bio-r.com
 #
-0 */3 * * * root $WGET https://www.bio-r.com/cron.php?cron_key=zG1sN_h_B1C36xYVOI2y1PFozMVHvzqEwVjzZ3-RqTU > /dev/null 2>&1
+29 */3 * * * root $WGET https://www.bio-r.com/cron.php?cron_key=zG1sN_h_B1C36xYVOI2y1PFozMVHvzqEwVjzZ3-RqTU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # notaires-rennes-alma.fr
 #
-0 */3 * * * root $WGET http://www.notaires-rennes-alma.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+30 */3 * * * root $WGET http://www.notaires-rennes-alma.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # notaires-rennes-duguesclin.fr
 #
-0 */3 * * * root $WGET https://www.notaires-duguesclin.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+31 */3 * * * root $WGET https://www.notaires-duguesclin.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 30 3 * * * root $WGET https://www.notaires-duguesclin.fr/admin/immobilier/imports/transim/run
 ######################################################################################
 
@@ -1283,7 +1201,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # notaires-rennes-st-germain.fr
 #
-0 */3 * * * root $WGET http://www.notaires-rennes-st-germain.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+32 */3 * * * root $WGET http://www.notaires-rennes-st-germain.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 40 3 * * * root $WGET http://www.notaires-rennes-st-germain.fr/admin/immobilier/imports/immonot/run
 ######################################################################################
 
@@ -1291,14 +1209,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # nouet-batiment.com
 #
-0 */3 * * * root $WGET http://www.nouet-batiment.com/cron.php?cron_key=xybm1bsMeS7-UiU5Ku-rdcOEzJIuvDtlL62lmqyi_Kk > /dev/null 2>&1
+33 */3 * * * root $WGET http://www.nouet-batiment.com/cron.php?cron_key=xybm1bsMeS7-UiU5Ku-rdcOEzJIuvDtlL62lmqyi_Kk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Novalim
 # requirement: Notification process need to be sent around noon
-0 */3 * * * root $WGET http://novalim.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0
+34 */3 * * * root $WGET http://novalim.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0
 20 3 * * * root $WGET http://www.novalim.fr/admin/immobilier/imports/connectimmo/run
 0 12 * * * root $WGET http://www.novalim.fr/immobilier/notification/process
 ######################################################################################
@@ -1307,14 +1225,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # noyal-poids-lourds.com
 #
-0 */3 * * * root $WGET http://www.noyal-poids-lourds.com/cron.php?cron_key=gSqrqztojKwYCu_FxcEqbVMW_qNbRKvjS4Qk-08Yrm8 > /dev/null 2>&1
+35 */3 * * * root $WGET http://www.noyal-poids-lourds.com/cron.php?cron_key=gSqrqztojKwYCu_FxcEqbVMW_qNbRKvjS4Qk-08Yrm8 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # officenotarial-hellivan-ploubalay.fr
 #
-0 */3 * * * root $WGET http://www.officenotarial-hellivan-ploubalay.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
+36 */3 * * * root $WGET http://www.officenotarial-hellivan-ploubalay.fr/cron.php?cron_key=8PILnlf-jwrCpjUT4AYSnlrPwByfN3tFn8iZfAHsvJ0 > /dev/null 2>&1
 40 3 * * * root $WGET http://www.officenotarial-hellivan-ploubalay.fr/admin/immobilier/imports/ncis/run
 ######################################################################################
 
@@ -1322,42 +1240,42 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # ouestboissons.fr
 #
-0 */3 * * * root $WGET http://www.ouestboissons.fr/cron.php?cron_key=sTKeMQ8JPi_fzxjeeAonWyPr-X9iXSfJmUpL6L0Ar88 > /dev/null 2>&1
+37 */3 * * * root $WGET http://www.ouestboissons.fr/cron.php?cron_key=sTKeMQ8JPi_fzxjeeAonWyPr-X9iXSfJmUpL6L0Ar88 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Patisserie Le Daniel
 #
-0 */3 * * * root $WGET http://www.patisserieledaniel.fr/cron.php?cron_key=tYpN2Wddau6-_angJlQ_uyAXrsxvJzqHj-L8URwGuEQ > /dev/null 2>&1
+38 */3 * * * root $WGET http://www.patisserieledaniel.fr/cron.php?cron_key=tYpN2Wddau6-_angJlQ_uyAXrsxvJzqHj-L8URwGuEQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Pelatre TP
 #
-0 */3 * * * root $WGET https://www.pelatre-tp.com/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
+39 */3 * * * root $WGET https://www.pelatre-tp.com/cron.php?cron_key=qwj06NQgwlUBspAO_ln6QKCYba0_-ef3xwstoHCjCAM > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Pertuisel
 #
-0 */3 * * * root $WGET http://www.pertuisel-batiment.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+40 */3 * * * root $WGET http://www.pertuisel-batiment.fr/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Perion
 #
-0 */3 * * * root $WGET https://www.perion-realisations.com/cron.php?cron_key=oW9IcBJlYGbnwqh0wz-fbykvBJr2w0zKSGNpfxs_jlM > /dev/null 2>&1
+41 */3 * * * root $WGET https://www.perion-realisations.com/cron.php?cron_key=oW9IcBJlYGbnwqh0wz-fbykvBJr2w0zKSGNpfxs_jlM > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Perion immo
 #
-0 */3 * * * root $WGET http://www.perion-habitation.com/cron.php?cron_key=IoWZdyXGOf56oFJvleJUX3gH89a26KbNY6QnMa1P3hw > /dev/null 2>&1
+42 */3 * * * root $WGET http://www.perion-habitation.com/cron.php?cron_key=IoWZdyXGOf56oFJvleJUX3gH89a26KbNY6QnMa1P3hw > /dev/null 2>&1
 20 4 * * * root $WGET http://www.perion-habitation.com/admin/immobilier/imports/immostore/run
 ######################################################################################
 
@@ -1365,59 +1283,59 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # groupe-pigeon.com
 #
-0 */3 * * * root $WGET http://www.groupe-pigeon.com/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
+43 */3 * * * root $WGET http://www.groupe-pigeon.com/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # firstbeton.com
 #
-0 */3 * * * root $WGET http://www.firstbeton.com/cron.php?cron_key=PVUKKxB-mzrgZjR_sqMxMv1eYvhyGV-SW0raMPh6nMU > /dev/null 2>&1
+44 */3 * * * root $WGET http://www.firstbeton.com/cron.php?cron_key=PVUKKxB-mzrgZjR_sqMxMv1eYvhyGV-SW0raMPh6nMU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # pigeon-materiaux.com
 #
-0 */3 * * * root $WGET http://www.pigeon-materiaux.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+45 */3 * * * root $WGET http://www.pigeon-materiaux.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # pigeaultimmobilier.com
 #
-0 */3 * * * root $WGET http://www.pigeaultimmobilier.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+46 */3 * * * root $WGET http://www.pigeaultimmobilier.com.acreat.net/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Pj Toulemont
 #
-0 */3 * * * root $WGET http://www.pjtoulemont.fr/cron.php?cron_key=RmZbl9FJvlV1VEgbgysqtkSgU-xlXxemW_6NxvwpDz4 > /dev/null 2>&1
+47 */3 * * * root $WGET http://www.pjtoulemont.fr/cron.php?cron_key=RmZbl9FJvlV1VEgbgysqtkSgU-xlXxemW_6NxvwpDz4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Pommereul
 #
-0 */3 * * * root $WGET http://www.pommereul-demenagements.fr/cron.php?cron_key=XtzgBcGVljaz0CYEks64W3bEo00YK92VQKTah3KWgA8 > /dev/null 2>&1
+48 */3 * * * root $WGET http://www.pommereul-demenagements.fr/cron.php?cron_key=XtzgBcGVljaz0CYEks64W3bEo00YK92VQKTah3KWgA8 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Potin tp
 #
-0 */3 * * * root $WGET http://www.potintp.com/cron.php?cron_key=EprS9zwo40d91d6DY9lBn7FpIxFwvF9RwTKCHrofxV0 > /dev/null 2>&1
+49 */3 * * * root $WGET http://www.potintp.com/cron.php?cron_key=EprS9zwo40d91d6DY9lBn7FpIxFwvF9RwTKCHrofxV0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Pozzo
 #
+50 */3 * * * root $WGET http://extranet-pozzo.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+50 */3 * * * root $WGET https://www.pozzo-immobilier.fr/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
 0 22 * * * root cd /var/www/html/drupal/drupal730/sites/pozzo-immobilier.fr && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
 30 22 * * * root cd /var/www/html/drupal/drupal730/sites/pozzo-immobilier.fr && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
-0 */3 * * * root $WGET http://extranet-pozzo.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
-0 */3 * * * root $WGET https://www.pozzo-immobilier.fr/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
 0 3 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-customers https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-neuf
 0 5 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/enova/run
 #0 5 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/hektor/execute
@@ -1427,56 +1345,56 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Partenaires cesson
 #
-0 */3 * * * root $WGET http://www.partenaires-cesson-handball.com/cron.php?cron_key=sf_wejNXG_jDWLb45CRg2dANDJm-ZVINYgr9UC6C74k > /dev/null 2>&1
+51 */3 * * * root $WGET http://www.partenaires-cesson-handball.com/cron.php?cron_key=sf_wejNXG_jDWLb45CRg2dANDJm-ZVINYgr9UC6C74k > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # PISB
 #
-0 */3 * * * root $WGET http://www.implants-st-brieuc.fr/cron.php?cron_key=vefQC_AnZyKtyZihbcLipPjpvcBgD40YAvXBlUvMSjs > /dev/null 2>&1
+52 */3 * * * root $WGET http://www.implants-st-brieuc.fr/cron.php?cron_key=vefQC_AnZyKtyZihbcLipPjpvcBgD40YAvXBlUvMSjs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # prigent-associes.fr
 #
-0 */3 * * * root $WGET http://www.prigent-associes.fr/cron.php?cron_key=QXeZGZXmxu5dTj2Q2JkRfC7WyrOzojFtteyvVIL6tvo > /dev/null 2>&1
+53 */3 * * * root $WGET http://www.prigent-associes.fr/cron.php?cron_key=QXeZGZXmxu5dTj2Q2JkRfC7WyrOzojFtteyvVIL6tvo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # lesfranginsrennes.com / quatreb.fr
 #
-0 */3 * * * root $WGET http://www.lesfranginsrennes.com/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
+54 */3 * * * root $WGET http://www.lesfranginsrennes.com/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # le-querrien.com
 #
-0 */3 * * * root $WGET http://www.le-querrien.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
+55 */3 * * * root $WGET http://www.le-querrien.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # racines-restaurant.fr
 #
-0 */3 * * * root $WGET http://www.racines-restaurant.fr/cron.php?cron_key=8tz86gdT8hf1lktoLfBhk3C_u6-0njlUhi5Xys-KDks > /dev/null 2>&1
+56 */3 * * * root $WGET http://www.racines-restaurant.fr/cron.php?cron_key=8tz86gdT8hf1lktoLfBhk3C_u6-0njlUhi5Xys-KDks > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # rallu
 #
-0 */3 * * * root $WGET http://www.rallu.com/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
+57 */3 * * * root $WGET http://www.rallu.com/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # regional-interim.fr
 #
-0 */3 * * * root $WGET http://www.regional-interim.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+58 */3 * * * root $WGET http://www.regional-interim.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 40 3 * * * root $WGET http://www.regional-interim.fr/admin/regional-interim/imports-offres http://www.regional-interim.fr/admin/regional-interim/envoi-alertes
 0 11 * * * root $WGET http://www.regional-interim.fr/admin/regional-interim/imports-offres http://www.regional-interim.fr/admin/regional-interim/envoi-alertes
 ######################################################################################
@@ -1485,7 +1403,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # rennesimmobilier.com
 #
-0 */3 * * * root $WGET http://www.rennesimmobilier.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
+59 */3 * * * root $WGET http://www.rennesimmobilier.com/cron.php?cron_key=KHx3JLwFNeUPey0SrHRoEylnMK9GDoeTQKMpVESKlZ4 > /dev/null 2>&1
 40 1 * * * root $WGET http://www.rennesimmobilier.com/admin/immobilier/imports/ac3/run http://www.rennesimmobilier.com/admin/immobilier/notification/process
 ######################################################################################
 
@@ -1502,28 +1420,28 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # restaurantlamiral.fr
 #
-0 */3 * * * root $WGET http://www.restaurantlamiral.fr/cron.php?cron_key=RDB2f8yOvMrXxj8x3oO_p08P-unaitScnoMvv6-MLEE > /dev/null 2>&1
+01 */3 * * * root $WGET http://www.restaurantlamiral.fr/cron.php?cron_key=RDB2f8yOvMrXxj8x3oO_p08P-unaitScnoMvv6-MLEE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # restaurant-laromates.com
 #
-0 */3 * * * root $WGET https://www.restaurant-laromates.com/cron.php?cron_key=ZfuPEA30EoUMkM3CbJBMXyqXce26H72U_CfN5wAL7H0 > /dev/null 2>&1
+02 */3 * * * root $WGET https://www.restaurant-laromates.com/cron.php?cron_key=ZfuPEA30EoUMkM3CbJBMXyqXce26H72U_CfN5wAL7H0 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # restaurant-lehoo.fr
 #
-0 */3 * * * root $WGET http://www.restaurant-lehoo.fr/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
+03 */3 * * * root $WGET http://www.restaurant-lehoo.fr/cron.php?cron_key=DlnxV8sFoOIPpQbc4sNRbdNTEWyWZEIt0MYCDtgDMhs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # roazhon-immo.fr
 #
-0 */3 * * * root $WGET http://www.roazhon-immo.fr/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
+04 */3 * * * root $WGET http://www.roazhon-immo.fr/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
 20 0 * * * root $WGET http://www.roazhon-immo.fr/admin/immobilier/imports/ac3/run http://www.roazhon-immo.fr/admin/immobilier/notification/process
 ######################################################################################
 
@@ -1531,21 +1449,21 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # rupin-plomberie.fr
 #
-0 */3 * * * root $WGET http://www.rupin-plomberie.fr/cron.php?cron_key=vt1X3Y2wsM0zbni1TFJmgId2tWWyzOY2YP8IX3EGOzM > /dev/null 2>&1
+05 */3 * * * root $WGET http://www.rupin-plomberie.fr/cron.php?cron_key=vt1X3Y2wsM0zbni1TFJmgId2tWWyzOY2YP8IX3EGOzM > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # sarlherve.fr
 #
-0 */3 * * * root $WGET http://www.sarlherve.fr/cron.php?cron_key=8OjLT50effzmlB9NtF5K-qrqw9KnhmxMperRzBD-oLM > /dev/null 2>&1
+06 */3 * * * root $WGET http://www.sarlherve.fr/cron.php?cron_key=8OjLT50effzmlB9NtF5K-qrqw9KnhmxMperRzBD-oLM > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # sacib.com
 #
-0 */3 * * * root $WGET http://www.sacib.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
+07 */3 * * * root $WGET http://www.sacib.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
 10 1 * * * root $WGET http://www.sacib.com/admin/immobilier/imports/ac3/run
 ######################################################################################
 
@@ -1553,99 +1471,92 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # extranet-promotion.sacib.com
 #
-0 */3 * * * root $WGET http://extranet.sacib.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+08 */3 * * * root $WGET http://extranet.sacib.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # SBM IMMO
 #
-0 */3 * * * root $WGET http://www.sbm-immo.com/cron.php?cron_key=k6hqJc1EPuz28Q4tCV-eGzTW8XnbUTPChuDkLqEH7Ak > /dev/null 2>&1
+09 */3 * * * root $WGET http://www.sbm-immo.com/cron.php?cron_key=k6hqJc1EPuz28Q4tCV-eGzTW8XnbUTPChuDkLqEH7Ak > /dev/null 2>&1
 0 6 * * * root $WGET http://www.sbm-immo.com/admin/immobilier/imports/vente/run http://www.sbm-immo.com/admin/immobilier/imports/location/run
-######################################################################################
-
-######################################################################################
-#
-# Schatzipark.fr
-#
-0 */3 * * * root $WGET http://www.schatzipark.fr/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # Salonespritmaison.com
 #
-0 */3 * * * root $WGET http://www.salonespritmaison.com/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
+10 */3 * * * root $WGET http://www.salonespritmaison.com/cron.php?cron_key=9MFAwYyH96yAarNW_7LQrJlzgtSZ0YZsKWPqcRcB7iU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # extranet-promotion.secib-immobilier.com
 #
-0 */3 * * * root $WGET http://extranet-promotion.secib-immobilier.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
+11 */3 * * * root $WGET http://extranet-promotion.secib-immobilier.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # servicesfuneraires77.com
 #
-0 */3 * * * root $WGET http://www.servicesfuneraires77.com/cron.php?cron_key=gvOF3CW6hc--voSlzMrippPruOiIJiPK8LkjM5qGcyU > /dev/null 2>&1
+12 */3 * * * root $WGET http://www.servicesfuneraires77.com/cron.php?cron_key=gvOF3CW6hc--voSlzMrippPruOiIJiPK8LkjM5qGcyU > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # soccer-rennais.com
 #
-0 */3 * * * root $WGET http://www.soccer-rennais.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+13 */3 * * * root $WGET http://www.soccer-rennais.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # padel-rennais.com
 #
-0 */3 * * * root $WGET http://www.padel-rennais.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+14 */3 * * * root $WGET http://www.padel-rennais.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # spertys.fr
 #
-0 */3 * * * root $WGET https://www.spertys.fr/cron.php?cron_key=hEbVNJxLBs1u3XOkZ3suQ_b0PLvvQsr5SBWdKc8i-_g > /dev/null 2>&1
+15 */3 * * * root $WGET https://www.spertys.fr/cron.php?cron_key=hEbVNJxLBs1u3XOkZ3suQ_b0PLvvQsr5SBWdKc8i-_g > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # solimco.fr
 #
-0 */3 * * * root $WGET http://www.solimco.fr/cron.php?cron_key=SvLgiZuyPJ62kjr8QnbwZ7e1diHveczelyxaZEqSVys > /dev/null 2>&1
+16 */3 * * * root $WGET http://www.solimco.fr/cron.php?cron_key=SvLgiZuyPJ62kjr8QnbwZ7e1diHveczelyxaZEqSVys > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # station-music.com
 #
-0 */3 * * * root $WGET http://www.station-music.com/cron.php?cron_key=YIX-bCsKjdNMUvruDB2oE5vzQPSmczJiL807ESIZs7k > /dev/null 2>&1
+17 */3 * * * root $WGET http://www.station-music.com/cron.php?cron_key=YIX-bCsKjdNMUvruDB2oE5vzQPSmczJiL807ESIZs7k > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # strateys.com
 #
-0 */3 * * * root $WGET http://www.strateys.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+18 */3 * * * root $WGET http://www.strateys.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # strateys-contentieux.fr
 #
-0 */3 * * * root $WGET http://www.strateys-contentieux.com/cron.php?cron_key=-ep8AmLDvRU3N6LDwhsvpOf5LYj4zx_-EGuX04jGXYA > /dev/null 2>&1
+19 */3 * * * root $WGET http://www.strateys-contentieux.com/cron.php?cron_key=-ep8AmLDvRU3N6LDwhsvpOf5LYj4zx_-EGuX04jGXYA > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # sweethome-rennes.fr
 #
-0 */3 * * * root $WGET http://www.sweethome-rennes.fr/cron.php?cron_key=gl15mKLYxkCNYxi_YKCpzXNCKq2mKqmzSsbyf71tsAI > /dev/null 2>&1
+20 */3 * * * root $WGET http://www.sweethome-rennes.fr/cron.php?cron_key=gl15mKLYxkCNYxi_YKCpzXNCKq2mKqmzSsbyf71tsAI > /dev/null 2>&1
 15 4 * * * root $WGET http://www.sweethome-rennes.fr/admin/immobilier/imports/hektor/execute http://www.sweethome-rennes.fr/admin/immobilier/notification/process
 ######################################################################################
 
@@ -1653,104 +1564,98 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # thautomobiles.fr
 #
-0 */3 * * * root $WGET http://www.thautomobiles.fr/cron.php?cron_key=JaBZTJ-XJue8oLiSjO1ssPz3GIkM5Z8aLiY1qs9Vubg > /dev/null 2>&1
+21 */3 * * * root $WGET http://www.thautomobiles.fr/cron.php?cron_key=JaBZTJ-XJue8oLiSjO1ssPz3GIkM5Z8aLiY1qs9Vubg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # thierry-immobilier.fr & nanteus
 #
-0 */3 * * * root $WGET http://www.location-studio-nanteus.fr/cron.php?cron_key=VZnPcGoqHXnDSpW7tKW3kbUx-XrCNULUd0un_IzpUCg > /dev/null 2>&1
-#0 */3 * * * root $WGET http://www.thierry-immobilier.fr/cron.php?cron_key=YzPs2XWFV501E4c7QZPsYqQEWiiem_C1jccwlG7JDMY > /dev/null 2>&1
-#5 3 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/vente/run http://www.thierry-immobilier.fr/admin/immobilier/imports/location/run
-#30 5 * * * root $WGET http://www.thierry-immobilier.fr/immobilier/notification/process http://www.thierry-immobilier.fr/immobilier/dossiers-de-location/purge
-#0 4 1 */3 * root $WGET http://www.thierry-immobilier.fr/acreat_kelquartier/refresh_portraits
-##30 5 * * * root $WGET http://www.thierry-immobilier.fr/agence/immobilier/imports/immobilier-nodes-count-update
-##5 3 * * * root $WGET http://www.thierry-immobilier.fr/admin/immobilier/imports/entreprise/run
+#0 */3 * * * root $WGET http://www.location-studio-nanteus.fr/cron.php?cron_key=VZnPcGoqHXnDSpW7tKW3kbUx-XrCNULUd0un_IzpUCg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # theonouet.com
 #
-0 */3 * * * root $WGET http://www.theonouet.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+22 */3 * * * root $WGET http://www.theonouet.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # tombelaine-coquillage.com
 #
-0 */3 * * * root $WGET http://www.tombelaine-coquillage.com/cron.php?cron_key=uBf4KRMfGhCOoh3ePFzQFm_Nk2cIsy0KE8rbT-tde2E > /dev/null 2>&1
+23 */3 * * * root $WGET http://www.tombelaine-coquillage.com/cron.php?cron_key=uBf4KRMfGhCOoh3ePFzQFm_Nk2cIsy0KE8rbT-tde2E > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # trademark.com
 #
-0 */3 * * * root $WGET http://www.trademark.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
+24 */3 * * * root $WGET http://www.trademark.com/cron.php?cron_key=x5jhDm2n5MM8eHNLaVu49qtaWu_hyuTsMrGfQtrFJNs > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # uflevage.Fr
 #
-0 */3 * * * root $WGET http://www.uflevage.fr/cron.php?cron_key=aOGwNH7xs4OOGttTrr2JrpV7HDNdiTu4Kgf5lyGqXEk > /dev/null 2>&1
+25 */3 * * * root $WGET http://www.uflevage.fr/cron.php?cron_key=aOGwNH7xs4OOGttTrr2JrpV7HDNdiTu4Kgf5lyGqXEk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # vente9.com
 #
-0 */3 * * * root $WGET http://www.vente9.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+26 */3 * * * root $WGET http://www.vente9.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # vertetbleudeco.com
 #
-0 */3 * * * root $WGET http://www.vertetbleudeco.com/cron.php?cron_key=Piw4ja976QVGwxvlncs57rL_LGjA6RUKEuDhB4WfMFk > /dev/null 2>&1
+27 */3 * * * root $WGET http://www.vertetbleudeco.com/cron.php?cron_key=Piw4ja976QVGwxvlncs57rL_LGjA6RUKEuDhB4WfMFk > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # constructeur-piscines.fr
 #
-0 */3 * * * root $WGET http://www.constructeur-piscines.fr/cron.php?cron_key=dMJ95bkwjIjx0yZzoLMFkY9ls8KOtO0bX4CmcUabo3k > /dev/null 2>&1
+28 */3 * * * root $WGET http://www.constructeur-piscines.fr/cron.php?cron_key=dMJ95bkwjIjx0yZzoLMFkY9ls8KOtO0bX4CmcUabo3k > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # creabatijardin.com
 #
-0 */3 * * * root $WGET http://www.creabatijardin.com/cron.php?cron_key=dMJ95bkwjIjx0yZzoLMFkY9ls8KOtO0bX4CmcUabo3k > /dev/null 2>&1
+29 */3 * * * root $WGET http://www.creabatijardin.com/cron.php?cron_key=dMJ95bkwjIjx0yZzoLMFkY9ls8KOtO0bX4CmcUabo3k > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # viabilis-amenagement.com
 #
-0 */3 * * * root $WGET http://www.viabilis-amenagement.com/cron.php?cron_key=L9KACPETwh_7lRITUB6UPIRx-skyIzx-so5Cyq7BFUo > /dev/null 2>&1
+30 */3 * * * root $WGET http://www.viabilis-amenagement.com/cron.php?cron_key=L9KACPETwh_7lRITUB6UPIRx-skyIzx-so5Cyq7BFUo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # viabilis-amenagement.com
 #
-0 */3 * * * root $WGET http://extranet.viabilis-amenagement.com/cron.php?cron_key=L9KACPETwh_7lRITUB6UPIRx-skyIzx-so5Cyq7BFUo > /dev/null 2>&1
+31 */3 * * * root $WGET http://extranet.viabilis-amenagement.com/cron.php?cron_key=L9KACPETwh_7lRITUB6UPIRx-skyIzx-so5Cyq7BFUo > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # westevenement.com
 #
-0 */3 * * * root $WGET http://www.westevenement.com/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
+32 */3 * * * root $WGET http://www.westevenement.com/cron.php?cron_key=Q-qbs3yKjvGZZ4QIKPCaYq-w0QjjlH5w-CcwZmS5klQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # welcomeimmo.com
 #
-0 */3 * * * root $WGET https://www.welcomeimmo.com/cron.php?cron_key=Uo_6IljqoP0DDOmNQ3Gu60WJ7F658-5hSXMdUxowDag > /dev/null 2>&1
+33 */3 * * * root $WGET https://www.welcomeimmo.com/cron.php?cron_key=Uo_6IljqoP0DDOmNQ3Gu60WJ7F658-5hSXMdUxowDag > /dev/null 2>&1
 20 4 * * * root $WGET https://www.welcomeimmo.com/admin/immobilier/imports/hektor/execute
 ######################################################################################
 
@@ -1758,13 +1663,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # wellcom.bzh
 #
-0 */3 * * * root $WGET http://www.wellcom.bzh.acreat.net/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
+34 */3 * * * root $WGET http://www.wellcom.bzh.acreat.net/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # maisonswoodz.fr
 #
-0 */3 * * * root $WGET https://www.maisonswoodz.fr/cron.php?cron_key=KsG4S9KjoB1uF0M-biRU2sl2hSYHVW0bIbjkVp6km5o > /dev/null 2>&1
+35 */3 * * * root $WGET https://www.maisonswoodz.fr/cron.php?cron_key=KsG4S9KjoB1uF0M-biRU2sl2hSYHVW0bIbjkVp6km5o > /dev/null 2>&1
 15 8 * * * root $WGET https://www.maisonswoodz.fr/admin/entities/run
 ######################################################################################
