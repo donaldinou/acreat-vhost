@@ -309,3 +309,44 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 39 */3 * * * root $WGET http://www.scodeo.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
 ######################################################################################
 
+######################################################################################
+#
+# escalier35.fr
+#
+40 */3 * * * root $WGET http://www.escalier35.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# sitec35.fr
+#
+41 */3 * * * root $WGET https://www.sitec35.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# breizh-toit.com
+#
+42 */3 * * * root $WGET https://www.breizh-toit.com/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# bertrandrealisations.com
+#
+43 */3 * * * root $WGET https://www.bertrandrealisations.com/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# pompes-funebres-de-la-baie.fr
+#
+44 */3 * * * root $WGET https://www.pompes-funebres-de-la-baie.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# marbrerie-legall.fr
+#
+45 */3 * * * root $WGET https://www.marbrerie-legall.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
