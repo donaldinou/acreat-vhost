@@ -7,7 +7,13 @@
 172.30.2.153 mattermost.acreat.com slack.acreat.com
 172.30.2.153 redmine.acreat.com projet.acreat.com
 
+# symfony
+127.0.0.1 acreat.com www.acreat.com backoff.acreat.com
+127.0.0.1 pricer.acreat.com
+127.0.0.1 d2d.acreat.com
+
 # 8
+127.0.0.1 sandbox.acreat.net
 127.0.0.1 latest.acreat.com
 127.0.0.1 planeterunning.fr planeterunning.gt planete-running.fr www.planete-running.fr planete-running-rennes.fr www.planete-running-rennes.fr
 127.0.0.1 gibert-consulting.com www.gibert-consulting.com
@@ -46,12 +52,18 @@
 127.0.0.1 peinture-decoration-35.fr www.peinture-decoration-35.fr
 127.0.0.1 pompesfunebres-vauquer.fr www.pompesfunebres-vauquer.fr
 127.0.0.1 livraison-fioul-35.fr www.livraison-fioul-35.fr
-127.0.0.1 armacell.com www.armacell.com corporate.armacell.com stage.armacell.com
+#127.0.0.1 armacell.com www.armacell.com corporate.armacell.com stage.armacell.com
 127.0.0.1 klsconseils.fr www.klsconseils.fr
 127.0.0.1 pma-illifaut.fr www.pma-illifaut.fr pma-illifaut.com www.pma-illifaut.com
 127.0.0.1 marbrerie-goliot-angers.fr www.marbrerie-goliot-angers.fr
 127.0.0.1 pompes-funebres-taligot.fr www.pompes-funebres-taligot.fr
 127.0.0.1 scodeo.fr www.scodeo.fr
+127.0.0.1 escalier35.fr www.escalier35.fr
+127.0.0.1 sitec35.fr www.sitec35.fr
+127.0.0.1 breizh-toit.com www.breizh-toit.com
+127.0.0.1 bertrandrealisations.com www.bertrandrealisations.com
+127.0.0.1 pompes-funebres-de-la-baie.fr www.pompes-funebres-de-la-baie.fr
+127.0.0.1 marbrerie-legall.fr www.marbrerie-legall.fr
 
 # 730
 127.0.0.1 2a-immo.fr www.2a-immo.fr
@@ -84,7 +96,6 @@
 127.0.0.1 isisavocats.fr www.isisavocats.fr
 127.0.0.1 soccer-rennais.com www.soccer-rennais.com
 127.0.0.1 cert-online.biz www.cert-online.biz
-127.0.0.1 acreat.com www.acreat.com
 127.0.0.1 hotel.acreat.com
 127.0.0.1 dlj-syndic.fr www.dlj-syndic.fr
 127.0.0.1 notaires-rennes-st-germain.fr www.notaires-rennes-st-germain.fr scp-scouarnec-gours-notaires-rennes.fr www.scp-scouarnec-gours-notaires-rennes.fr
@@ -105,7 +116,7 @@
 127.0.0.1 lefeuvre-immobilier.com www.lefeuvre-immobilier.com cabinet-lefeuvre.com www.cabinet-lefeuvre.com
 127.0.0.1 groupe-pandora.com www.groupe-pandora.com groupe-pandora.fr www.groupe-pandora.fr
 127.0.0.1 terrains.groupe-launay.com extranet.groupe-launay.com
-127.0.0.1 promotion.groupe-launay.com extranet-promotion.groupe-launay.com promotion.groupe-launay.com.acreat.net
+127.0.0.1 promotion.groupe-launay.com extranet-promotion.groupe-launay.com
 127.0.0.1 officenotarial-hellivan-ploubalay.fr www.officenotarial-hellivan-ploubalay.fr
 127.0.0.1 strateys.com www.strateys.com strateys.fr www.strateys.fr
 127.0.0.1 notaires-rennes-duguesclin.fr www.notaires-rennes-duguesclin.fr
@@ -179,7 +190,7 @@
 127.0.0.1 mc2avocat.fr www.mc2avocat.fr
 127.0.0.1 mgeffray-immobilier.fr www.mgeffray-immobilier.fr
 127.0.0.1 maisonshamster.com www.maisonshamster.com
-127.0.0.1 cabinet-martin.fr www.cabinet-martin.fr
+127.0.0.1 cabinet-martin.fr www.cabinet-martin.fr dossier-cabinet-martin.fr www.dossier-cabinet-martin.fr
 127.0.0.1 prigent-associes.fr www.prigent-associes.fr
 127.0.0.1 le5-restaurant.com www.le5-restaurant.com
 127.0.0.1 racines-restaurant.fr www.racines-restaurant.fr
@@ -261,7 +272,9 @@
 127.0.0.1 tombelaine-coquillages.com www.tombelaine-coquillages.com
 127.0.0.1 inova-immo.com www.inova-immo.com
 127.0.0.1 viabilis-amenagement.com www.viabilis-amenagement.com
+127.0.0.1 extranet.viabilis-amenagement.com
 127.0.0.1 has-climatisation.com www.has-climatisation.com
+127.0.0.1 has-undergroundventilation.com www.has-undergroundventilation.com
 127.0.0.1 welcomeimmo.com www.welcomeimmo.com
 127.0.0.1 leschaisdesaintecroix.com www.leschaisdesaintecroix.com
 127.0.0.1 moins-vachon-notaires.fr www.moins-vachon-notaires.fr moins-vachon.notaires.fr www.moins-vachon.notaires.fr moins-notaires.fr www.moins-notaires.fr
@@ -271,10 +284,32 @@
 127.0.0.1 lycee-descartes.eu www.lycee-descartes.eu
 127.0.0.1 immobilier-moraine.fr www.immobilier-moraine.fr
 127.0.0.1 creabatijardin.com www.creabatijardin.com
+127.0.0.1 milleetunsourires.fr www.milleetunsourires.fr
 127.0.0.1 spertys.fr www.spertys.fr
-127.0.0.1 dominno-immobilier.fr www.dominno-immobilier.fr
-127.0.0.1 ineohabitat.com www.ineohabitat.com ineohabitat.fr www.ineohabitat.fr
+127.0.0.1 ink-enseigne.com www.ink-enseigne.com
+127.0.0.1 delphine-lechat-avocat.fr www.delphine-lechat-avocat.fr 
+127.0.0.1 dominnoimmobilier.fr www.dominnoimmobilier.fr dominno-immobilier.fr www.dominno-immobilier.fr
+127.0.0.1 le-bureau-vert.com www.le-bureau-vert.com
+127.0.0.1 ineohabitat.com www.ineohabitat.com
+127.0.0.1 firstbeton.com www.firstbeton.com
+127.0.0.1 alicos.fr www.alicos.fr
+127.0.0.1 ineohabitat.com www.ineohabitat.com
+127.0.0.1 restaurant-laromates.com www.restaurant-laromates.com
+127.0.0.1 generaleimmobiliereneuf.com www.generaleimmobiliereneuf.com
+127.0.0.1 guine-cuisines.fr www.guine-cuisines.fr
+127.0.0.1 forma-design.fr www.forma-design.fr
+127.0.0.1 bio-r.com www.bio-r.com
+127.0.0.1 decorateur-interieur-rennes.com www.decorateur-interieur-rennes.com decorateur-interieur-rennes.fr www.decorateur-interieur-rennes.fr
+127.0.0.1 gdl-avocats.fr www.gdl-avocats.fr
+127.0.0.1 cadoret-immobilier.com www.cadoret-immobilier.com
+127.0.0.1 horus-df.com www.horus-df.com
+127.0.0.1 lloyd-davis.com www.lloyd-davis.com
+
+# 6
+127.0.0.1 rennesparcexpo.fr www.rennesparcexpo.fr
+127.0.0.1 foirederennes.com www.foirederennes.com
+127.0.0.1 leasametric.com www.leasametric.com
+127.0.0.1 paimpont.fr www.paimpont.fr
 
 # misc
 85.69.117.189 maison-nc
-
