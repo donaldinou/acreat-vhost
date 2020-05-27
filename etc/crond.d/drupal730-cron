@@ -224,13 +224,6 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# axival.eu
-#
-24 */3 * * * root $WGET http://www.axival.eu/cron.php?cron_key=c-oUHLQfugKWAao8SbIjtgkm_qvfiCddKiXg8axnpmU > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
 # bar-leroyal.fr
 #
 25 */3 * * * root $WGET http://www.bar-leroyal.fr/cron.php?cron_key=tXo_szxgIJBHLysweU-0Ot9ZnU2ua6LkOVzDlJ1c2uc > /dev/null 2>&1
@@ -870,14 +863,6 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # hotel-la-reposee.com
 #
 47 */3 * * * root $WGET http://www.hotel-la-reposee.com/cron.php?cron_key=HSgIkH-SM_lPoJdKhePwYsKDETbxnO4UkkYwE-IRIME  > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
-# Korali hotel
-#
-48 */3 * * * root $WGET http://www.koralihotel.fr/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
-#*/15 * * * * root php -f /var/www/html/drupal/drupal726/sites/koralihotel.fr/scripts/get_temperatures.php > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
