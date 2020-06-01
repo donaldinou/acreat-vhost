@@ -959,7 +959,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 01 */3 * * * root $WGET https://www.lefeuvre-immobilier.com/cron.php?cron_key=cX5VytB4mgQdto_MO3QHJup5vH4Y9imNq73iiKw6FjA > /dev/null 2>&1
 #30 5 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/entreprise/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/neuf-lot/run
 #35 5 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/location/run https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ac3/vente/run
-25 1 * * * root $WGET http://www.lefeuvre-immobilier.com/immobilier/imports/ac3/cron-run
+25 1 * * * root $WGET https://www.lefeuvre-immobilier.com/immobilier/imports/ac3/cron-run
+50 1 * * * root $WGET https://www.lefeuvre-immobilier.com/admin/immobilier/imports/ics/run
 ######################################################################################
 
 ######################################################################################
