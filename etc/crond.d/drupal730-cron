@@ -295,16 +295,6 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# bochard.fr
-#
-34 */3 * * * root $WGET http://www.bochard.fr/cron.php?cron_key=8hGzcZM94sz5ahlnz9i9FFTjBR6K8oCbnhowZIc8njw > /dev/null 2>&1
-10 4 * * * root $WGET http://www.bochard.fr/admin/immobilier/imports/rodacom/run http://www.bochard.fr/admin/immobilier/imports/seiitra/run
-10 0 * * * root $WGET http://www.bochard.fr/admin/immobilier/imports/ac3/run
-20 4 * * * root $WGET http://www.bochard.fr/immobilier/notification/process
-######################################################################################
-
-######################################################################################
-#
 # boucheriebriand.fr
 #
 35 */3 * * * root $WGET http://www.boucheriebriand.fr/cron.php?cron_key=kE36YZL-qwQD3vWpfumJK5Ha9j-EOOUNIvrnS-nZJWo > /dev/null 2>&1
