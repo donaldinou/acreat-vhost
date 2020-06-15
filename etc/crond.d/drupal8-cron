@@ -350,3 +350,10 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 45 */3 * * * root $WGET https://www.marbrerie-legall.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# efficia.com
+#
+45 */3 * * * root $WGET https://www.efficia.com/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+######################################################################################
