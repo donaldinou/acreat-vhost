@@ -38,13 +38,6 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# Leasametric
-#
-0 */3 * * * root $WGET http://www.leasametric.com/cron.php > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
 # Paimpont
 #
 0 */3 * * * root $WGET http://www.paimpont.fr/cron.php > /dev/null 2>&1
