@@ -353,7 +353,7 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
-# efficia.com
+# efficia.fr
 #
-45 */3 * * * root $WGET https://www.efficia.com/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
+45 */3 * * * root $WGET https://www.efficia.fr/cron/3FV7eRI-gRBZ2tMPclZtD6VLeGuiBjGL5xP6vdMn1XvEDIqhZuDHhOxyRRioK8yUcdK3BtyUgw > /dev/null 2>&1
 ######################################################################################
