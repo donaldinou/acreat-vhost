@@ -1018,7 +1018,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # lloyd n davis
 #
 10 */3 * * * root $WGET https://www.lloyd-davis.com/cron.php?cron_key=M8D5iaHNTOqlbUTw19GxazStKcBAdnZzpPvApAGLKME > /dev/null 2>&1
-20 3 * * * root $WGET https://www.lloyd-davis.com/admin/immobilier/imports/hektor/execute https://www.lloyd-davis.com/admin/immobilier/notification/process
+20 3 * * * root $WGET https://www.lloyd-davis.com/admin/immobilier/imports/hektor/run https://www.lloyd-davis.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
