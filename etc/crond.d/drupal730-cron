@@ -388,7 +388,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # cadoret
 #
-46 */3 * * * root $WGET http://www.cadoret-immobilier.com/cron.php?cron_key=Mrp8gA7H_on7QLKt3xrZsvJk8P1sfnh8bDknGs8F7wo > /dev/null 2>&1
+46 */3 * * * root $WGET https://www.cadoret-immobilier.com/cron.php?cron_key=Mrp8gA7H_on7QLKt3xrZsvJk8P1sfnh8bDknGs8F7wo > /dev/null 2>&1
+40 3 * * * root $WGET https://www.cadoret-immobilier.com/admin/immobilier/imports/ics/run https://www.cadoret-immobilier.com/admin/immobilier/notification/process
 ######################################################################################
 
 ######################################################################################
@@ -498,9 +499,9 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # dominno
 #
-1 */3 * * * root $WGET https://www.dominnoimmobilier.fr/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
-30 2 * * * root $WGET https://www.dominnoimmobilier.fr/admin/immobilier/imports/ac3/run/classique https://www.dominnoimmobilier.fr/admin/immobilier/notification/process
-#30 2 * * * root $WGET https://www.dominnoimmobilier.fr/admin/immobilier/imports/ac3/run/entreprise
+1 */3 * * * root $WGET https://www.dominno-immobilier.fr/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
+30 2 * * * root $WGET https://www.dominno-immobilier.fr/admin/immobilier/imports/ac3/run/classique https://www.dominno-immobilier.fr/admin/immobilier/notification/process
+#30 2 * * * root $WGET https://www.dominno-immobilier.fr/admin/immobilier/imports/ac3/run/entreprise
 ######################################################################################
 
 ######################################################################################
@@ -1440,8 +1441,9 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # sacib.com
 #
-07 */3 * * * root $WGET http://www.sacib.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
-10 1 * * * root $WGET http://www.sacib.com/admin/immobilier/imports/ac3/run
+07 */3 * * * root $WGET https://www.sacib.com/cron.php?cron_key=EdSuEpREtBRCwJaoF1T9aax9Jcru-HZ65d4x_l5t0fw > /dev/null 2>&1
+10 1 * * * root $WGET https://www.sacib.com/admin/immobilier/imports/ac3/run
+10 3 * * * root $WGET https://www.sacib.com/admin/immobilier/imports/immotalk/run
 ######################################################################################
 
 ######################################################################################
