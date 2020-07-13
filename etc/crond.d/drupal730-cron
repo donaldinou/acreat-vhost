@@ -1179,7 +1179,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # notairesdelavisitation-rennes.fr
 #
-31 */3 * * * root $WGET https://www.notairesdelavisitation-rennes.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+31 */3 * * * root $WGET https://www.notairesdelavisitation-rennes.fr/cron.php?cron_key=Tf9-1AkPp6dHo0ELtvq8DYC_f1y-_q6rM6WwU4BifdE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
