@@ -1262,7 +1262,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # Perion immo
 #
 42 */3 * * * root $WGET http://www.perion-habitation.com/cron.php?cron_key=IoWZdyXGOf56oFJvleJUX3gH89a26KbNY6QnMa1P3hw > /dev/null 2>&1
-20 4 * * * root $WGET http://www.perion-habitation.com/admin/immobilier/imports/immostore/run
+#20 4 * * * root $WGET http://www.perion-habitation.com/admin/immobilier/imports/immostore/run
+20 4 * * * root $WGET https://www.perion-habitation.com/admin/immobilier/imports/hektor/run
 ######################################################################################
 
 ######################################################################################
