@@ -28,6 +28,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 0 */3 * * * root $WGET http://www.2a-immo.fr/cron.php?cron_key=altHD_TxYGiZgU75tRfEqOhMKxchukqyUXnpBZlf_2w > /dev/null 2>&1
 40 3 * * * root $WGET http://www.2a-immo.fr/admin/immobilier/imports/rodacom/run http://www.2a-immo.fr/admin/immobilier/imports/seiitra/run http://www.2a-immo.fr/admin/immobilier/notification/process
+25 3 * * * root $WGET https://www.2a-immo.fr/admin/immobilier/imports/hektor/execute
 ######################################################################################
 
 ######################################################################################
@@ -289,8 +290,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 33 */3 * * * root $WGET http://www.bizeulimmobilier.com/cron.php?cron_key=2v-eqy4xu7YbtMJhgVzEvfjA3rOHgMmiK8EIqHGShNg > /dev/null 2>&1
 30 4 * * * root $WGET http://www.bizeulimmobilier.com/admin/immobilier/imports/ac3/run http://www.bizeulimmobilier.com/admin/immobilier/notification/process
-0 23 * * * root cd /var/www/html/drupal/drupal730/sites/bizeulimmobilier.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
-30 23 * * * root cd /var/www/html/drupal/drupal730/sites/bizeulimmobilier.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
+0 23 * * * root cd /var/www/html/drupal/drupal730/sites/bizeulimmobilier.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php osir
+30 23 * * * root cd /var/www/html/drupal/drupal730/sites/bizeulimmobilier.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php osubv
 ######################################################################################
 
 ######################################################################################
@@ -373,8 +374,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 44 */3 * * * root $WGET http://www.cabinetchateaubriand.com/cron.php?cron_key=20HegHjmrF4w79nMmZTQxpmiW-Gk40g_S9AgzEgEowY > /dev/null 2>&1
 10 1 * * * root $WGET http://www.cabinetchateaubriand.com/admin/immobilier/imports/ac3/run http://www.cabinetchateaubriand.com/admin/immobilier/notification/process
-0 23 * * * root cd /var/www/html/drupal/drupal730/sites/cabinetchateaubriand.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
-30 23 * * * root cd /var/www/html/drupal/drupal730/sites/cabinetchateaubriand.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
+0 23 * * * root cd /var/www/html/drupal/drupal730/sites/cabinetchateaubriand.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php osir
+30 23 * * * root cd /var/www/html/drupal/drupal730/sites/cabinetchateaubriand.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php osubv
 ######################################################################################
 
 ######################################################################################
@@ -701,8 +702,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # generaleimmobiliere73.com
 #
 28 */3 * * * root $WGET http://www.generaleimmobiliere73.com/cron.php?cron_key=ZeysUk2AhXO9-K9gZC3KgpZmyqstKZPGSAw-MJgoia4 > /dev/null 2>&1
-0 23 * * * root cd /var/www/html/drupal/drupal730/sites/generaleimmobiliere73.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
-30 23 * * * root cd /var/www/html/drupal/drupal730/sites/generaleimmobiliere73.com && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
+0 23 * * * root cd /var/www/html/drupal/drupal730/sites/generaleimmobiliere73.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php osir
+30 23 * * * root cd /var/www/html/drupal/drupal730/sites/generaleimmobiliere73.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php osubv
 30 4 * * * root $WGET http://www.generaleimmobiliere73.com/admin/immobilier/imports/connectimmo/run
 50 4 * * * root $WGET http://www.generaleimmobiliere73.com/immobilier/notification/process
 ######################################################################################
@@ -1018,7 +1019,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # lloyd n davis
 #
-10 */3 * * * root $WGET https://www.lloyd-davis.com/cron.php?cron_key=M8D5iaHNTOqlbUTw19GxazStKcBAdnZzpPvApAGLKME > /dev/null 2>&1
+10 */1 * * * root $WGET https://www.lloyd-davis.com/cron.php?cron_key=M8D5iaHNTOqlbUTw19GxazStKcBAdnZzpPvApAGLKME > /dev/null 2>&1
 20 3 * * * root $WGET https://www.lloyd-davis.com/admin/immobilier/imports/hektor/run https://www.lloyd-davis.com/admin/immobilier/notification/process
 ######################################################################################
 
@@ -1179,7 +1180,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # notairesdelavisitation-rennes.fr
 #
-31 */3 * * * root $WGET https://www.notairesdelavisitation-rennes.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+31 */3 * * * root $WGET https://www.notairesdelavisitation-rennes.fr/cron.php?cron_key=Tf9-1AkPp6dHo0ELtvq8DYC_f1y-_q6rM6WwU4BifdE > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1261,7 +1262,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # Perion immo
 #
 42 */3 * * * root $WGET http://www.perion-habitation.com/cron.php?cron_key=IoWZdyXGOf56oFJvleJUX3gH89a26KbNY6QnMa1P3hw > /dev/null 2>&1
-20 4 * * * root $WGET http://www.perion-habitation.com/admin/immobilier/imports/immostore/run
+#20 4 * * * root $WGET http://www.perion-habitation.com/admin/immobilier/imports/immostore/run
+20 4 * * * root $WGET https://www.perion-habitation.com/admin/immobilier/imports/hektor/run
 ######################################################################################
 
 ######################################################################################
@@ -1269,6 +1271,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # groupe-pigeon.com
 #
 43 */3 * * * root $WGET http://www.groupe-pigeon.com/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
+0 42 * * * root cd /var/www/html/drupal/drupal730/sites/groupe-pigeon.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php wri
+0 52 * * * root cd /var/www/html/drupal/drupal730/sites/groupe-pigeon.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php wrp
 ######################################################################################
 
 ######################################################################################
@@ -1317,10 +1321,10 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Pozzo
 #
-50 */3 * * * root $WGET http://extranet-pozzo.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+50 */3 * * * root $WGET http://intranet-pozzo.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
 50 */3 * * * root $WGET https://www.pozzo-immobilier.fr/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
-0 22 * * * root cd /var/www/html/drupal/drupal730/sites/pozzo-immobilier.fr && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
-30 22 * * * root cd /var/www/html/drupal/drupal730/sites/pozzo-immobilier.fr && /usr/bin/php-5.6 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
+0 22 * * * root cd /var/www/html/drupal/drupal730/sites/pozzo-immobilier.fr && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php osir
+30 22 * * * root cd /var/www/html/drupal/drupal730/sites/pozzo-immobilier.fr && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php osubv
 0 3 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-customers https://www.pozzo-immobilier.fr/admin/immobilier/imports/ac3/run-neuf
 0 5 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/enova/run
 #0 5 * * * root $WGET https://www.pozzo-immobilier.fr/admin/immobilier/imports/hektor/execute
