@@ -1319,7 +1319,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Pozzo
 #
-50 */3 * * * root $WGET http://extranet-pozzo.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+50 */3 * * * root $WGET https://intranet-pozzo.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
 50 */3 * * * root $WGET https://www.pozzo-immobilier.fr/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
 0 22 * * * root cd /var/www/html/drupal/drupal730/sites/pozzo-immobilier.fr && php -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osir
 30 22 * * * root cd /var/www/html/drupal/drupal730/sites/pozzo-immobilier.fr && php -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush osubv
