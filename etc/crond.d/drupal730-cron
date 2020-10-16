@@ -416,6 +416,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# Cap accession
+#
+49 */3 * * * root $WGET https://www.cap-accession.fr/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Cap Transactions
 #
 50 */3 * * * root $WGET http://www.cap-transactions.com/cron.php?cron_key=qnIe-lLRgMurNdHIxGke2fL4JwwcIjosjPEuBBDC8JA > /dev/null 2>&1
@@ -1271,6 +1278,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # groupe-pigeon.com
 #
 43 */3 * * * root $WGET http://www.groupe-pigeon.com/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
+43 0 * * * root cd /var/www/html/drupal/drupal730/sites/groupe-pigeon.com && php -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php wri
+45 0 * * * root cd /var/www/html/drupal/drupal730/sites/groupe-pigeon.com && php -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php wrp
 ######################################################################################
 
 ######################################################################################
