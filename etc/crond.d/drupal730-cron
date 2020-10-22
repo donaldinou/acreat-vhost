@@ -1271,8 +1271,8 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # groupe-pigeon.com
 #
 43 */3 * * * root $WGET http://www.groupe-pigeon.com/cron.php?cron_key=1bbkWe86iVyy17j5SWjuI0OnT-6rJsvDZowpedQs8JQ > /dev/null 2>&1
-0 42 * * * root cd /var/www/html/drupal/drupal730/sites/groupe-pigeon.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php wri
-0 52 * * * root cd /var/www/html/drupal/drupal730/sites/groupe-pigeon.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php wrp
+43 0 * * * root cd /var/www/html/drupal/drupal730/sites/groupe-pigeon.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php wri
+45 0 * * * root cd /var/www/html/drupal/drupal730/sites/groupe-pigeon.com && /usr/bin/php-7.2 -d memory_limit=-1 /var/www/html/drupal/drupal730/vendor/bin/drush.php wrp
 ######################################################################################
 
 ######################################################################################
@@ -1363,13 +1363,6 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # le-querrien.com
 #
 55 */3 * * * root $WGET http://www.le-querrien.com/cron.php?cron_key=3bTGDRqYYT--M4v5_xs3hGKLeesoSKDI4Wa7VlctrLU > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
-# racines-restaurant.fr
-#
-56 */3 * * * root $WGET http://www.racines-restaurant.fr/cron.php?cron_key=8tz86gdT8hf1lktoLfBhk3C_u6-0njlUhi5Xys-KDks > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
