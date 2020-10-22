@@ -7,6 +7,9 @@
 172.30.2.153 mattermost.acreat.com slack.acreat.com
 172.30.2.153 redmine.acreat.com projet.acreat.com
 
+# classic-link
+10.32.227.131 sql.mailing.acreat.com
+
 # symfony
 127.0.0.1 acreat.com www.acreat.com backoff.acreat.com
 127.0.0.1 pricer.acreat.com
