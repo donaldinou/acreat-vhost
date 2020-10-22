@@ -6,7 +6,7 @@
 # Cannot load both php5 and php7 modules
 <IfModule !mod_php5.c>
   <IfModule prefork.c>
-    LoadModule php7_module modules/libphp-7.2.so
+    LoadModule php7_module modules/libphp-7.3.so
   </IfModule>
 </IfModule>
 
@@ -17,6 +17,6 @@
     # PHP under apache, use the php-fpm package instead.
     #
     # https://wiki.apache.org/httpd/PHP-FPM
-    LoadModule php7_module modules/libphp-zts-7.2.so
+    LoadModule php7_module modules/libphp-zts-7.3.so
   </IfModule>
 </IfModule>
