@@ -1374,13 +1374,6 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# racines-restaurant.fr
-#
-56 */3 * * * root $WGET http://www.racines-restaurant.fr/cron.php?cron_key=8tz86gdT8hf1lktoLfBhk3C_u6-0njlUhi5Xys-KDks > /dev/null 2>&1
-######################################################################################
-
-######################################################################################
-#
 # rallu
 #
 57 */3 * * * root $WGET http://www.rallu.com/cron.php?cron_key=pVA5G4yLiK5dqNvDojf29s6l8qfvAnLEIftFTYS-ClQ > /dev/null 2>&1
