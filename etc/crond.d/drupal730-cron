@@ -483,6 +483,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# come-immobilier.fr
+#
+58 */3 * * * root $WGET https://www.come-immobilier.fr/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
+15 3 * * * root $WGET https://www.come-immobilier.fr/admin/immobilier/imports/neoteem/run
+######################################################################################
+
+######################################################################################
+#
 # lecomtesyndic.fr
 #
 58 */3 * * * root $WGET http://www.lecomtesyndic.fr/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
