@@ -744,6 +744,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# Groupe Lamotte
+#
+29 */3 * * * root $WGET https://www.graillat-immobilier.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
+20 4 * * * root $WGET https://www.graillat-immobilier.com/admin/immobilier/imports/connectimmo/run https://www.graillat-immobilier.com/immobilier/notification/process
+######################################################################################
+
+######################################################################################
+#
 # Groupe Launay
 #
 30 */3 * * * root $WGET http://terrains.groupe-launay.com/cron.php?cron_key=9a8u8Qq5PGUG1kw6hcA-cI0sniJ6-EQTfz14c3xwTAM > /dev/null 2>&1
