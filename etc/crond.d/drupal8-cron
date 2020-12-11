@@ -362,33 +362,33 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 # seg35.com
 #
-46 */3 * * * root $WGET https://www.seg35.com/cron/a1FFMZUYxmAmiIG3S1353o5L3RrMu74-_1zHKfFwISVTxs-oFbAd-x9FqrltJf7TLe5hS7G5rg > /dev/null 2>&1
+47 */3 * * * root $WGET https://www.seg35.com/cron/a1FFMZUYxmAmiIG3S1353o5L3RrMu74-_1zHKfFwISVTxs-oFbAd-x9FqrltJf7TLe5hS7G5rg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # subery.com
 #
-46 */3 * * * root $WGET https://www.subery.com/cron/a1FFMZUYxmAmiIG3S1353o5L3RrMu74-_1zHKfFwISVTxs-oFbAd-x9FqrltJf7TLe5hS7G5rg > /dev/null 2>&1
+48 */3 * * * root $WGET https://www.subery.com/cron/a1FFMZUYxmAmiIG3S1353o5L3RrMu74-_1zHKfFwISVTxs-oFbAd-x9FqrltJf7TLe5hS7G5rg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # lacrieerennaise.com
 #
-46 */3 * * * root $WGET https://www.lacrieerennaise.com/cron/a1FFMZUYxmAmiIG3S1353o5L3RrMu74-_1zHKfFwISVTxs-oFbAd-x9FqrltJf7TLe5hS7G5rg > /dev/null 2>&1
+49 */3 * * * root $WGET https://www.lacrieerennaise.com/cron/a1FFMZUYxmAmiIG3S1353o5L3RrMu74-_1zHKfFwISVTxs-oFbAd-x9FqrltJf7TLe5hS7G5rg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # vivyfruits.com
 #
-46 */3 * * * root $WGET https://www.vivyfruits.com/cron/a1FFMZUYxmAmiIG3S1353o5L3RrMu74-_1zHKfFwISVTxs-oFbAd-x9FqrltJf7TLe5hS7G5rg > /dev/null 2>&1
+50 */3 * * * root $WGET https://www.vivyfruits.com/cron/a1FFMZUYxmAmiIG3S1353o5L3RrMu74-_1zHKfFwISVTxs-oFbAd-x9FqrltJf7TLe5hS7G5rg > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
 #
 # biorennes.com
 #
-46 */3 * * * root $WGET https://www.biorennes.com/cron/a1FFMZUYxmAmiIG3S1353o5L3RrMu74-_1zHKfFwISVTxs-oFbAd-x9FqrltJf7TLe5hS7G5rg > /dev/null 2>&1
+51 */3 * * * root $WGET https://www.biorennes.com/cron/a1FFMZUYxmAmiIG3S1353o5L3RrMu74-_1zHKfFwISVTxs-oFbAd-x9FqrltJf7TLe5hS7G5rg > /dev/null 2>&1
 ######################################################################################
