@@ -157,6 +157,14 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# agencelaurencebeliard.com
+#
+14 */3 * * * root $WGET https://www.agencelaurencebeliard.com/cron.php?cron_key=9X1MxJfSING-FYKMBzRvJCmEJz3PvgCdl-mXs1-8HUI > /dev/null 2>&1
+11 4 * * * root $WGET https://www.agencelaurencebeliard.com/admin/immobilier/imports/hektor/execute
+######################################################################################
+
+######################################################################################
+#
 # Agence Lemeur
 #
 #40 5 * * * root $WGET http://www.agencelemeur.com/admin/immobilier/imports/ac3/vente/run
