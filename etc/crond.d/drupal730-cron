@@ -1363,6 +1363,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# Pozzo patrimoine
+#
+50 */3 * * * root $WGET https://www.pozzo-patrimoine.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # Partenaires cesson
 #
 51 */3 * * * root $WGET http://www.partenaires-cesson-handball.com/cron.php?cron_key=sf_wejNXG_jDWLb45CRg2dANDJm-ZVINYgr9UC6C74k > /dev/null 2>&1
