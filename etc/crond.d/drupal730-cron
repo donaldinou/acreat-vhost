@@ -40,6 +40,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# 2acb-architectes.com
+#
+0 */3 * * * root $WGET https://www.2acb-architectes.com/cron.php?cron_key=9GbljZG7hwjHXqxLvPE4Tqoh0SbN03VdVrxxcfhkg0g > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # 4immo
 #
 1 */3 * * * root $WGET http://www.4immo.fr/cron.php?cron_key=G5A1LkTSiJBlWhvf9T8kP4CbJJRaghmsz-rRQN3GaCk > /dev/null 2>&1
