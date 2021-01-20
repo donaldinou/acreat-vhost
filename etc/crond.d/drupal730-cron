@@ -1093,6 +1093,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# lamaisonmury
+#
+14 */3 * * * root $WGET http://www.lamaisonmury.com/cron.php?cron_key=r9In1vqq1kllEPjI6y1JjhhJV9K06I_NZjWGahz7hco > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # maisonhamster.com
 #
 15 */3 * * * root $WGET http://www.maisonshamster.com/cron.php?cron_key=lxzMIA1BsEox3jn3kcjHj-Lg1W_-8EFvgP4CC9bhrUY > /dev/null 2>&1
