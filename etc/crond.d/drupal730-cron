@@ -433,7 +433,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Cap accession
 #
-49 */3 * * * root $WGET https://www.cap-accession.fr/cron.php?cron_key=IfEc4xyKomnDKjmfU9lgTgLCjGQIuVQUoo_s2FxiaJE > /dev/null 2>&1
+49 */3 * * * root $WGET https://www.cap-accession.fr/cron.php?cron_key=9mB2x-MOCCBRYuOEIFSQhKDjqvfsb0-8K8_0NXzxom4 > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
@@ -1095,7 +1095,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # lamaisonmury
 #
-14 */3 * * * root $WGET http://www.lamaisonmury.com/cron.php?cron_key=r9In1vqq1kllEPjI6y1JjhhJV9K06I_NZjWGahz7hco > /dev/null 2>&1
+14 */3 * * * root $WGET http://www.lamaisonmury.com/cron.php?cron_key=TaIfRa4hL9tB3eLb4ykdf0gLrzG3iEN8oIUM2SWLl2w > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
