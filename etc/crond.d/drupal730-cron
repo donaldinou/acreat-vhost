@@ -759,7 +759,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# Groupe Lamotte
+# Graillat
 #
 29 */3 * * * root $WGET https://www.graillat-immobilier.com/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 20 4 * * * root $WGET https://www.graillat-immobilier.com/admin/immobilier/imports/connectimmo/run https://www.graillat-immobilier.com/immobilier/notification/process
@@ -1380,6 +1380,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 # Pozzo patrimoine
 #
 50 */3 * * * root $WGET https://www.pozzo-patrimoine.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
+# Pozzo l Edune
+#
+48 */3 * * * root $WGET https://www.l-edune-jullouville.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
