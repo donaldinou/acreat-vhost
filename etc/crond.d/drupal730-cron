@@ -1386,7 +1386,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Pozzo l Edune
 #
-48 */3 * * * root $WGET https://www.l-edune-jullouville.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+48 */3 * * * root $WGET https://www.ledune-jullouville.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
