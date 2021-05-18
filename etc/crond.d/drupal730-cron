@@ -502,6 +502,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 58 */3 * * * root $WGET https://www.come-immobilier.fr/cron.php?cron_key=NAmPMC7UE2BeNs5MmWsFFnD_OsM17jANOE4uK7vgX5s > /dev/null 2>&1
 15 3 * * * root $WGET https://www.come-immobilier.fr/admin/immobilier/imports/neoteem/run
+15 5 * * * root $WGET https://www.come-immobilier.fr/admin/immobilier/imports/ac3/run
 ######################################################################################
 
 ######################################################################################
@@ -1386,7 +1387,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 #
 # Pozzo l Edune
 #
-48 */3 * * * root $WGET https://www.ledune-jullouville.fr/cron.php?cron_key=9QtbWh_jjXkSTAIC_XmDPlgBzT9rys0ddMQILZp9AQQ > /dev/null 2>&1
+48 */3 * * * root $WGET https://www.ledune-jullouville.fr/cron.php?cron_key=axwHukoBI1GtN3bPORudHAoZymYzFYnPbB0ZF7Kg95Q > /dev/null 2>&1
 ######################################################################################
 
 ######################################################################################
