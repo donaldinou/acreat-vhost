@@ -891,6 +891,13 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
+# hotel le mauritia
+#
+46 */3 * * * root $WGET https://www.hotelmauritia.com/cron.php?cron_key=GTo2Ae4-k0aHqZeiE7GTDUOp_Yc-Z7BhqmiEc5wc_Yo > /dev/null 2>&1
+######################################################################################
+
+######################################################################################
+#
 # hotel-la-reposee.com
 #
 47 */3 * * * root $WGET http://www.hotel-la-reposee.com/cron.php?cron_key=HSgIkH-SM_lPoJdKhePwYsKDETbxnO4UkkYwE-IRIME  > /dev/null 2>&1
@@ -1439,6 +1446,7 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 58 */3 * * * root $WGET http://www.regional-interim.fr/cron.php?cron_key=7Tq0khJyTkr4vR3cCT342TmMyTDfatmE2Kk-WwTO4dk > /dev/null 2>&1
 40 3 * * * root $WGET http://www.regional-interim.fr/admin/regional-interim/imports-offres http://www.regional-interim.fr/admin/regional-interim/envoi-alertes
 0 11 * * * root $WGET http://www.regional-interim.fr/admin/regional-interim/imports-offres http://www.regional-interim.fr/admin/regional-interim/envoi-alertes
+6 */2 * * * root $WGET https://www.regional-interim.fr/agence/offres-interim.xml
 ######################################################################################
 
 ######################################################################################
