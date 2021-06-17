@@ -24,6 +24,15 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 
 ######################################################################################
 #
+# https://www.2a-immo.fr
+#
+0 */3 * * * root $WGET https://www.2a-immo.fr/cron/A_-ZFa_mIao_oB4UnEjO-n9RzhH3V-d-D0Ip50Yk1d5a9M9SNY0u33MUgidHhYAaGEyUTjlHoA > /dev/null 2>&1
+40 3 * * * acreat cd /var/www/html/drupal/9 && php vendor/drush/drush/drush.php --uri=2a-immo.fr --root=/var/www/html/drupal/drupal9/ migrate:reset-status seiitra_realestate --verbose && php vendor/drush/drush/drush.php --uri=2a-immo.fr --root=/var/www/html/drupal/drupal9/ migrate:import --group=real_estate_seiitra --verbose --sync
+25 3 * * * acreat cd /var/www/html/drupal/9 && php vendor/drush/drush/drush.php --uri=2a-immo.fr --root=/var/www/html/drupal/drupal9/ migrate:reset-status hektor_realestate --verbose && php vendor/drush/drush/drush.php --uri=2a-immo.fr --root=/var/www/html/drupal/drupal9/ migrate:import --group=real_estate_hektor --verbose --sync
+######################################################################################
+
+######################################################################################
+#
 # https://www.racines-restaurant.fr
 #
 1 */3 * * * root $WGET https://www.racines-restaurant.fr/cron/X6N0P22-XDkuQFYWZmAXsVeXLbklRcCjXoLxmP39BjCE6YcgAP6QAb1xaDVsfytH-cGsQzWquw > /dev/null 2>&1
