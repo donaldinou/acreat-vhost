@@ -44,3 +44,10 @@ WGET="curl -H 'Cache-Control: no-cache' --location --insecure --silent --show-er
 #
 2 */3 * * * root $WGET https://www.merand.fr/cron/X6N0P22-XDkuQFYWZmAXsVeXLbklRcCjXoLxmP39BjCE6YcgAP6QAb1xaDVsfytH-cGsQzWquw > /dev/null 2>&1
 ######################################################################################
+
+######################################################################################
+#
+# https://www.mairie-illifaut.fr
+#
+2 */3 * * * root $WGET https://www.mairie-illifaut.fr/cron/X6N0P22-XDkuQFYWZmAXsVeXLbklRcCjXoLxmP39BjCE6YcgAP6QAb1xaDVsfytH-cGsQzWquw > /dev/null 2>&1
+######################################################################################
