@@ -24,15 +24,6 @@ WGET="curl -H 'Cache-Control:no-cache' --location --insecure --silent --show-err
 
 ######################################################################################
 #
-# 2a-immo
-#
-0 */3 * * * root $WGET http://www.2a-immo.fr/cron.php?cron_key=altHD_TxYGiZgU75tRfEqOhMKxchukqyUXnpBZlf_2w > /dev/null 2>&1
-40 3 * * * root $WGET http://www.2a-immo.fr/admin/immobilier/imports/rodacom/run http://www.2a-immo.fr/admin/immobilier/imports/seiitra/run http://www.2a-immo.fr/admin/immobilier/notification/process
-25 3 * * * root $WGET https://www.2a-immo.fr/admin/immobilier/imports/hektor/execute
-######################################################################################
-
-######################################################################################
-#
 # 2h2c.fr
 #
 0 */3 * * * root $WGET http://www.2h2c.fr/cron.php?cron_key=9GbljZG7hwjHXqxLvPE4Tqoh0SbN03VdVrxxcfhkg0g > /dev/null 2>&1
